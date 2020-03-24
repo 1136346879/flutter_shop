@@ -12,8 +12,8 @@ class IndexPage extends StatefulWidget {//动态切换页面 用 StatefulWidget
 
 class _IndexPageState extends State<IndexPage> {
   final List<BottomNavigationBarItem> bottomTabs = [
-    BottomNavigationBarItem(icon: Icon(CupertinoIcons.home), title: Text("书籍")),
-    BottomNavigationBarItem(icon: Icon(CupertinoIcons.car), title: Text("汽车")),
+    BottomNavigationBarItem(icon: Icon(CupertinoIcons.home), title: Text("首页")),
+    BottomNavigationBarItem(icon: Icon(CupertinoIcons.search), title: Text("分类")),
     BottomNavigationBarItem(icon: Icon(CupertinoIcons.shopping_cart), title: Text("购物车")),
     BottomNavigationBarItem(icon: Icon(CupertinoIcons.book), title: Text("会员")),
   ];

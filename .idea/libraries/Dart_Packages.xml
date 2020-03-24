@@ -65,6 +65,13 @@
             </list>
           </value>
         </entry>
+        <entry key="dio">
+          <value>
+            <list>
+              <option value="/Applications/flutter/.pub-cache/hosted/pub.flutter-io.cn/dio-3.0.9/lib" />
+            </list>
+          </value>
+        </entry>
         <entry key="flutter">
           <value>
             <list>
@@ -76,6 +83,13 @@
           <value>
             <list>
               <option value="/Applications/flutter/packages/flutter_test/lib" />
+            </list>
+          </value>
+        </entry>
+        <entry key="http_parser">
+          <value>
+            <list>
+              <option value="/Applications/flutter/.pub-cache/hosted/pub.flutter-io.cn/http_parser-3.1.3/lib" />
             </list>
           </value>
         </entry>
@@ -210,6 +224,8 @@
       <root url="file:///Applications/flutter/.pub-cache/hosted/pub.flutter-io.cn/convert-2.1.1/lib" />
       <root url="file:///Applications/flutter/.pub-cache/hosted/pub.flutter-io.cn/crypto-2.1.3/lib" />
       <root url="file:///Applications/flutter/.pub-cache/hosted/pub.flutter-io.cn/cupertino_icons-0.1.3/lib" />
+      <root url="file:///Applications/flutter/.pub-cache/hosted/pub.flutter-io.cn/dio-3.0.9/lib" />
+      <root url="file:///Applications/flutter/.pub-cache/hosted/pub.flutter-io.cn/http_parser-3.1.3/lib" />
       <root url="file:///Applications/flutter/.pub-cache/hosted/pub.flutter-io.cn/image-2.1.4/lib" />
       <root url="file:///Applications/flutter/.pub-cache/hosted/pub.flutter-io.cn/matcher-0.12.6/lib" />
       <root url="file:///Applications/flutter/.pub-cache/hosted/pub.flutter-io.cn/meta-1.1.8/lib" />

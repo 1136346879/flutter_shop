@@ -24,26 +24,26 @@
 22    <application
 22-->/Volumes/wdx/flutter/flutter_shop/android/app/src/main/AndroidManifest.xml:8:5-29:19
 23        android:name="io.flutter.app.FlutterApplication"
-23-->/Volumes/wdx/flutter/flutter_shop/android/app/src/main/AndroidManifest.xml:9:9-57
+23-->/Volumes/wdx/flutter/flutter_shop/android/app/src/main/AndroidManifest.xml:10:9-57
 24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-24-->[androidx.core:core:1.0.0] /Users/zhangyan/.gradle/caches/transforms-2/files-2.1/0a271e99b6771ad4a84318244d532fb7/core-1.0.0/AndroidManifest.xml:22:18-86
+24-->[androidx.core:core:1.0.0] /Users/zhangyan/.gradle/caches/transforms-2/files-2.1/a1e87f5443b1512d74d302dbaa8fc6ba/core-1.0.0/AndroidManifest.xml:22:18-86
 25        android:debuggable="true"
 26        android:icon="@mipmap/ic_launcher"
-26-->/Volumes/wdx/flutter/flutter_shop/android/app/src/main/AndroidManifest.xml:11:9-43
-27        android:label="flutter_hexun" >
-27-->/Volumes/wdx/flutter/flutter_shop/android/app/src/main/AndroidManifest.xml:10:9-38
-28        <activity
-28-->/Volumes/wdx/flutter/flutter_shop/android/app/src/main/AndroidManifest.xml:12:9-23:20
-29            android:name="com.wdxflutter.flutter_hexun.MainActivity"
-29-->/Volumes/wdx/flutter/flutter_shop/android/app/src/main/AndroidManifest.xml:13:13-41
-30            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
-30-->/Volumes/wdx/flutter/flutter_shop/android/app/src/main/AndroidManifest.xml:16:13-163
-31            android:hardwareAccelerated="true"
-31-->/Volumes/wdx/flutter/flutter_shop/android/app/src/main/AndroidManifest.xml:17:13-47
-32            android:launchMode="singleTop"
-32-->/Volumes/wdx/flutter/flutter_shop/android/app/src/main/AndroidManifest.xml:14:13-43
-33            android:theme="@style/LaunchTheme"
-33-->/Volumes/wdx/flutter/flutter_shop/android/app/src/main/AndroidManifest.xml:15:13-47
+26-->/Volumes/wdx/flutter/flutter_shop/android/app/src/main/AndroidManifest.xml:12:9-43
+27        android:label="flutter_hexun"
+27-->/Volumes/wdx/flutter/flutter_shop/android/app/src/main/AndroidManifest.xml:11:9-38
+28        android:theme="@style/LaunchTheme" >
+28-->/Volumes/wdx/flutter/flutter_shop/android/app/src/main/AndroidManifest.xml:9:9-43
+29        <activity
+29-->/Volumes/wdx/flutter/flutter_shop/android/app/src/main/AndroidManifest.xml:13:9-23:20
+30            android:name="com.wdxflutter.flutter_hexun.MainActivity"
+30-->/Volumes/wdx/flutter/flutter_shop/android/app/src/main/AndroidManifest.xml:14:13-41
+31            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+31-->/Volumes/wdx/flutter/flutter_shop/android/app/src/main/AndroidManifest.xml:16:13-163
+32            android:hardwareAccelerated="true"
+32-->/Volumes/wdx/flutter/flutter_shop/android/app/src/main/AndroidManifest.xml:17:13-47
+33            android:launchMode="singleTop"
+33-->/Volumes/wdx/flutter/flutter_shop/android/app/src/main/AndroidManifest.xml:15:13-43
 34            android:windowSoftInputMode="adjustResize" >
 34-->/Volumes/wdx/flutter/flutter_shop/android/app/src/main/AndroidManifest.xml:18:13-55
 35            <intent-filter>

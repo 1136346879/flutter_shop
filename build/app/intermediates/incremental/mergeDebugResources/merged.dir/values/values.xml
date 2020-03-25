@@ -39,7 +39,7 @@
     <item name="title" type="id"/>
     <integer name="status_bar_notification_info_maxnum">999</integer>
     <string name="status_bar_notification_info_overflow">999+</string>
-    <style name="LaunchTheme" parent="@android:style/Theme.Black.NoTitleBar">
+    <style name="LaunchTheme" parent="@android:style/Theme.Light.NoTitleBar">
         <!-- Show a splash screen on the activity. Automatically removed when
              Flutter draws its first frame -->
         <item name="android:windowBackground">@drawable/launch_background</item>

@@ -31,7 +31,8 @@ class _IndexPageState extends State<IndexPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color.fromRGBO(245, 245, 245, 1.0),//北京
+//      backgroundColor: Color.fromRGBO(245, 245, 245, 1.0),//北京
+      backgroundColor: Color(0xffffa200),
       bottomNavigationBar: BottomNavigationBar(
         type: BottomNavigationBarType.fixed,//类型
         items: bottomTabs,//底部tab

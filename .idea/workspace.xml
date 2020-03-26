@@ -5,110 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="752c3257-4272-4752-8c28-70772bd091c5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xxhdpi/start.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/config/header_http.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/config/service_url.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/service/service_method.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/3e6c6edc53d77e60bea24ea11855cc20/.filecache" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/3e6c6edc53d77e60bea24ea11855cc20/.filecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/3e6c6edc53d77e60bea24ea11855cc20/app.dill" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/3e6c6edc53d77e60bea24ea11855cc20/app.dill" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/3e6c6edc53d77e60bea24ea11855cc20/kernel_snapshot.d" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/3e6c6edc53d77e60bea24ea11855cc20/kernel_snapshot.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/3e6c6edc53d77e60bea24ea11855cc20/kernel_snapshot.stamp" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/3e6c6edc53d77e60bea24ea11855cc20/kernel_snapshot.stamp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/drawable/launch_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/res/drawable/launch_background.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/res/values/styles.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/generated/not_namespaced_r_class_sources/debug/r/com/wdxflutter/flutter_hexun/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/generated/not_namespaced_r_class_sources/debug/r/com/wdxflutter/flutter_hexun/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/debug.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/debug.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-af.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-af.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-am.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-am.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-ar.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-ar.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-as.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-as.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-az.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-az.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-b+sr+Latn.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-b+sr+Latn.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-be.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-be.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-bg.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-bg.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-bn.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-bn.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-bs.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-bs.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-ca.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-ca.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-cs.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-cs.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-da.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-da.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-de.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-de.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-el.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-el.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-en-rAU.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-en-rAU.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-en-rCA.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-en-rCA.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-en-rGB.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-en-rGB.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-en-rIN.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-en-rIN.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-en-rXC.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-en-rXC.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-es-rUS.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-es-rUS.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-es.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-es.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-et.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-et.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-eu.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-eu.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-fa.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-fa.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-fi.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-fi.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-fr-rCA.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-fr-rCA.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-fr.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-fr.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-gl.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-gl.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-gu.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-gu.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-hi.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-hi.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-hr.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-hr.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-hu.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-hu.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-hy.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-hy.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-in.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-in.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-is.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-is.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-it.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-it.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-iw.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-iw.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-ja.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-ja.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-ka.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-ka.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-kk.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-kk.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-km.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-km.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-kn.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-kn.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-ko.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-ko.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-ky.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-ky.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-lo.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-lo.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-lt.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-lt.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-lv.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-lv.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-mk.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-mk.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-ml.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-ml.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-mn.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-mn.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-mr.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-mr.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-ms.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-ms.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-my.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-my.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-nb.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-nb.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-ne.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-ne.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-nl.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-nl.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-or.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-or.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-pa.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-pa.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-pl.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-pl.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-pt-rBR.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-pt-rBR.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-pt-rPT.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-pt-rPT.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-pt.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-pt.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-ro.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-ro.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-ru.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-ru.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-si.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-si.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-sk.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-sk.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-sl.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-sl.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-sq.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-sq.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-sr.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-sr.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-sv.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-sv.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-sw.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-sw.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-ta.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-ta.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-te.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-te.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-th.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-th.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-tl.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-tl.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-tr.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-tr.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-uk.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-uk.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-ur.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-ur.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-uz.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-uz.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-v16.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-v16.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-v21.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-v21.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-vi.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-vi.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-zh-rCN.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-zh-rCN.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-zh-rHK.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-zh-rHK.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-zh-rTW.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-zh-rTW.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-zu.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values-zu.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/single/debug.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/single/debug.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/bundle_manifest/debug/processDebugManifest/bundle-manifest/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/bundle_manifest/debug/processDebugManifest/bundle-manifest/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/dex/debug/mergeDexDebug/out/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/dex/debug/mergeDexDebug/out/classes.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/external_libs_dex/debug/mergeExtDexDebug/out/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/external_libs_dex/debug/mergeExtDexDebug/out/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_assets/kernel_blob.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/merge-state" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/0V2jfRLnmB1Iu3ijFRVtVAZJjSA=" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/2Qsv5NDXnBM08Xy0jcyy4_L2TzE=" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/2dxVg6msg8sFB7RqyAxo4GQl2E0=" beforeDir="false" />
@@ -133,7 +39,6 @@
       <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/wQuyTDQFbZ0eH8DO+rNdzYYcuQY=" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/x3ofDk3LnyJFx_8TSH6qJJ0FNmc=" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/z_3B463VRNPBOWg+V_R09EaEgy0=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeNativeLibs/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeNativeLibs/merge-state" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeNativeLibs/zip-cache/0V2jfRLnmB1Iu3ijFRVtVAZJjSA=" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeNativeLibs/zip-cache/2Qsv5NDXnBM08Xy0jcyy4_L2TzE=" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeNativeLibs/zip-cache/2dxVg6msg8sFB7RqyAxo4GQl2E0=" beforeDir="false" />
@@ -158,69 +63,12 @@
       <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeNativeLibs/zip-cache/wQuyTDQFbZ0eH8DO+rNdzYYcuQY=" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeNativeLibs/zip-cache/x3ofDk3LnyJFx_8TSH6qJJ0FNmc=" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeNativeLibs/zip-cache/z_3B463VRNPBOWg+V_R09EaEgy0=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/mergeDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/mergeDebugResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/mergeDebugResources/merger.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/packageDebug/tmp/debug/zip-cache/+eKQrkJOd+4M7vTTNehNF2eVHFE=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/packageDebug/tmp/debug/zip-cache/+eKQrkJOd+4M7vTTNehNF2eVHFE=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/packageDebug/tmp/debug/zip-cache/Mz1Qfcw7IT7wqoDHji5_cz__XF4=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/packageDebug/tmp/debug/zip-cache/Mz1Qfcw7IT7wqoDHji5_cz__XF4=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/instant_app_manifest/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/instant_app_manifest/debug/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/javac/debug/classes/com/wdxflutter/flutter_hexun/R$mipmap.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/javac/debug/classes/com/wdxflutter/flutter_hexun/R$mipmap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/javac/debug/classes/com/wdxflutter/flutter_hexun/R$string.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/javac/debug/classes/com/wdxflutter/flutter_hexun/R$string.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/javac/debug/classes/com/wdxflutter/flutter_hexun/R$style.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/javac/debug/classes/com/wdxflutter/flutter_hexun/R$style.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/javac/debug/classes/com/wdxflutter/flutter_hexun/R$styleable.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/javac/debug/classes/com/wdxflutter/flutter_hexun/R$styleable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/app/intermediates/merged_assets/debug/out/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/merged_assets/debug/out/flutter_assets/kernel_blob.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/merged_java_res/debug/out.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/merged_java_res/debug/out.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/merged_manifests/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/merged_manifests/debug/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/processed_res/debug/processDebugResources/out/resources-debug.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/processed_res/debug/processDebugResources/out/resources-debug.ap_" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_low_normal.9.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_low_normal.9.png.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_low_pressed.9.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_low_pressed.9.png.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_normal.9.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_normal.9.png.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_normal_pressed.9.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_normal_pressed.9.png.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/res/merged/debug/drawable-hdpi-v4_notify_panel_notification_icon_bg.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/res/merged/debug/drawable-hdpi-v4_notify_panel_notification_icon_bg.png.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/res/merged/debug/drawable-mdpi-v4_notification_bg_low_normal.9.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/res/merged/debug/drawable-mdpi-v4_notification_bg_low_normal.9.png.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/res/merged/debug/drawable-mdpi-v4_notification_bg_low_pressed.9.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/res/merged/debug/drawable-mdpi-v4_notification_bg_low_pressed.9.png.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/res/merged/debug/drawable-mdpi-v4_notification_bg_normal.9.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/res/merged/debug/drawable-mdpi-v4_notification_bg_normal.9.png.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/res/merged/debug/drawable-mdpi-v4_notification_bg_normal_pressed.9.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/res/merged/debug/drawable-mdpi-v4_notification_bg_normal_pressed.9.png.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/res/merged/debug/drawable-mdpi-v4_notify_panel_notification_icon_bg.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/res/merged/debug/drawable-mdpi-v4_notify_panel_notification_icon_bg.png.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/res/merged/debug/drawable-v21_notification_action_background.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/res/merged/debug/drawable-v21_notification_action_background.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_low_normal.9.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_low_normal.9.png.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_low_pressed.9.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_low_pressed.9.png.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_normal.9.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_normal.9.png.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_normal_pressed.9.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_normal_pressed.9.png.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/res/merged/debug/drawable-xhdpi-v4_notify_panel_notification_icon_bg.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/res/merged/debug/drawable-xhdpi-v4_notify_panel_notification_icon_bg.png.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/res/merged/debug/drawable_launch_background.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/res/merged/debug/drawable_launch_background.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/res/merged/debug/drawable_notification_bg.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/res/merged/debug/drawable_notification_bg.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/res/merged/debug/drawable_notification_bg_low.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/res/merged/debug/drawable_notification_bg_low.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/res/merged/debug/drawable_notification_icon_background.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/res/merged/debug/drawable_notification_icon_background.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/res/merged/debug/drawable_notification_tile_bg.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/res/merged/debug/drawable_notification_tile_bg.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/res/merged/debug/layout-v16_notification_template_custom_big.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/res/merged/debug/layout-v16_notification_template_custom_big.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/res/merged/debug/layout-v21_notification_action.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/res/merged/debug/layout-v21_notification_action.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/res/merged/debug/layout-v21_notification_action_tombstone.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/res/merged/debug/layout-v21_notification_action_tombstone.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/res/merged/debug/layout-v21_notification_template_custom_big.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/res/merged/debug/layout-v21_notification_template_custom_big.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/res/merged/debug/layout-v21_notification_template_icon_group.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/res/merged/debug/layout-v21_notification_template_icon_group.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/res/merged/debug/layout_notification_action.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/res/merged/debug/layout_notification_action.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/res/merged/debug/layout_notification_action_tombstone.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/res/merged/debug/layout_notification_action_tombstone.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/res/merged/debug/layout_notification_template_icon_group.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/res/merged/debug/layout_notification_template_icon_group.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/res/merged/debug/layout_notification_template_part_chronometer.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/res/merged/debug/layout_notification_template_part_chronometer.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/res/merged/debug/layout_notification_template_part_time.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/res/merged/debug/layout_notification_template_part_time.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/res/merged/debug/values_values.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/res/merged/debug/values_values.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/symbols/debug/R.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/symbols/debug/R.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/0/com/wdxflutter/flutter_hexun/R$mipmap.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/0/com/wdxflutter/flutter_hexun/R$mipmap.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/0/com/wdxflutter/flutter_hexun/R$string.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/0/com/wdxflutter/flutter_hexun/R$string.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/0/com/wdxflutter/flutter_hexun/R$style.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/0/com/wdxflutter/flutter_hexun/R$style.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/0/com/wdxflutter/flutter_hexun/R$styleable.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/0/com/wdxflutter/flutter_hexun/R$styleable.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/build-history.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/last-build.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/app/outputs/apk/app.apk" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/apk/app.apk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/app/outputs/apk/app.apk.sha1" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/apk/app.apk.sha1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/app/outputs/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/apk/debug/app-debug.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/pages/home_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/home_page.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/pages/index_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/index_page.dart" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -230,38 +78,16 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="1103c4fb" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/main.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="32" selection-start-column="24" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/pages/index_page.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
-              <folding>
-                <element signature="e#0#40#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/pages/home_page.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+            <state relative-caret-position="60">
+              <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -269,19 +95,46 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/config/service_url.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="50" selection-start-column="50" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/service/service_method.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="29" lean-forward="true" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+              <folding>
+                <element signature="e#0#30#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/config/header_http.dart">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Dart File" />
         <option value="valueResourceFile" />
+        <option value="Dart File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>showText</find>
+      <find>contentTypeHeader</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -302,11 +155,15 @@
         <option value="$PROJECT_DIR$/lib/main.dart" />
         <option value="$PROJECT_DIR$/android/build.gradle" />
         <option value="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/lib/config/header_http.dart" />
+        <option value="$PROJECT_DIR$/lib/config/service_url.dart" />
+        <option value="$PROJECT_DIR$/lib/service/service_method.dart" />
         <option value="$PROJECT_DIR$/lib/pages/home_page.dart" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="830" />
@@ -316,9 +173,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -334,99 +188,21 @@
             <path>
               <item name="flutter_shop" type="b2602c69:ProjectViewProjectNode" />
               <item name="flutter_shop" type="462c0819:PsiDirectoryNode" />
-              <item name="android" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flutter_shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flutter_shop" type="462c0819:PsiDirectoryNode" />
-              <item name="android" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flutter_shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flutter_shop" type="462c0819:PsiDirectoryNode" />
-              <item name="android" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flutter_shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flutter_shop" type="462c0819:PsiDirectoryNode" />
-              <item name="android" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flutter_shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flutter_shop" type="462c0819:PsiDirectoryNode" />
-              <item name="android" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flutter_shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flutter_shop" type="462c0819:PsiDirectoryNode" />
-              <item name="android" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="res" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flutter_shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flutter_shop" type="462c0819:PsiDirectoryNode" />
-              <item name="android" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="res" type="462c0819:PsiDirectoryNode" />
-              <item name="drawable" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flutter_shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flutter_shop" type="462c0819:PsiDirectoryNode" />
-              <item name="android" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="res" type="462c0819:PsiDirectoryNode" />
-              <item name="mipmap-xxhdpi" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flutter_shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flutter_shop" type="462c0819:PsiDirectoryNode" />
-              <item name="android" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="res" type="462c0819:PsiDirectoryNode" />
-              <item name="values" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flutter_shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flutter_shop" type="462c0819:PsiDirectoryNode" />
-              <item name="android" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="profile" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="flutter_shop" type="b2602c69:ProjectViewProjectNode" />
               <item name="flutter_shop" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -485,11 +261,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="830" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.14520743" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.14520743" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Designer" order="4" />
@@ -498,18 +274,17 @@
       <window_info id="Capture Tool" order="7" />
       <window_info id="Favorites" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Dart Analysis" order="0" sideWeight="0.49928468" weight="0.32791328" />
-      <window_info anchor="bottom" id="Run" order="1" sideWeight="0.49785408" weight="0.44096386" />
+      <window_info active="true" anchor="bottom" id="Run" order="1" sideWeight="0.49713877" visible="true" weight="0.3902439" />
       <window_info anchor="bottom" id="TODO" order="2" sideWeight="0.49928468" weight="0.32891566" />
       <window_info anchor="bottom" id="Android Profiler" order="3" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Logcat" order="4" sideWeight="0.49928468" weight="0.48554218" />
+      <window_info anchor="bottom" id="Logcat" order="4" sideWeight="0.49928468" weight="0.48509485" />
       <window_info anchor="bottom" id="Debug" order="5" />
       <window_info anchor="bottom" id="Terminal" order="6" sideWeight="0.49928468" weight="0.32891566" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50214595" side_tool="true" weight="0.44096386" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5028612" side_tool="true" weight="0.4403794" />
       <window_info anchor="bottom" id="Flutter Performance" order="8" sideWeight="0.50214595" side_tool="true" weight="0.4417344" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49928468" weight="0.32891566" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32771084" />
       <window_info anchor="bottom" id="Find" order="11" />
-      <window_info anchor="right" id="Preview" />
       <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" weight="0.3297568" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Theme Preview" order="2" />
@@ -517,6 +292,7 @@
       <window_info anchor="right" id="Android WiFi ADB" order="4" />
       <window_info anchor="right" id="Flutter Outline" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Preview" order="7" />
     </layout>
     <layout-to-restore>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
@@ -583,13 +359,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///Applications/flutter/packages/flutter/lib/src/material/text_field.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-249">
@@ -611,20 +380,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/android/app/src/main/res/values-v21/styles.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/app/src/main/res/values-v19/styles.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="61" lean-forward="true" selection-start-line="8" selection-start-column="61" selection-end-line="8" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/android/app/src/main/res/values-v21/styles.xml" />
+    <entry file="file://$PROJECT_DIR$/android/app/src/main/res/values-v19/styles.xml" />
     <entry file="file://$PROJECT_DIR$/android/app/src/main/res/mipmap-xxhdpi/start.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -676,13 +433,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/main.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="32" selection-start-column="24" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -704,20 +454,82 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="47" lean-forward="true" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/main.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="32" selection-start-column="24" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/pages/index_page.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file:///Applications/flutter/bin/cache/pkg/sky_engine/lib/_http/http.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="828" column="15" selection-start-line="828" selection-start-column="15" selection-end-line="828" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/flutter/.pub-cache/hosted/pub.flutter-io.cn/dio-3.0.9/lib/src/options.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="381" column="6" selection-start-line="381" selection-start-column="6" selection-end-line="381" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/flutter/bin/cache/dart-sdk/lib/_http/http.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6540">
+          <caret line="463" column="36" selection-start-line="463" selection-start-column="19" selection-end-line="463" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/flutter/.pub-cache/hosted/pub.flutter-io.cn/dio-3.0.9/lib/src/dio.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="48" column="9" lean-forward="true" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/config/header_http.dart">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/config/service_url.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="50" selection-start-column="50" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/service/service_method.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="29" lean-forward="true" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/pages/home_page.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+        <state relative-caret-position="60">
+          <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>

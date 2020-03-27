@@ -1,4 +1,4 @@
-#Fri Mar 27 13:24:53 CST 2020
+#Fri Mar 27 14:27:33 CST 2020
 base.0=/Volumes/wdx/flutter/flutter_shop/build/app/intermediates/dex/debug/mergeDexDebug/out/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

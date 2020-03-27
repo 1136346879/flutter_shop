@@ -19,74 +19,73 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Container(
       child: Scaffold(
-        appBar: AppBar(title: Text("请求远程数据"),),
-        body: SingleChildScrollView(
-          child: Column(
-            children: <Widget>[
-              BannerLibThree(bannerList:arr),
-              RaisedButton(
-                onPressed: _jike,
-                child: Text("请求数据"),
-              ),
-              Text(showText),
-            ],
-          ),
+        appBar: AppBar(
+          title: Text("请求远程数据"),
+        ),
+        body: FutureBuilder(
+            future: getHttp(),
+          builder: (context, snapshot) {
+              if(snapshot.hasData){
+
+             return Column(
+                  children: <Widget>[
+                    BannerLibThree(bannerList: arr),
+                    RaisedButton(
+//                onPressed: _jike,
+                      child: Text("请求数据"),
+                    ),
+                    Text(showText),
+                  ],
+                );
+              }else {
+                return Center(
+                  child: Text('加载中。。。'),
+                );
+              }
+          }
+
         ),
       ),
     );
   }
 
-  void _jike() {
+//  void _jike() {
 //    print("开始请求数据");
 //    getHttp().then((val) {
 //      setState(() {
-//        showText = val['data'].toString();
+//        showText = val['code'].toString();
 //      });
 //    });
-    getHomePageContent();
+//    getHomePageContent();
   }
-}
 
-const httpHeaders={
-'Accept': 'application/json, text/plain, */*',
-'Accept-Encoding': 'gzip, deflate, br',
-'Accept-Language': 'zh-CN,zh;q=0.9',
-'Connection': 'keep-alive',
-'Content-Type': 'application/json',
-'Cookie': 'gksskpitn=271fdf14-a193-428b-a074-5192a6ac06b6; _ga=GA1.2.427278503.1583794485; Hm_lvt_022f847c4e3acd44d4a2481d9187f1e6=1583794485; GRID=daa7d2a-e525206-19a1c14-b579ad5; _gid=GA1.2.1058697568.1585190883; SERVERID=1fa1f330efedec1559b3abbcb6e30f50|1585191063|1585190920; _gat=1; Hm_lpvt_022f847c4e3acd44d4a2481d9187f1e6=1585191025',
-'Host': 'time.geekbang.org',
-'Origin': 'https://time.geekbang.org',
-'Referer': 'https://time.geekbang.org/',
-'Sec-Fetch-Dest': 'empty',
-'Sec-Fetch-Mode': 'cors',
-'Sec-Fetch-Site': 'same-origin',
-'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36'
-//  'Accept': 'application/json, text/plain, */*',
-//  'Accept-Encoding': 'gzip, deflate, br',
-//  'Accept-Language': 'zh-CN,zh;q=0.9',
-//  'Connection': 'keep-alive',
-//  'Content-Type': 'application/json',
-//  'Cookie': '_ga=GA1.2.676402787.1548321037; GCID=9d149c5-11cb3b3-80ad198-04b551d; _gid=GA1.2.359074521.1550799897; _gat=1; Hm_lvt_022f847c4e3acd44d4a2481d9187f1e6=1550106367,1550115714,1550123110,1550799897; SERVERID=1fa1f330efedec1559b3abbcb6e30f50|1550799909|1550799898; Hm_lpvt_022f847c4e3acd44d4a2481d9187f1e6=1550799907',
-//  'Host': 'time.geekbang.org',
-//  'Origin': 'https://time.geekbang.org',
-//  'Referer': 'https://time.geekbang.org/',
-//  'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36'
+const httpHeaders = {
+  'Accept': 'application/json, text/plain, */*',
+  'Content-Type': 'application/json',
+  'Origin': 'https://time.geekbang.org',
+  'Cookie':
+      '_ga=GA1.2.2031756187.1585190618; _gid=GA1.2.472134053.1585290913; Hm_lpvt_022f847c4e3acd44d4a2481d9187f1e6=1585290938; Hm_lvt_022f847c4e3acd44d4a2481d9187f1e6=1585190618; SERVERID=3431a294a18c59fc8f5805662e2bd51e|1585290985|1585290959; _gat=1; GRID=11ce355-72dbc42-ee2f36b-eed09e8; gksskpitn=8c114217-2103-4ffe-981d-696eef26460e',
+  'Accept-Language': 'zh-cn',
+  'Host': 'time.geekbang.org',
+  'User-Agent':
+      'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.5 Safari/605.1.15',
+  'Referer': 'https://time.geekbang.org/',
+  'Accept-Encoding': 'gzip, deflate, br',
+  'Connection': 'keep-alive'
 };
+
 Future getHttp() async {
   try {
-
     Response response;
-    Dio dio = Dio();
-    dio.options.headers= httpHeaders;
-//    response = await dio.get("https://time.geekbang.org/serv/v1/column/newAll");
-    response = await dio.post("https://time.geekbang.org/serv/v3/lecture/list");
+    Dio dio =new  Dio();
+    dio.options.headers = httpHeaders;
+    response = await dio.post("https://time.geekbang.org/serv/v2/explore/list");
     print("即可数据---" + response.toString());
     return response.data;
   } catch (e) {
     return print(e);
   }
 }
-
 
 //
 //class HomePage extends StatefulWidget {

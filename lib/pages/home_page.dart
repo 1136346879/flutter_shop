@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:dio/dio.dart';
 import 'package:flutter_hexun/service/service_method.dart';
+import 'package:flutter_hexun/widget/banner_three_lib.dart';
+import 'package:flutter_hexun/config/finalData.dart';
 
 /**
  *
@@ -21,6 +23,7 @@ class _HomePageState extends State<HomePage> {
         body: SingleChildScrollView(
           child: Column(
             children: <Widget>[
+              BannerLibThree(bannerList:arr),
               RaisedButton(
                 onPressed: _jike,
                 child: Text("请求数据"),

@@ -5,6 +5,7 @@ INJECTED from /Volumes/wdx/flutter/flutter_shop/android/app/src/main/AndroidMani
 INJECTED from /Volumes/wdx/flutter/flutter_shop/android/app/src/main/AndroidManifest.xml:1:1-30:12
 INJECTED from /Volumes/wdx/flutter/flutter_shop/android/app/src/main/AndroidManifest.xml:1:1-30:12
 MERGED from /Volumes/wdx/flutter/flutter_shop/android/app/src/main/AndroidManifest.xml:1:1-30:12
+MERGED from [:fluttertoast] /Volumes/wdx/flutter/flutter_shop/build/fluttertoast/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.fragment:fragment:1.0.0] /Users/zhangyan/.gradle/caches/transforms-2/files-2.1/1ccbaf5bbe143fff7871acbb64d7fe0b/fragment-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/zhangyan/.gradle/caches/transforms-2/files-2.1/8b0fe25df9262b0263881abc766bae1e/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/zhangyan/.gradle/caches/transforms-2/files-2.1/2ca99028639b6fa2fffdb40e29075427/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
@@ -93,6 +94,8 @@ uses-sdk
 INJECTED from /Volumes/wdx/flutter/flutter_shop/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Volumes/wdx/flutter/flutter_shop/android/app/src/main/AndroidManifest.xml
 INJECTED from /Volumes/wdx/flutter/flutter_shop/android/app/src/main/AndroidManifest.xml
+MERGED from [:fluttertoast] /Volumes/wdx/flutter/flutter_shop/build/fluttertoast/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:fluttertoast] /Volumes/wdx/flutter/flutter_shop/build/fluttertoast/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [androidx.fragment:fragment:1.0.0] /Users/zhangyan/.gradle/caches/transforms-2/files-2.1/1ccbaf5bbe143fff7871acbb64d7fe0b/fragment-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.fragment:fragment:1.0.0] /Users/zhangyan/.gradle/caches/transforms-2/files-2.1/1ccbaf5bbe143fff7871acbb64d7fe0b/fragment-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/zhangyan/.gradle/caches/transforms-2/files-2.1/8b0fe25df9262b0263881abc766bae1e/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44

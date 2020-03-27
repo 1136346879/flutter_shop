@@ -68,10 +68,40 @@
       "languageVersion": "2.2"
     },
     {
+      "name": "flutter_page_indicator",
+      "rootUri": "file:///Applications/flutter/.pub-cache/hosted/pub.flutter-io.cn/flutter_page_indicator-0.0.3",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
+    },
+    {
+      "name": "flutter_screenutil",
+      "rootUri": "file:///Applications/flutter/.pub-cache/hosted/pub.flutter-io.cn/flutter_screenutil-1.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.6"
+    },
+    {
+      "name": "flutter_swiper",
+      "rootUri": "file:///Applications/flutter/.pub-cache/hosted/pub.flutter-io.cn/flutter_swiper-1.1.6",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
+    },
+    {
       "name": "flutter_test",
       "rootUri": "file:///Applications/flutter/packages/flutter_test",
       "packageUri": "lib/",
       "languageVersion": "2.2"
+    },
+    {
+      "name": "flutter_web_plugins",
+      "rootUri": "file:///Applications/flutter/packages/flutter_web_plugins",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
+    },
+    {
+      "name": "fluttertoast",
+      "rootUri": "file:///Applications/flutter/.pub-cache/hosted/pub.flutter-io.cn/fluttertoast-4.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
     },
     {
       "name": "http_parser",
@@ -164,6 +194,12 @@
       "languageVersion": "2.2"
     },
     {
+      "name": "transformer_page_view",
+      "rootUri": "file:///Applications/flutter/.pub-cache/hosted/pub.flutter-io.cn/transformer_page_view-0.1.6",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
+    },
+    {
       "name": "typed_data",
       "rootUri": "file:///Applications/flutter/.pub-cache/hosted/pub.flutter-io.cn/typed_data-1.1.6",
       "packageUri": "lib/",
@@ -188,7 +224,7 @@
       "languageVersion": "2.1"
     }
   ],
-  "generated": "2020-03-24T02:10:45.978654Z",
+  "generated": "2020-03-27T02:05:35.385733Z",
   "generator": "pub",
   "generatorVersion": "2.7.0"
 }

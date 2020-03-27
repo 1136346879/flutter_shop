@@ -28,12 +28,12 @@
         "source": "/Users/zhangyan/.gradle/caches/transforms-2/files-2.1/a1e87f5443b1512d74d302dbaa8fc6ba/core-1.0.0/res/drawable/notification_bg.xml"
     },
     {
-        "merged": "/Volumes/wdx/flutter/flutter_shop/build/app/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_normal_pressed.9.png.flat",
-        "source": "/Users/zhangyan/.gradle/caches/transforms-2/files-2.1/a1e87f5443b1512d74d302dbaa8fc6ba/core-1.0.0/res/drawable-hdpi-v4/notification_bg_normal_pressed.9.png"
-    },
-    {
         "merged": "/Volumes/wdx/flutter/flutter_shop/build/app/intermediates/res/merged/debug/layout_notification_action_tombstone.xml.flat",
         "source": "/Users/zhangyan/.gradle/caches/transforms-2/files-2.1/a1e87f5443b1512d74d302dbaa8fc6ba/core-1.0.0/res/layout/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Volumes/wdx/flutter/flutter_shop/build/app/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "/Users/zhangyan/.gradle/caches/transforms-2/files-2.1/a1e87f5443b1512d74d302dbaa8fc6ba/core-1.0.0/res/drawable-hdpi-v4/notification_bg_normal_pressed.9.png"
     },
     {
         "merged": "/Volumes/wdx/flutter/flutter_shop/build/app/intermediates/res/merged/debug/drawable-xhdpi-v4_notify_panel_notification_icon_bg.png.flat",
@@ -72,12 +72,20 @@
         "source": "/Users/zhangyan/.gradle/caches/transforms-2/files-2.1/a1e87f5443b1512d74d302dbaa8fc6ba/core-1.0.0/res/drawable-mdpi-v4/notification_bg_normal_pressed.9.png"
     },
     {
+        "merged": "/Volumes/wdx/flutter/flutter_shop/build/app/intermediates/res/merged/debug/drawable_toast_bg.xml.flat",
+        "source": "/Volumes/wdx/flutter/flutter_shop/build/fluttertoast/intermediates/packaged_res/debug/drawable/toast_bg.xml"
+    },
+    {
         "merged": "/Volumes/wdx/flutter/flutter_shop/build/app/intermediates/res/merged/debug/layout_notification_action.xml.flat",
         "source": "/Users/zhangyan/.gradle/caches/transforms-2/files-2.1/a1e87f5443b1512d74d302dbaa8fc6ba/core-1.0.0/res/layout/notification_action.xml"
     },
     {
         "merged": "/Volumes/wdx/flutter/flutter_shop/build/app/intermediates/res/merged/debug/drawable-v21_notification_action_background.xml.flat",
         "source": "/Users/zhangyan/.gradle/caches/transforms-2/files-2.1/a1e87f5443b1512d74d302dbaa8fc6ba/core-1.0.0/res/drawable-v21/notification_action_background.xml"
+    },
+    {
+        "merged": "/Volumes/wdx/flutter/flutter_shop/build/app/intermediates/res/merged/debug/layout_toast_custom.xml.flat",
+        "source": "/Volumes/wdx/flutter/flutter_shop/build/fluttertoast/intermediates/packaged_res/debug/layout/toast_custom.xml"
     },
     {
         "merged": "/Volumes/wdx/flutter/flutter_shop/build/app/intermediates/res/merged/debug/layout_notification_template_icon_group.xml.flat",

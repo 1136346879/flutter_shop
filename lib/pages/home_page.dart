@@ -34,7 +34,7 @@ class _HomePageState extends State<HomePage> {
 //                onPressed: _jike,
                       child: Text("请求数据"),
                     ),
-                    Text(showText),
+                    Text(snapshot.data['code'].toString()),
                   ],
                 );
               }else {

@@ -3,10 +3,10 @@ import 'package:dio/dio.dart';
 import 'package:flutter_hexun/service/service_method.dart';
 import 'package:flutter_hexun/widget/banner_three_lib.dart';
 import 'package:flutter_hexun/config/finalData.dart';
-
-/**
- *
- */
+import 'package:flutter_hexun/config/device_util.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:flutter_hexun/widget/top_navigator.dart';
+import 'package:flutter_hexun/widget/ad_banner.dart';
 class HomePage extends StatefulWidget {
   @override
   _HomePageState createState() => _HomePageState();
@@ -14,7 +14,6 @@ class HomePage extends StatefulWidget {
 
 class _HomePageState extends State<HomePage> {
   String showText = '还没有返回数据';
-
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -28,12 +27,22 @@ class _HomePageState extends State<HomePage> {
               if (snapshot.hasData) {
                 return Column(
                   children: <Widget>[
-                    BannerLibThree(bannerList: arr),
+                    BannerLibThree(bannerList: arr),//三方库展示banner
+                    TopNavigator(navigatorList: navigatorList),//gridView 展示 入口
+                    AdBanner(adPictureUrls: adPictureUrl),//广告banner
+//                    new Spacer(flex: 1),//空白展示
+                    //Spacer设置在未知宽高的Row或者Column会无效或者报错，如果有设宽高就可以无需设置mainAxisAlignment就能实现 我们想要的各种效果了，当然，在Row或者Column里使用Expanded包裹我们的组件也是上级的Row或者Column一定要有宽高， 否则会报错，可滑动组件内不能直接放Expanded，例如："ListView里放Expanded"，具体大家可以自己去尝试。
                     RaisedButton(
-                      onPressed: _jike,
+                      onPressed: _jike,//点击
                       child: Text("请求数据"),
                     ),
-                    Text(snapshot.data['code'].toString()),
+                    Text(snapshot.data['code'].toString()),//接口返回数据 直接展示
+//                    Text("屏幕宽度--${winWidth(context)}"),
+//                    Text("屏幕高度--${winHeight(context)}"),
+//                    Text("屏幕密度--${winMd(context)}"),
+//                    Text('设备宽度:${ScreenUtil.screenWidth}'),
+//                    Text('设备高度:${ScreenUtil.screenHeight}'),
+//                    Text('设备像素密度:${ScreenUtil.pixelRatio}'),
                   ],
                 );
               } else {

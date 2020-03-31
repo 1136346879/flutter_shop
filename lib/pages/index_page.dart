@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'home_page.dart';
 import 'category_page.dart';
 import 'cart_page.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'member_page.dart';
 
 class IndexPage extends StatefulWidget {//动态切换页面 用 StatefulWidget
@@ -30,6 +31,7 @@ class _IndexPageState extends State<IndexPage> {
 
   @override
   Widget build(BuildContext context) {
+    ScreenUtil.init(context, width: 750, height: 1334);
     return Scaffold(
 //      backgroundColor: Color.fromRGBO(245, 245, 245, 1.0),//北京
       backgroundColor: Color(0xffffa200),

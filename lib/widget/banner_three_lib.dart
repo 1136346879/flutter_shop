@@ -16,8 +16,8 @@ class BannerLibThree extends StatelessWidget {
     ScreenUtil.init(context, width: 750, height: 1334);
     return Container(
 //      height: 333,
-      height: ScreenUtil().setHeight(333),
-      width: ScreenUtil().setWidth(750),
+      height: ScreenUtil().setHeight(333),  //px
+      width: ScreenUtil().setWidth(750),//px
       child: Swiper(
         itemCount: bannerList.length,
         itemBuilder: (BuildContext context,int index){

@@ -16,6 +16,9 @@ final List<dynamic> navigatorList =  [
   {'image': 'https://goss3.cfp.cn/creative/icon/128/VCG25i931017.jpg', 'type': 0, 'id': 9695816, 'url': '', 'name': '数字'},
   {'image': 'https://goss3.cfp.cn/creative/icon/128/VCG25i931022.jpg', 'type': 0, 'id': 9695816, 'url': '', 'name': '滑板车'},
   {'image': 'https://goss.cfp.cn/creative/icon/128/VCG25i931019.jpg', 'type': 0, 'id': 9695816, 'url': '', 'name': '垃圾桶'},
+  {'image': 'https://goss2.cfp.cn/creative/icon/128/VCG25i931016.jpg', 'type': 0, 'id': 9695816, 'url': '', 'name': '字母'},
   {'image': 'https://goss2.cfp.cn/creative/icon/128/VCG25i931016.jpg', 'type': 0, 'id': 9695816, 'url': '', 'name': '字母'}
 ];
 final String adPictureUrl = 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1585647665247&di=e963f5d52076ab618353ab0afabbe361&imgtype=0&src=http%3A%2F%2Fp3.ssl.cdn.btime.com%2Ft015eef661c64c27cf2.jpg%3Fsize%3D1354x569';
+final String leaderImage = 'https://dss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=2558796799,2425501255&fm=111&gp=0.jpg';
+final String leaderPhone = '13361665161';

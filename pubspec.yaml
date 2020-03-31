@@ -27,6 +27,7 @@ dependencies:
   dio: ^3.0.9
   flutter_swiper : ^1.1.4  #轮播图
   fluttertoast: ^4.0.1
+  url_launcher: ^5.4.2
 
 dev_dependencies:
   flutter_test:

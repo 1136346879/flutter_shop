@@ -2,6 +2,9 @@
   <library name="Flutter Plugins" type="FlutterPluginsLibraryType">
     <CLASSES>
       <root url="file:///Applications/flutter/.pub-cache/hosted/pub.flutter-io.cn/fluttertoast-4.0.1" />
+      <root url="file:///Applications/flutter/.pub-cache/hosted/pub.flutter-io.cn/url_launcher_web-0.1.1+1" />
+      <root url="file:///Applications/flutter/.pub-cache/hosted/pub.flutter-io.cn/url_launcher-5.4.2" />
+      <root url="file:///Applications/flutter/.pub-cache/hosted/pub.flutter-io.cn/url_launcher_macos-0.0.1+4" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

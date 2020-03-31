@@ -170,6 +170,13 @@
             </list>
           </value>
         </entry>
+        <entry key="plugin_platform_interface">
+          <value>
+            <list>
+              <option value="/Applications/flutter/.pub-cache/hosted/pub.flutter-io.cn/plugin_platform_interface-1.0.2/lib" />
+            </list>
+          </value>
+        </entry>
         <entry key="quiver">
           <value>
             <list>
@@ -240,6 +247,34 @@
             </list>
           </value>
         </entry>
+        <entry key="url_launcher">
+          <value>
+            <list>
+              <option value="/Applications/flutter/.pub-cache/hosted/pub.flutter-io.cn/url_launcher-5.4.2/lib" />
+            </list>
+          </value>
+        </entry>
+        <entry key="url_launcher_macos">
+          <value>
+            <list>
+              <option value="/Applications/flutter/.pub-cache/hosted/pub.flutter-io.cn/url_launcher_macos-0.0.1+4/lib" />
+            </list>
+          </value>
+        </entry>
+        <entry key="url_launcher_platform_interface">
+          <value>
+            <list>
+              <option value="/Applications/flutter/.pub-cache/hosted/pub.flutter-io.cn/url_launcher_platform_interface-1.0.6/lib" />
+            </list>
+          </value>
+        </entry>
+        <entry key="url_launcher_web">
+          <value>
+            <list>
+              <option value="/Applications/flutter/.pub-cache/hosted/pub.flutter-io.cn/url_launcher_web-0.1.1+1/lib" />
+            </list>
+          </value>
+        </entry>
         <entry key="vector_math">
           <value>
             <list>
@@ -278,6 +313,7 @@
       <root url="file:///Applications/flutter/.pub-cache/hosted/pub.flutter-io.cn/path-1.6.4/lib" />
       <root url="file:///Applications/flutter/.pub-cache/hosted/pub.flutter-io.cn/pedantic-1.8.0+1/lib" />
       <root url="file:///Applications/flutter/.pub-cache/hosted/pub.flutter-io.cn/petitparser-2.4.0/lib" />
+      <root url="file:///Applications/flutter/.pub-cache/hosted/pub.flutter-io.cn/plugin_platform_interface-1.0.2/lib" />
       <root url="file:///Applications/flutter/.pub-cache/hosted/pub.flutter-io.cn/quiver-2.0.5/lib" />
       <root url="file:///Applications/flutter/.pub-cache/hosted/pub.flutter-io.cn/source_span-1.5.5/lib" />
       <root url="file:///Applications/flutter/.pub-cache/hosted/pub.flutter-io.cn/stack_trace-1.9.3/lib" />
@@ -287,6 +323,10 @@
       <root url="file:///Applications/flutter/.pub-cache/hosted/pub.flutter-io.cn/test_api-0.2.11/lib" />
       <root url="file:///Applications/flutter/.pub-cache/hosted/pub.flutter-io.cn/transformer_page_view-0.1.6/lib" />
       <root url="file:///Applications/flutter/.pub-cache/hosted/pub.flutter-io.cn/typed_data-1.1.6/lib" />
+      <root url="file:///Applications/flutter/.pub-cache/hosted/pub.flutter-io.cn/url_launcher-5.4.2/lib" />
+      <root url="file:///Applications/flutter/.pub-cache/hosted/pub.flutter-io.cn/url_launcher_macos-0.0.1+4/lib" />
+      <root url="file:///Applications/flutter/.pub-cache/hosted/pub.flutter-io.cn/url_launcher_platform_interface-1.0.6/lib" />
+      <root url="file:///Applications/flutter/.pub-cache/hosted/pub.flutter-io.cn/url_launcher_web-0.1.1+1/lib" />
       <root url="file:///Applications/flutter/.pub-cache/hosted/pub.flutter-io.cn/vector_math-2.0.8/lib" />
       <root url="file:///Applications/flutter/.pub-cache/hosted/pub.flutter-io.cn/xml-3.5.0/lib" />
       <root url="file:///Applications/flutter/bin/cache/pkg/sky_engine/lib" />

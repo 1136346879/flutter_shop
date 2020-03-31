@@ -146,6 +146,12 @@
       "languageVersion": "2.4"
     },
     {
+      "name": "plugin_platform_interface",
+      "rootUri": "file:///Applications/flutter/.pub-cache/hosted/pub.flutter-io.cn/plugin_platform_interface-1.0.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.1"
+    },
+    {
       "name": "quiver",
       "rootUri": "file:///Applications/flutter/.pub-cache/hosted/pub.flutter-io.cn/quiver-2.0.5",
       "packageUri": "lib/",
@@ -206,6 +212,30 @@
       "languageVersion": "2.0"
     },
     {
+      "name": "url_launcher",
+      "rootUri": "file:///Applications/flutter/.pub-cache/hosted/pub.flutter-io.cn/url_launcher-5.4.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
+    },
+    {
+      "name": "url_launcher_macos",
+      "rootUri": "file:///Applications/flutter/.pub-cache/hosted/pub.flutter-io.cn/url_launcher_macos-0.0.1+4",
+      "packageUri": "lib/",
+      "languageVersion": "2.1"
+    },
+    {
+      "name": "url_launcher_platform_interface",
+      "rootUri": "file:///Applications/flutter/.pub-cache/hosted/pub.flutter-io.cn/url_launcher_platform_interface-1.0.6",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
+    },
+    {
+      "name": "url_launcher_web",
+      "rootUri": "file:///Applications/flutter/.pub-cache/hosted/pub.flutter-io.cn/url_launcher_web-0.1.1+1",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
+    },
+    {
       "name": "vector_math",
       "rootUri": "file:///Applications/flutter/.pub-cache/hosted/pub.flutter-io.cn/vector_math-2.0.8",
       "packageUri": "lib/",
@@ -224,7 +254,7 @@
       "languageVersion": "2.2"
     }
   ],
-  "generated": "2020-03-31T02:56:07.344380Z",
+  "generated": "2020-03-31T09:41:32.988036Z",
   "generator": "pub",
   "generatorVersion": "2.7.0"
 }

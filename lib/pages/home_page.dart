@@ -7,6 +7,11 @@ import 'package:flutter_hexun/config/device_util.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_hexun/widget/top_navigator.dart';
 import 'package:flutter_hexun/widget/ad_banner.dart';
+import 'package:flutter_hexun/widget/LeaderPhone.dart';
+
+
+
+
 class HomePage extends StatefulWidget {
   @override
   _HomePageState createState() => _HomePageState();
@@ -25,11 +30,15 @@ class _HomePageState extends State<HomePage> {
             future: getHttp(),
             builder: (context, snapshot) {
               if (snapshot.hasData) {
+                if(navigatorList.length>10){
+                  navigatorList.removeRange(10, navigatorList.length);
+                }
                 return Column(
                   children: <Widget>[
                     BannerLibThree(bannerList: arr),//三方库展示banner
                     TopNavigator(navigatorList: navigatorList),//gridView 展示 入口
                     AdBanner(adPictureUrls: adPictureUrl),//广告banner
+                    LeaderPhone(leaderImage: leaderImage,leaderPhone: leaderPhone),
 //                    new Spacer(flex: 1),//空白展示
                     //Spacer设置在未知宽高的Row或者Column会无效或者报错，如果有设宽高就可以无需设置mainAxisAlignment就能实现 我们想要的各种效果了，当然，在Row或者Column里使用Expanded包裹我们的组件也是上级的Row或者Column一定要有宽高， 否则会报错，可滑动组件内不能直接放Expanded，例如："ListView里放Expanded"，具体大家可以自己去尝试。
                     RaisedButton(

@@ -26,7 +26,7 @@ class TopNavigator extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: ScreenUtil().setHeight(280),
+      height: ScreenUtil().setHeight(250),
       padding: EdgeInsets.all(3.0),
       child: GridView.count(
         crossAxisCount: 5,

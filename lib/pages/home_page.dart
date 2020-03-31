@@ -24,40 +24,38 @@ class _HomePageState extends State<HomePage> {
         ),
         body: FutureBuilder(
             future: getHttp(),
-          builder: (context, snapshot) {
-              if(snapshot.hasData){
-
-             return Column(
+            builder: (context, snapshot) {
+              if (snapshot.hasData) {
+                return Column(
                   children: <Widget>[
                     BannerLibThree(bannerList: arr),
                     RaisedButton(
-//                onPressed: _jike,
+                      onPressed: _jike,
                       child: Text("请求数据"),
                     ),
                     Text(snapshot.data['code'].toString()),
                   ],
                 );
-              }else {
+              } else {
                 return Center(
                   child: Text('加载中。。。'),
                 );
               }
-          }
-
-        ),
+            }),
       ),
     );
   }
 
-//  void _jike() {
+  void _jike() {
 //    print("开始请求数据");
 //    getHttp().then((val) {
 //      setState(() {
 //        showText = val['code'].toString();
 //      });
 //    });
-//    getHomePageContent();
+    getHomePageContent();
   }
+}
 
 const httpHeaders = {
   'Accept': 'application/json, text/plain, */*',
@@ -77,7 +75,7 @@ const httpHeaders = {
 Future getHttp() async {
   try {
     Response response;
-    Dio dio =new  Dio();
+    Dio dio = new Dio();
     dio.options.headers = httpHeaders;
     response = await dio.post("https://time.geekbang.org/serv/v2/explore/list");
     print("即可数据---" + response.toString());

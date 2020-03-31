@@ -221,10 +221,10 @@
       "name": "flutter_hexun",
       "rootUri": "../",
       "packageUri": "lib/",
-      "languageVersion": "2.1"
+      "languageVersion": "2.2"
     }
   ],
-  "generated": "2020-03-27T02:05:35.385733Z",
+  "generated": "2020-03-31T02:56:07.344380Z",
   "generator": "pub",
   "generatorVersion": "2.7.0"
 }

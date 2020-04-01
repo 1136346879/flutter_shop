@@ -6,6 +6,9 @@ INJECTED from /Volumes/wdx/flutter/flutter_shop/android/app/src/main/AndroidMani
 INJECTED from /Volumes/wdx/flutter/flutter_shop/android/app/src/main/AndroidManifest.xml:1:1-30:12
 MERGED from /Volumes/wdx/flutter/flutter_shop/android/app/src/main/AndroidManifest.xml:1:1-30:12
 MERGED from [:fluttertoast] /Volumes/wdx/flutter/flutter_shop/build/fluttertoast/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:url_launcher] /Volumes/wdx/flutter/flutter_shop/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-14:12
+MERGED from [:url_launcher_macos] /Volumes/wdx/flutter/flutter_shop/build/url_launcher_macos/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:url_launcher_web] /Volumes/wdx/flutter/flutter_shop/build/url_launcher_web/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.fragment:fragment:1.0.0] /Users/zhangyan/.gradle/caches/transforms-2/files-2.1/1ccbaf5bbe143fff7871acbb64d7fe0b/fragment-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/zhangyan/.gradle/caches/transforms-2/files-2.1/8b0fe25df9262b0263881abc766bae1e/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/zhangyan/.gradle/caches/transforms-2/files-2.1/2ca99028639b6fa2fffdb40e29075427/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
@@ -48,6 +51,8 @@ INJECTED from /Volumes/wdx/flutter/flutter_shop/android/app/src/debug/AndroidMan
 		ADDED from /Volumes/wdx/flutter/flutter_shop/android/app/src/main/AndroidManifest.xml:1:11-69
 application
 ADDED from /Volumes/wdx/flutter/flutter_shop/android/app/src/main/AndroidManifest.xml:8:5-29:19
+MERGED from [:url_launcher] /Volumes/wdx/flutter/flutter_shop/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-12:19
+MERGED from [:url_launcher] /Volumes/wdx/flutter/flutter_shop/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-12:19
 MERGED from [androidx.core:core:1.0.0] /Users/zhangyan/.gradle/caches/transforms-2/files-2.1/a1e87f5443b1512d74d302dbaa8fc6ba/core-1.0.0/AndroidManifest.xml:22:5-89
 MERGED from [androidx.core:core:1.0.0] /Users/zhangyan/.gradle/caches/transforms-2/files-2.1/a1e87f5443b1512d74d302dbaa8fc6ba/core-1.0.0/AndroidManifest.xml:22:5-89
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/zhangyan/.gradle/caches/transforms-2/files-2.1/bbf4aef949ecfb6b4113bd048a2454a9/versionedparcelable-1.0.0/AndroidManifest.xml:22:5-23:19
@@ -96,6 +101,12 @@ INJECTED from /Volumes/wdx/flutter/flutter_shop/android/app/src/main/AndroidMani
 INJECTED from /Volumes/wdx/flutter/flutter_shop/android/app/src/main/AndroidManifest.xml
 MERGED from [:fluttertoast] /Volumes/wdx/flutter/flutter_shop/build/fluttertoast/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:fluttertoast] /Volumes/wdx/flutter/flutter_shop/build/fluttertoast/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:url_launcher] /Volumes/wdx/flutter/flutter_shop/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:url_launcher] /Volumes/wdx/flutter/flutter_shop/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:url_launcher_macos] /Volumes/wdx/flutter/flutter_shop/build/url_launcher_macos/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:url_launcher_macos] /Volumes/wdx/flutter/flutter_shop/build/url_launcher_macos/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:url_launcher_web] /Volumes/wdx/flutter/flutter_shop/build/url_launcher_web/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:url_launcher_web] /Volumes/wdx/flutter/flutter_shop/build/url_launcher_web/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [androidx.fragment:fragment:1.0.0] /Users/zhangyan/.gradle/caches/transforms-2/files-2.1/1ccbaf5bbe143fff7871acbb64d7fe0b/fragment-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.fragment:fragment:1.0.0] /Users/zhangyan/.gradle/caches/transforms-2/files-2.1/1ccbaf5bbe143fff7871acbb64d7fe0b/fragment-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/zhangyan/.gradle/caches/transforms-2/files-2.1/8b0fe25df9262b0263881abc766bae1e/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
@@ -154,3 +165,11 @@ uses-permission#android.permission.INTERNET
 ADDED from /Volumes/wdx/flutter/flutter_shop/android/app/src/debug/AndroidManifest.xml:6:5-66
 	android:name
 		ADDED from /Volumes/wdx/flutter/flutter_shop/android/app/src/debug/AndroidManifest.xml:6:22-64
+activity#io.flutter.plugins.urllauncher.WebViewActivity
+ADDED from [:url_launcher] /Volumes/wdx/flutter/flutter_shop/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-11:74
+	android:exported
+		ADDED from [:url_launcher] /Volumes/wdx/flutter/flutter_shop/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-37
+	android:theme
+		ADDED from [:url_launcher] /Volumes/wdx/flutter/flutter_shop/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-71
+	android:name
+		ADDED from [:url_launcher] /Volumes/wdx/flutter/flutter_shop/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-74

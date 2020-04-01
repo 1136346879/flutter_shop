@@ -67,6 +67,15 @@
 46-->/Volumes/wdx/flutter/flutter_shop/android/app/src/main/AndroidManifest.xml:27:13-44
 47            android:value="2" />
 47-->/Volumes/wdx/flutter/flutter_shop/android/app/src/main/AndroidManifest.xml:28:13-30
-48    </application>
-49
-50</manifest>
+48
+49        <activity
+49-->[:url_launcher] /Volumes/wdx/flutter/flutter_shop/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-11:74
+50            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+50-->[:url_launcher] /Volumes/wdx/flutter/flutter_shop/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-74
+51            android:exported="false"
+51-->[:url_launcher] /Volumes/wdx/flutter/flutter_shop/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-37
+52            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+52-->[:url_launcher] /Volumes/wdx/flutter/flutter_shop/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-71
+53    </application>
+54
+55</manifest>

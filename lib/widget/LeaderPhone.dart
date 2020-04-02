@@ -9,6 +9,7 @@ class LeaderPhone extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
+        alignment: Alignment.centerLeft,
         child:InkWell(
       onTap: (){LcallPhone();},
       child: Image.network(leaderImage,width: ScreenUtil().setWidth(100)),

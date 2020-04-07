@@ -9,7 +9,7 @@ class recommendGoods extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: ScreenUtil().setHeight(480),
+      height: ScreenUtil().setHeight(300),
       child: Column(
         children: <Widget>[
           _today_recommend(),
@@ -39,7 +39,7 @@ class recommendGoods extends StatelessWidget {
 
   Widget _recommenr_list() {
     return Container(
-      height: ScreenUtil().setHeight(300),
+      height: ScreenUtil().setHeight(200),
         padding: EdgeInsets.all(20.0),
         decoration: BoxDecoration(
             color: Colors.white,

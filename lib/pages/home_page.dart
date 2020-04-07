@@ -15,74 +15,75 @@ class HomePage extends StatefulWidget {
   _HomePageState createState() => _HomePageState();
 }
 
-class _HomePageState extends State<HomePage> {
+class _HomePageState extends State<HomePage>
+    with AutomaticKeepAliveClientMixin {
   String showText = '还没有返回数据';
 
   @override
+  // ignore: must_call_super
   Widget build(BuildContext context) {
-    return Container(
-      child: Scaffold(
-        appBar: AppBar(
-          title: Text("请求远程数据"),
-        ),
-        body: FutureBuilder(
-            future: getHttp(),
-            builder: (context, snapshot) {
-              if (snapshot.hasData) {
-                if (navigatorList.length > 10) {
-                  navigatorList.removeRange(10, navigatorList.length);
-                }
-                return SingleChildScrollView(
-                    child: Column(
-                  children: <Widget>[
-                    BannerLibThree(bannerList: arr),
-                    //三方库展示banner
-                    recommendGoods(recommendList:navigatorList),
-                    //今日推荐
-
-                    TopNavigator(navigatorList: navigatorList),
-                    //gridView 展示 入口
-                    AdBanner(adPictureUrls: adPictureUrl),
-                    //广告banner
-                    LeaderPhone(
-                        leaderImage: leaderImage, leaderPhone: leaderPhone),
-//                    new Spacer(flex: 1),//空白展示
-                    //Spacer设置在未知宽高的Row或者Column会无效或者报错，如果有设宽高就可以无需设置mainAxisAlignment就能实现 我们想要的各种效果了，当然，在Row或者Column里使用Expanded包裹我们的组件也是上级的Row或者Column一定要有宽高， 否则会报错，可滑动组件内不能直接放Expanded，例如："ListView里放Expanded"，具体大家可以自己去尝试。
-                    RaisedButton(
-                      onPressed: _jike, //点击
-                      child: Text("请求数据"),
-                    ),
-                    Text(snapshot.data['code'].toString()),
-                    //接口返回数据 直接展示
-                    Text("屏幕宽度--${winWidth(context)}"),
-                    Text("屏幕高度--${winHeight(context)}"),
-                    Text("屏幕密度--${winMd(context)}"),
-                    Text('设备宽度:${ScreenUtil.screenWidth}'),
-                    Text('设备高度:${ScreenUtil.screenHeight}'),
-                    Text('设备像素密度:${ScreenUtil.pixelRatio}'),
-                  ],
-                ));
-              } else {
-                return Center(
-                  child: Text('加载中。。。'),
-                );
-              }
-            }),
+    return Scaffold(
+      appBar: AppBar(
+        title: Text("请求远程数据"),
       ),
+      body: FutureBuilder(
+          future: getHttp(),
+          builder: (context, snapshot) {
+            if (snapshot.hasData) {
+              if (navigatorList.length > 10) {
+                navigatorList.removeRange(10, navigatorList.length);
+              }
+              return SingleChildScrollView(
+                  child: Column(
+                children: <Widget>[
+                  BannerLibThree(bannerList: arr),
+                  //三方库展示banner
+                  TopNavigator(navigatorList: navigatorList),
+                  //gridView 展示 入口
+                  AdBanner(adPictureUrls: adPictureUrl),
+                  //广告banner
+                  LeaderPhone(
+                      leaderImage: leaderImage, leaderPhone: leaderPhone),
+//                    new Spacer(flex: 1),//空白展示
+                  //Spacer设置在未知宽高的Row或者Column会无效或者报错，如果有设宽高就可以无需设置mainAxisAlignment就能实现 我们想要的各种效果了，当然，在Row或者Column里使用Expanded包裹我们的组件也是上级的Row或者Column一定要有宽高， 否则会报错，可滑动组件内不能直接放Expanded，例如："ListView里放Expanded"，具体大家可以自己去尝试。
+                  recommendGoods(recommendList: navigatorList),
+                  //今日推荐
+                  RaisedButton(
+                    onPressed: _jike, //点击
+                    child: Text("请求数据"),
+                  ),
+                  Text(snapshot.data['code'].toString()),
+//                  //接口返回数据 直接展示
+//                  Text("屏幕宽度--${winWidth(context)}"),
+//                  Text("屏幕高度--${winHeight(context)}"),
+//                  Text("屏幕密度--${winMd(context)}"),
+//                  Text('设备宽度:${ScreenUtil.screenWidth}'),
+//                  Text('设备高度:${ScreenUtil.screenHeight}'),
+//                  Text('设备像素密度:${ScreenUtil.pixelRatio}'),
+                ],
+              ));
+            } else {
+              return Center(
+                child: Text('加载中。。。'),
+              );
+            }
+          }),
     );
   }
 
   void _jike() {
 //    print("开始请求数据");
-//    getHttp().then((val) {
-//      setState(() {
-//        showText = val['code'].toString();
-//      });
-//    });
-    getHomePageContent();
+    getHttp().then((val) {
+      setState(() {
+        showText = val['code'].toString();
+      });
+    });
+//    getHomePageContent();
   }
-}
 
+  @override
+  bool get wantKeepAlive => true;
+}
 
 const httpHeaders = {
   'Accept': 'application/json, text/plain, */*',

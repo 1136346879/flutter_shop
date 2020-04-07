@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="752c3257-4272-4752-8c28-70772bd091c5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/widget/recommend_goods.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/0V2jfRLnmB1Iu3ijFRVtVAZJjSA=" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/2Qsv5NDXnBM08Xy0jcyy4_L2TzE=" beforeDir="false" />
@@ -55,10 +54,772 @@
       <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeNativeLibs/zip-cache/wQuyTDQFbZ0eH8DO+rNdzYYcuQY=" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeNativeLibs/zip-cache/x3ofDk3LnyJFx_8TSH6qJJ0FNmc=" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeNativeLibs/zip-cache/z_3B463VRNPBOWg+V_R09EaEgy0=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flutter_shop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flutter_shop.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/pages/home_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/home_page.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/widget/LeaderPhone.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/widget/LeaderPhone.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/pages/index_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/index_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/widget/recommend_goods.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/widget/recommend_goods.dart" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/+VpezKR4SNd5CEwDelsKf5TNS6g=" />
+    <ignored path="build/app/intermediates/incremental/debug-mergeNativeLibs/zip-cache/+VpezKR4SNd5CEwDelsKf5TNS6g=" />
+    <ignored path=".dart_tool/flutter_build/26943f21d7470191b0df3569796384e9/.filecache" />
+    <ignored path=".dart_tool/flutter_build/9e32e6310bfd37ff1dc46b29bd67a4e0/.filecache" />
+    <ignored path=".flutter-plugins" />
+    <ignored path=".flutter-plugins-dependencies" />
+    <ignored path="build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/1jicQXpoH9ylGmPUlfwRHrzccJg=" />
+    <ignored path="build/app/intermediates/incremental/debug-mergeNativeLibs/zip-cache/1jicQXpoH9ylGmPUlfwRHrzccJg=" />
+    <ignored path="build/fluttertoast/.transforms/25eba8ca24c9dc6d80479500610a8a37.bin" />
+    <ignored path="build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/4wVhOWzN+Aplv4t5pFvN+IQUrlY=" />
+    <ignored path="build/app/intermediates/incremental/debug-mergeNativeLibs/zip-cache/4wVhOWzN+Aplv4t5pFvN+IQUrlY=" />
+    <ignored path="build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/7gz_WbrXEZ4CuEul_djxNBCVOl8=" />
+    <ignored path="build/app/intermediates/incremental/debug-mergeNativeLibs/zip-cache/7gz_WbrXEZ4CuEul_djxNBCVOl8=" />
+    <ignored path="build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/7OcCnEC7NT1+w4JUoHZDxTJajOI=" />
+    <ignored path="build/app/intermediates/incremental/debug-mergeNativeLibs/zip-cache/7OcCnEC7NT1+w4JUoHZDxTJajOI=" />
+    <ignored path="build/url_launcher/.transforms/8b28b73aea0321fd83f5f83f884ae0b9.bin" />
+    <ignored path="build/app/intermediates/incremental/debug-mergeNativeLibs/zip-cache/8dd2KRt3dL2vaf6i9fDmEeG5ZUs=" />
+    <ignored path="build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/8dd2KRt3dL2vaf6i9fDmEeG5ZUs=" />
+    <ignored path="build/url_launcher_macos/.transforms/95f85aef495c3998f65391cea2279327.bin" />
+    <ignored path="build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/985IO5WdPi+_69JU4KcdxGDFMnk=" />
+    <ignored path="build/app/intermediates/incremental/debug-mergeNativeLibs/zip-cache/985IO5WdPi+_69JU4KcdxGDFMnk=" />
+    <ignored path="build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/AHh5fRE_mOpcLx4_S0M7eefIf6k=" />
+    <ignored path="build/app/intermediates/incremental/debug-mergeNativeLibs/zip-cache/AHh5fRE_mOpcLx4_S0M7eefIf6k=" />
+    <ignored path="build/fluttertoast/intermediates/aapt_friendly_merged_manifests/debug/aapt/AndroidManifest.xml" />
+    <ignored path="build/fluttertoast/intermediates/library_manifest/debug/AndroidManifest.xml" />
+    <ignored path="build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml" />
+    <ignored path="build/url_launcher_macos/intermediates/aapt_friendly_merged_manifests/debug/aapt/AndroidManifest.xml" />
+    <ignored path="build/url_launcher_macos/intermediates/library_manifest/debug/AndroidManifest.xml" />
+    <ignored path="build/url_launcher_web/intermediates/aapt_friendly_merged_manifests/debug/aapt/AndroidManifest.xml" />
+    <ignored path="build/url_launcher_web/intermediates/library_manifest/debug/AndroidManifest.xml" />
+    <ignored path="build/url_launcher/intermediates/aapt_friendly_merged_manifests/debug/aapt/AndroidManifest.xml" />
+    <ignored path="build/fluttertoast/intermediates/annotation_processor_list/debug/annotationProcessors.json" />
+    <ignored path="build/url_launcher_macos/intermediates/annotation_processor_list/debug/annotationProcessors.json" />
+    <ignored path="build/url_launcher_web/intermediates/annotation_processor_list/debug/annotationProcessors.json" />
+    <ignored path="build/url_launcher/intermediates/annotation_processor_list/debug/annotationProcessors.json" />
+    <ignored path="build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/App" />
+    <ignored path="build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/App" />
+    <ignored path=".dart_tool/flutter_build/26943f21d7470191b0df3569796384e9/app.dill" />
+    <ignored path=".dart_tool/flutter_build/9e32e6310bfd37ff1dc46b29bd67a4e0/app.dill" />
+    <ignored path="build/ios/iphonesimulator/Runner.app/AppFrameworkInfo.plist" />
+    <ignored path="build/ios/Debug-iphonesimulator/Runner.app/AppFrameworkInfo.plist" />
+    <ignored path="build/ios/iphonesimulator/Runner.app/AppIcon20x20@2x.png" />
+    <ignored path="build/ios/Debug-iphonesimulator/Runner.app/AppIcon20x20@2x.png" />
+    <ignored path="build/ios/Debug-iphonesimulator/Runner.app/AppIcon20x20@2x~ipad.png" />
+    <ignored path="build/ios/iphonesimulator/Runner.app/AppIcon20x20@2x~ipad.png" />
+    <ignored path="build/ios/Debug-iphonesimulator/Runner.app/AppIcon20x20@3x.png" />
+    <ignored path="build/ios/iphonesimulator/Runner.app/AppIcon20x20@3x.png" />
+    <ignored path="build/ios/Debug-iphonesimulator/Runner.app/AppIcon20x20~ipad.png" />
+    <ignored path="build/ios/iphonesimulator/Runner.app/AppIcon20x20~ipad.png" />
+    <ignored path="build/ios/Debug-iphonesimulator/Runner.app/AppIcon29x29.png" />
+    <ignored path="build/ios/iphonesimulator/Runner.app/AppIcon29x29.png" />
+    <ignored path="build/ios/Debug-iphonesimulator/Runner.app/AppIcon29x29@2x.png" />
+    <ignored path="build/ios/iphonesimulator/Runner.app/AppIcon29x29@2x.png" />
+    <ignored path="build/ios/Debug-iphonesimulator/Runner.app/AppIcon29x29@2x~ipad.png" />
+    <ignored path="build/ios/iphonesimulator/Runner.app/AppIcon29x29@2x~ipad.png" />
+    <ignored path="build/ios/Debug-iphonesimulator/Runner.app/AppIcon29x29@3x.png" />
+    <ignored path="build/ios/iphonesimulator/Runner.app/AppIcon29x29@3x.png" />
+    <ignored path="build/ios/Debug-iphonesimulator/Runner.app/AppIcon29x29~ipad.png" />
+    <ignored path="build/ios/iphonesimulator/Runner.app/AppIcon29x29~ipad.png" />
+    <ignored path="build/ios/Debug-iphonesimulator/Runner.app/AppIcon40x40@2x.png" />
+    <ignored path="build/ios/iphonesimulator/Runner.app/AppIcon40x40@2x.png" />
+    <ignored path="build/ios/Debug-iphonesimulator/Runner.app/AppIcon40x40@2x~ipad.png" />
+    <ignored path="build/ios/iphonesimulator/Runner.app/AppIcon40x40@2x~ipad.png" />
+    <ignored path="build/ios/Debug-iphonesimulator/Runner.app/AppIcon40x40@3x.png" />
+    <ignored path="build/ios/iphonesimulator/Runner.app/AppIcon40x40@3x.png" />
+    <ignored path="build/ios/Debug-iphonesimulator/Runner.app/AppIcon40x40~ipad.png" />
+    <ignored path="build/ios/iphonesimulator/Runner.app/AppIcon40x40~ipad.png" />
+    <ignored path="build/ios/Debug-iphonesimulator/Runner.app/AppIcon60x60@2x.png" />
+    <ignored path="build/ios/iphonesimulator/Runner.app/AppIcon60x60@2x.png" />
+    <ignored path="build/ios/Debug-iphonesimulator/Runner.app/AppIcon60x60@3x.png" />
+    <ignored path="build/ios/iphonesimulator/Runner.app/AppIcon60x60@3x.png" />
+    <ignored path="build/ios/Debug-iphonesimulator/Runner.app/AppIcon76x76@2x~ipad.png" />
+    <ignored path="build/ios/iphonesimulator/Runner.app/AppIcon76x76@2x~ipad.png" />
+    <ignored path="build/ios/Debug-iphonesimulator/Runner.app/AppIcon76x76~ipad.png" />
+    <ignored path="build/ios/iphonesimulator/Runner.app/AppIcon76x76~ipad.png" />
+    <ignored path="build/ios/Debug-iphonesimulator/Runner.app/AppIcon83.5x83.5@2x~ipad.png" />
+    <ignored path="build/ios/iphonesimulator/Runner.app/AppIcon83.5x83.5@2x~ipad.png" />
+    <ignored path="build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/AssetManifest.json" />
+    <ignored path="build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/AssetManifest.json" />
+    <ignored path="build/flutter_assets/AssetManifest.json" />
+    <ignored path="build/ios/Debug-iphonesimulator/Runner.app/Assets.car" />
+    <ignored path="build/ios/iphonesimulator/Runner.app/Assets.car" />
+    <ignored path="build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/AVXyzgXEY3V8mChA2010bFHFtxc=" />
+    <ignored path="build/app/intermediates/incremental/debug-mergeNativeLibs/zip-cache/AVXyzgXEY3V8mChA2010bFHFtxc=" />
+    <ignored path="build/fluttertoast/intermediates/javac/debug/classes/io/github/ponnamkarthik/toast/fluttertoast/BuildConfig.class" />
+    <ignored path="build/url_launcher/intermediates/javac/debug/classes/io/flutter/plugins/urllauncher/BuildConfig.class" />
+    <ignored path="build/url_launcher_macos/intermediates/javac/debug/classes/io/flutter/plugins/url_launcher_macos/BuildConfig.class" />
+    <ignored path="build/url_launcher_web/intermediates/javac/debug/classes/io/flutter/url_launcher_web/BuildConfig.class" />
+    <ignored path="build/fluttertoast/generated/source/buildConfig/debug/io/github/ponnamkarthik/toast/fluttertoast/BuildConfig.java" />
+    <ignored path="build/url_launcher_macos/generated/source/buildConfig/debug/io/flutter/plugins/url_launcher_macos/BuildConfig.java" />
+    <ignored path="build/url_launcher_web/generated/source/buildConfig/debug/io/flutter/url_launcher_web/BuildConfig.java" />
+    <ignored path="build/url_launcher/generated/source/buildConfig/debug/io/flutter/plugins/urllauncher/BuildConfig.java" />
+    <ignored path="build/fluttertoast/.transforms/25eba8ca24c9dc6d80479500610a8a37/classes/classes.dex" />
+    <ignored path="build/url_launcher_macos/.transforms/95f85aef495c3998f65391cea2279327/classes/classes.dex" />
+    <ignored path="build/url_launcher_web/.transforms/ef8dcc8e1a4c84b2b4e1f80e3187c787/classes/classes.dex" />
+    <ignored path="build/url_launcher/.transforms/8b28b73aea0321fd83f5f83f884ae0b9/classes/classes.dex" />
+    <ignored path="build/url_launcher/intermediates/compile_library_classes/debug/classes.jar" />
+    <ignored path="build/fluttertoast/intermediates/compile_library_classes/debug/classes.jar" />
+    <ignored path="build/fluttertoast/intermediates/packaged-classes/debug/classes.jar" />
+    <ignored path="build/fluttertoast/intermediates/runtime_library_classes/debug/classes.jar" />
+    <ignored path="build/url_launcher/intermediates/packaged-classes/debug/classes.jar" />
+    <ignored path="build/url_launcher/intermediates/runtime_library_classes/debug/classes.jar" />
+    <ignored path="build/url_launcher_macos/intermediates/compile_library_classes/debug/classes.jar" />
+    <ignored path="build/url_launcher_macos/intermediates/packaged-classes/debug/classes.jar" />
+    <ignored path="build/url_launcher_macos/intermediates/runtime_library_classes/debug/classes.jar" />
+    <ignored path="build/url_launcher_web/intermediates/compile_library_classes/debug/classes.jar" />
+    <ignored path="build/url_launcher_web/intermediates/packaged-classes/debug/classes.jar" />
+    <ignored path="build/url_launcher_web/intermediates/runtime_library_classes/debug/classes.jar" />
+    <ignored path="build/ios/Debug-iphonesimulator/Pods_Runner.framework/_CodeSignature/CodeDirectory" />
+    <ignored path="build/ios/Debug-iphonesimulator/Pods_Runner.framework/_CodeSignature/CodeRequirements" />
+    <ignored path="build/ios/Debug-iphonesimulator/Pods_Runner.framework/_CodeSignature/CodeRequirements-1" />
+    <ignored path="build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/_CodeSignature/CodeResources" />
+    <ignored path="build/ios/Debug-iphonesimulator/Runner.app/Frameworks/fluttertoast.framework/_CodeSignature/CodeResources" />
+    <ignored path="build/ios/Debug-iphonesimulator/Runner.app/Frameworks/Flutter.framework/_CodeSignature/CodeResources" />
+    <ignored path="build/ios/Debug-iphonesimulator/Runner.app/_CodeSignature/CodeResources" />
+    <ignored path="build/ios/Debug-iphonesimulator/fluttertoast/fluttertoast.framework/_CodeSignature/CodeResources" />
+    <ignored path="build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/_CodeSignature/CodeResources" />
+    <ignored path="build/ios/iphonesimulator/Runner.app/Frameworks/Flutter.framework/_CodeSignature/CodeResources" />
+    <ignored path="build/ios/iphonesimulator/Runner.app/Frameworks/fluttertoast.framework/_CodeSignature/CodeResources" />
+    <ignored path="build/ios/iphonesimulator/Runner.app/_CodeSignature/CodeResources" />
+    <ignored path="build/ios/Debug-iphonesimulator/Runner.app/Frameworks/url_launcher.framework/_CodeSignature/CodeResources" />
+    <ignored path="build/ios/Debug-iphonesimulator/url_launcher/url_launcher.framework/_CodeSignature/CodeResources" />
+    <ignored path="build/ios/iphonesimulator/Runner.app/Frameworks/url_launcher.framework/_CodeSignature/CodeResources" />
+    <ignored path="build/ios/Debug-iphonesimulator/Pods_Runner.framework/_CodeSignature/CodeResources" />
+    <ignored path="build/ios/Debug-iphonesimulator/Pods_Runner.framework/_CodeSignature/CodeSignature" />
+    <ignored path="build/url_launcher/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
+    <ignored path="build/fluttertoast/intermediates/incremental/packageDebugResources/compile-file-map.properties" />
+    <ignored path="build/url_launcher/intermediates/incremental/packageDebugResources/compile-file-map.properties" />
+    <ignored path="build/url_launcher_macos/intermediates/incremental/packageDebugResources/compile-file-map.properties" />
+    <ignored path="build/url_launcher_web/intermediates/incremental/packageDebugResources/compile-file-map.properties" />
+    <ignored path=".dart_tool/flutter_build/26943f21d7470191b0df3569796384e9/copy_flutter_bundle.stamp" />
+    <ignored path=".dart_tool/flutter_build/9e32e6310bfd37ff1dc46b29bd67a4e0/copy_flutter_bundle.stamp" />
+    <ignored path="build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf" />
+    <ignored path="build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf" />
+    <ignored path="build/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf" />
+    <ignored path="build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/d+Lbss6UgIjl6OlQtD_aEQ3N6CM=" />
+    <ignored path="build/app/intermediates/incremental/debug-mergeNativeLibs/zip-cache/d+Lbss6UgIjl6OlQtD_aEQ3N6CM=" />
+    <ignored path="build/url_launcher/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" />
+    <ignored path="build/url_launcher/intermediates/blame/res/debug/single/drawable-mdpi-v4.json" />
+    <ignored path="build/url_launcher/intermediates/blame/res/debug/single/drawable-v21.json" />
+    <ignored path="build/url_launcher/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" />
+    <ignored path="build/url_launcher/intermediates/blame/res/debug/single/drawable.json" />
+    <ignored path="build/app/intermediates/res/merged/debug/drawable_toast_bg.xml.flat" />
+    <ignored path="build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/EeXNGfsaWn+vsLVaiuq9lNqpUz4=" />
+    <ignored path="build/app/intermediates/incremental/debug-mergeNativeLibs/zip-cache/EeXNGfsaWn+vsLVaiuq9lNqpUz4=" />
+    <ignored path="build/url_launcher_web/.transforms/ef8dcc8e1a4c84b2b4e1f80e3187c787.bin" />
+    <ignored path="build/ios/Debug-iphonesimulator/url_launcher/url_launcher.framework/Headers/FLTURLLauncherPlugin.h" />
+    <ignored path="build/ios/Debug-iphonesimulator/Runner.app/Frameworks/Flutter.framework/Flutter" />
+    <ignored path="build/ios/iphonesimulator/Runner.app/Frameworks/Flutter.framework/Flutter" />
+    <ignored path=".dart_tool/flutter_build/26943f21d7470191b0df3569796384e9/flutter_assets.d" />
+    <ignored path=".dart_tool/flutter_build/9e32e6310bfd37ff1dc46b29bd67a4e0/flutter_assets.d" />
+    <ignored path="build/ios/Debug-iphonesimulator/Runner.app/Frameworks/fluttertoast.framework/fluttertoast" />
+    <ignored path="build/ios/Debug-iphonesimulator/fluttertoast/fluttertoast.framework/fluttertoast" />
+    <ignored path="build/ios/iphonesimulator/Runner.app/Frameworks/fluttertoast.framework/fluttertoast" />
+    <ignored path="build/fluttertoast/outputs/aar/fluttertoast-debug.aar" />
+    <ignored path="build/ios/Debug-iphonesimulator/fluttertoast/fluttertoast.framework/Headers/fluttertoast-umbrella.h" />
+    <ignored path="build/fluttertoast/intermediates/javac/debug/classes/io/github/ponnamkarthik/toast/fluttertoast/FluttertoastPlugin.class" />
+    <ignored path="build/ios/Debug-iphonesimulator/fluttertoast/fluttertoast.framework/Headers/FluttertoastPlugin.h" />
+    <ignored path="build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/FontManifest.json" />
+    <ignored path="build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/FontManifest.json" />
+    <ignored path="build/flutter_assets/FontManifest.json" />
+    <ignored path="build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/fWITR7Irzy+638m3E8l+FieXNJs=" />
+    <ignored path="build/app/intermediates/incremental/debug-mergeNativeLibs/zip-cache/fWITR7Irzy+638m3E8l+FieXNJs=" />
+    <ignored path="build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/HqbroPuys7daNkFlU_MBL2oOOvU=" />
+    <ignored path="build/app/intermediates/incremental/debug-mergeNativeLibs/zip-cache/HqbroPuys7daNkFlU_MBL2oOOvU=" />
+    <ignored path="build/ios/Debug-iphonesimulator/Runner.app/Frameworks/Flutter.framework/icudtl.dat" />
+    <ignored path="build/ios/iphonesimulator/Runner.app/Frameworks/Flutter.framework/icudtl.dat" />
+    <ignored path="build/ios/Debug-iphonesimulator/Runner.app/Base.lproj/LaunchScreen.storyboardc/Info.plist" />
+    <ignored path="build/ios/Debug-iphonesimulator/Runner.app/Base.lproj/Main.storyboardc/Info.plist" />
+    <ignored path="build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/Info.plist" />
+    <ignored path="build/ios/Debug-iphonesimulator/Runner.app/Frameworks/fluttertoast.framework/Info.plist" />
+    <ignored path="build/ios/Debug-iphonesimulator/Runner.app/Frameworks/Flutter.framework/Info.plist" />
+    <ignored path="build/ios/Debug-iphonesimulator/Runner.app/Info.plist" />
+    <ignored path="build/ios/Debug-iphonesimulator/fluttertoast/fluttertoast.framework/Info.plist" />
+    <ignored path="build/ios/iphonesimulator/Runner.app/Base.lproj/LaunchScreen.storyboardc/Info.plist" />
+    <ignored path="build/ios/iphonesimulator/Runner.app/Base.lproj/Main.storyboardc/Info.plist" />
+    <ignored path="build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/Info.plist" />
+    <ignored path="build/ios/iphonesimulator/Runner.app/Frameworks/fluttertoast.framework/Info.plist" />
+    <ignored path="build/ios/iphonesimulator/Runner.app/Frameworks/Flutter.framework/Info.plist" />
+    <ignored path="build/ios/iphonesimulator/Runner.app/Info.plist" />
+    <ignored path="build/ios/Debug-iphonesimulator/Runner.app/Frameworks/url_launcher.framework/Info.plist" />
+    <ignored path="build/ios/Debug-iphonesimulator/url_launcher/url_launcher.framework/Info.plist" />
+    <ignored path="build/ios/iphonesimulator/Runner.app/Frameworks/url_launcher.framework/Info.plist" />
+    <ignored path="build/ios/Debug-iphonesimulator/Pods_Runner.framework/Info.plist" />
+    <ignored path="build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/isolate_snapshot_data" />
+    <ignored path="build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/isolate_snapshot_data" />
+    <ignored path="build/flutter_assets/isolate_snapshot_data" />
+    <ignored path="build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/IZRuOiG8CBSxHonnPJ5xj0iTomg=" />
+    <ignored path="build/app/intermediates/incremental/debug-mergeNativeLibs/zip-cache/IZRuOiG8CBSxHonnPJ5xj0iTomg=" />
+    <ignored path="build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/kernel_blob.bin" />
+    <ignored path="build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/kernel_blob.bin" />
+    <ignored path="build/flutter_assets/kernel_blob.bin" />
+    <ignored path=".dart_tool/flutter_build/26943f21d7470191b0df3569796384e9/kernel_snapshot.d" />
+    <ignored path=".dart_tool/flutter_build/9e32e6310bfd37ff1dc46b29bd67a4e0/kernel_snapshot.d" />
+    <ignored path=".dart_tool/flutter_build/26943f21d7470191b0df3569796384e9/kernel_snapshot.stamp" />
+    <ignored path=".dart_tool/flutter_build/9e32e6310bfd37ff1dc46b29bd67a4e0/kernel_snapshot.stamp" />
+    <ignored path="build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/KQMDMullpDQ2IWJ1fytu77fUdco=" />
+    <ignored path="build/app/intermediates/incremental/debug-mergeNativeLibs/zip-cache/KQMDMullpDQ2IWJ1fytu77fUdco=" />
+    <ignored path="build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/L+YdZ+tG7v+B4xQsRONuHjrvoCc=" />
+    <ignored path="build/app/intermediates/incremental/debug-mergeNativeLibs/zip-cache/L+YdZ+tG7v+B4xQsRONuHjrvoCc=" />
+    <ignored path="build/url_launcher/intermediates/blame/res/debug/single/layout-v16.json" />
+    <ignored path="build/url_launcher/intermediates/blame/res/debug/single/layout-v21.json" />
+    <ignored path="build/url_launcher/intermediates/blame/res/debug/single/layout.json" />
+    <ignored path="build/app/intermediates/res/merged/debug/layout_toast_custom.xml.flat" />
+    <ignored path="build/ios/Debug-iphonesimulator/Runner.app/Frameworks/libswiftCore.dylib" />
+    <ignored path="build/ios/iphonesimulator/Runner.app/Frameworks/libswiftCore.dylib" />
+    <ignored path="build/ios/Debug-iphonesimulator/Runner.app/Frameworks/libswiftCoreFoundation.dylib" />
+    <ignored path="build/ios/iphonesimulator/Runner.app/Frameworks/libswiftCoreFoundation.dylib" />
+    <ignored path="build/ios/Debug-iphonesimulator/Runner.app/Frameworks/libswiftCoreGraphics.dylib" />
+    <ignored path="build/ios/iphonesimulator/Runner.app/Frameworks/libswiftCoreGraphics.dylib" />
+    <ignored path="build/ios/Debug-iphonesimulator/Runner.app/Frameworks/libswiftDarwin.dylib" />
+    <ignored path="build/ios/iphonesimulator/Runner.app/Frameworks/libswiftDarwin.dylib" />
+    <ignored path="build/ios/Debug-iphonesimulator/Runner.app/Frameworks/libswiftDispatch.dylib" />
+    <ignored path="build/ios/iphonesimulator/Runner.app/Frameworks/libswiftDispatch.dylib" />
+    <ignored path="build/ios/Debug-iphonesimulator/Runner.app/Frameworks/libswiftFoundation.dylib" />
+    <ignored path="build/ios/iphonesimulator/Runner.app/Frameworks/libswiftFoundation.dylib" />
+    <ignored path="build/ios/Debug-iphonesimulator/Runner.app/Frameworks/libswiftObjectiveC.dylib" />
+    <ignored path="build/ios/iphonesimulator/Runner.app/Frameworks/libswiftObjectiveC.dylib" />
+    <ignored path="build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/LICENSE" />
+    <ignored path="build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/LICENSE" />
+    <ignored path="build/flutter_assets/LICENSE" />
+    <ignored path="build/fluttertoast/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" />
+    <ignored path="build/url_launcher/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" />
+    <ignored path="build/url_launcher_macos/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" />
+    <ignored path="build/url_launcher_web/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" />
+    <ignored path="build/fluttertoast/outputs/logs/manifest-merger-debug-report.txt" />
+    <ignored path="build/url_launcher/outputs/logs/manifest-merger-debug-report.txt" />
+    <ignored path="build/url_launcher_macos/outputs/logs/manifest-merger-debug-report.txt" />
+    <ignored path="build/url_launcher_web/outputs/logs/manifest-merger-debug-report.txt" />
+    <ignored path="build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/fonts/MaterialIcons-Regular.ttf" />
+    <ignored path="build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/fonts/MaterialIcons-Regular.ttf" />
+    <ignored path="build/flutter_assets/fonts/MaterialIcons-Regular.ttf" />
+    <ignored path="build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/McYOYlTcRE4GjLGejYfq3u9Pb1Y=" />
+    <ignored path="build/app/intermediates/incremental/debug-mergeNativeLibs/zip-cache/McYOYlTcRE4GjLGejYfq3u9Pb1Y=" />
+    <ignored path="build/url_launcher/intermediates/incremental/debug-mergeNativeLibs/merge-state" />
+    <ignored path="build/url_launcher/intermediates/incremental/debug-mergeJavaRes/merge-state" />
+    <ignored path="build/fluttertoast/intermediates/incremental/debug-mergeNativeLibs/merge-state" />
+    <ignored path="build/fluttertoast/intermediates/incremental/debug-mergeJavaRes/merge-state" />
+    <ignored path="build/url_launcher_macos/intermediates/incremental/debug-mergeJavaRes/merge-state" />
+    <ignored path="build/url_launcher_macos/intermediates/incremental/debug-mergeNativeLibs/merge-state" />
+    <ignored path="build/url_launcher_web/intermediates/incremental/debug-mergeNativeLibs/merge-state" />
+    <ignored path="build/url_launcher_web/intermediates/incremental/debug-mergeJavaRes/merge-state" />
+    <ignored path="build/url_launcher/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" />
+    <ignored path="build/fluttertoast/intermediates/incremental/packageDebugAssets/merger.xml" />
+    <ignored path="build/fluttertoast/intermediates/incremental/mergeDebugShaders/merger.xml" />
+    <ignored path="build/fluttertoast/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" />
+    <ignored path="build/fluttertoast/intermediates/incremental/packageDebugResources/merger.xml" />
+    <ignored path="build/url_launcher/intermediates/incremental/packageDebugResources/merger.xml" />
+    <ignored path="build/url_launcher/intermediates/incremental/packageDebugAssets/merger.xml" />
+    <ignored path="build/url_launcher/intermediates/incremental/mergeDebugShaders/merger.xml" />
+    <ignored path="build/url_launcher/intermediates/incremental/mergeDebugResources/merger.xml" />
+    <ignored path="build/url_launcher_macos/intermediates/incremental/packageDebugAssets/merger.xml" />
+    <ignored path="build/url_launcher_macos/intermediates/incremental/mergeDebugShaders/merger.xml" />
+    <ignored path="build/url_launcher_macos/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" />
+    <ignored path="build/url_launcher_macos/intermediates/incremental/packageDebugResources/merger.xml" />
+    <ignored path="build/url_launcher_web/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" />
+    <ignored path="build/url_launcher_web/intermediates/incremental/packageDebugResources/merger.xml" />
+    <ignored path="build/url_launcher_web/intermediates/incremental/packageDebugAssets/merger.xml" />
+    <ignored path="build/url_launcher_web/intermediates/incremental/mergeDebugShaders/merger.xml" />
+    <ignored path="build/url_launcher/intermediates/javac/debug/classes/io/flutter/plugins/urllauncher/MethodCallHandlerImpl.class" />
+    <ignored path="build/app/intermediates/res/merged/debug/mipmap-xxhdpi_start.png.flat" />
+    <ignored path="build/ios/Debug-iphonesimulator/fluttertoast/fluttertoast.framework/Modules/module.modulemap" />
+    <ignored path="build/ios/Debug-iphonesimulator/url_launcher/url_launcher.framework/Modules/module.modulemap" />
+    <ignored path="build/ios/Debug-iphonesimulator/Pods_Runner.framework/Modules/module.modulemap" />
+    <ignored path="build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/nCTCpPNTyYrINOfhq_qwdT7lizw=" />
+    <ignored path="build/app/intermediates/incremental/debug-mergeNativeLibs/zip-cache/nCTCpPNTyYrINOfhq_qwdT7lizw=" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/layout-v21/notification_action.xml" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/layout/notification_action.xml" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/drawable-v21/notification_action_background.xml" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/layout/notification_action_tombstone.xml" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/drawable/notification_bg.xml" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/drawable/notification_bg_low.xml" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/drawable-mdpi-v4/notification_bg_low_normal.9.png" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/drawable-hdpi-v4/notification_bg_low_normal.9.png" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/drawable-xhdpi-v4/notification_bg_low_normal.9.png" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/drawable-hdpi-v4/notification_bg_low_pressed.9.png" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/drawable-mdpi-v4/notification_bg_low_pressed.9.png" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/drawable-xhdpi-v4/notification_bg_low_pressed.9.png" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/drawable-hdpi-v4/notification_bg_normal.9.png" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/drawable-mdpi-v4/notification_bg_normal.9.png" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/drawable-xhdpi-v4/notification_bg_normal.9.png" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/drawable-hdpi-v4/notification_bg_normal_pressed.9.png" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/drawable-mdpi-v4/notification_bg_normal_pressed.9.png" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/drawable/notification_icon_background.xml" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/layout-v16/notification_template_custom_big.xml" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/layout/notification_template_icon_group.xml" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/layout/notification_template_part_time.xml" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/drawable/notification_tile_bg.xml" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/drawable-hdpi-v4/notify_panel_notification_icon_bg.png" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/drawable-mdpi-v4/notify_panel_notification_icon_bg.png" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/drawable-xhdpi-v4/notify_panel_notification_icon_bg.png" />
+    <ignored path="build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/OAfCFFpwIw5ow+pCGe+uUXLWnwo=" />
+    <ignored path="build/app/intermediates/incremental/debug-mergeNativeLibs/zip-cache/OAfCFFpwIw5ow+pCGe+uUXLWnwo=" />
+    <ignored path="build/ios/Debug-iphonesimulator/Runner.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/objects-13.0+.nib" />
+    <ignored path="build/ios/Debug-iphonesimulator/Runner.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/objects-13.0+.nib" />
+    <ignored path="build/ios/Debug-iphonesimulator/Runner.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/objects-13.0+.nib" />
+    <ignored path="build/ios/Debug-iphonesimulator/Runner.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/objects-13.0+.nib" />
+    <ignored path="build/ios/iphonesimulator/Runner.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/objects-13.0+.nib" />
+    <ignored path="build/ios/iphonesimulator/Runner.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/objects-13.0+.nib" />
+    <ignored path="build/ios/iphonesimulator/Runner.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/objects-13.0+.nib" />
+    <ignored path="build/ios/iphonesimulator/Runner.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/objects-13.0+.nib" />
+    <ignored path="build/fluttertoast/intermediates/merged_java_res/debug/out.jar" />
+    <ignored path="build/url_launcher/intermediates/merged_java_res/debug/out.jar" />
+    <ignored path="build/url_launcher_macos/intermediates/merged_java_res/debug/out.jar" />
+    <ignored path="build/url_launcher_web/intermediates/merged_java_res/debug/out.jar" />
+    <ignored path="build/fluttertoast/intermediates/aapt_friendly_merged_manifests/debug/aapt/output.json" />
+    <ignored path="build/fluttertoast/intermediates/merged_manifests/debug/output.json" />
+    <ignored path="build/url_launcher/intermediates/merged_manifests/debug/output.json" />
+    <ignored path="build/url_launcher_macos/intermediates/aapt_friendly_merged_manifests/debug/aapt/output.json" />
+    <ignored path="build/url_launcher_macos/intermediates/merged_manifests/debug/output.json" />
+    <ignored path="build/url_launcher_web/intermediates/aapt_friendly_merged_manifests/debug/aapt/output.json" />
+    <ignored path="build/url_launcher_web/intermediates/merged_manifests/debug/output.json" />
+    <ignored path="build/url_launcher/intermediates/aapt_friendly_merged_manifests/debug/aapt/output.json" />
+    <ignored path="build/fluttertoast/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" />
+    <ignored path="build/url_launcher/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" />
+    <ignored path="build/url_launcher_macos/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" />
+    <ignored path="build/url_launcher_web/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" />
+    <ignored path="build/ios/Debug-iphonesimulator/Runner.app/PkgInfo" />
+    <ignored path="build/ios/iphonesimulator/Runner.app/PkgInfo" />
+    <ignored path="build/app/intermediates/incremental/debug-mergeNativeLibs/zip-cache/Po0PFtxu_ljdrNbgjOYbklguVXw=" />
+    <ignored path="build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/Po0PFtxu_ljdrNbgjOYbklguVXw=" />
+    <ignored path="build/ios/pod_inputs.fingerprint" />
+    <ignored path="ios/Podfile" />
+    <ignored path="ios/Podfile.lock" />
+    <ignored path="build/ios/Debug-iphonesimulator/Pods_Runner.framework/Headers/Pods-Runner-umbrella.h" />
+    <ignored path="build/ios/Debug-iphonesimulator/Pods_Runner.framework/Pods_Runner" />
+    <ignored path="build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/qCq1NMvAxVzrMhxos531tSkowEs=" />
+    <ignored path="build/app/intermediates/incremental/debug-mergeNativeLibs/zip-cache/qCq1NMvAxVzrMhxos531tSkowEs=" />
+    <ignored path="build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/QUht_sN9oq6VQC1sTKay3RlEmlg=" />
+    <ignored path="build/app/intermediates/incremental/debug-mergeNativeLibs/zip-cache/QUht_sN9oq6VQC1sTKay3RlEmlg=" />
+    <ignored path="build/app/intermediates/javac/debug/classes/io/github/ponnamkarthik/toast/fluttertoast/R$attr.class" />
+    <ignored path="build/app/intermediates/javac/debug/classes/io/flutter/plugins/url_launcher_macos/R$attr.class" />
+    <ignored path="build/app/intermediates/javac/debug/classes/io/flutter/plugins/urllauncher/R$attr.class" />
+    <ignored path="build/app/intermediates/javac/debug/classes/io/flutter/url_launcher_web/R$attr.class" />
+    <ignored path="build/app/intermediates/transforms/dexBuilder/debug/0/io/github/ponnamkarthik/toast/fluttertoast/R$attr.dex" />
+    <ignored path="build/app/intermediates/transforms/dexBuilder/debug/0/io/flutter/plugins/url_launcher_macos/R$attr.dex" />
+    <ignored path="build/app/intermediates/transforms/dexBuilder/debug/0/io/flutter/plugins/urllauncher/R$attr.dex" />
+    <ignored path="build/app/intermediates/transforms/dexBuilder/debug/0/io/flutter/url_launcher_web/R$attr.dex" />
+    <ignored path="build/app/intermediates/javac/debug/classes/io/github/ponnamkarthik/toast/fluttertoast/R$color.class" />
+    <ignored path="build/app/intermediates/javac/debug/classes/io/flutter/plugins/url_launcher_macos/R$color.class" />
+    <ignored path="build/app/intermediates/javac/debug/classes/io/flutter/plugins/urllauncher/R$color.class" />
+    <ignored path="build/app/intermediates/javac/debug/classes/io/flutter/url_launcher_web/R$color.class" />
+    <ignored path="build/app/intermediates/transforms/dexBuilder/debug/0/io/github/ponnamkarthik/toast/fluttertoast/R$color.dex" />
+    <ignored path="build/app/intermediates/transforms/dexBuilder/debug/0/io/flutter/plugins/url_launcher_macos/R$color.dex" />
+    <ignored path="build/app/intermediates/transforms/dexBuilder/debug/0/io/flutter/plugins/urllauncher/R$color.dex" />
+    <ignored path="build/app/intermediates/transforms/dexBuilder/debug/0/io/flutter/url_launcher_web/R$color.dex" />
+    <ignored path="build/app/intermediates/javac/debug/classes/io/github/ponnamkarthik/toast/fluttertoast/R$dimen.class" />
+    <ignored path="build/app/intermediates/javac/debug/classes/io/flutter/plugins/url_launcher_macos/R$dimen.class" />
+    <ignored path="build/app/intermediates/javac/debug/classes/io/flutter/plugins/urllauncher/R$dimen.class" />
+    <ignored path="build/app/intermediates/javac/debug/classes/io/flutter/url_launcher_web/R$dimen.class" />
+    <ignored path="build/app/intermediates/transforms/dexBuilder/debug/0/io/github/ponnamkarthik/toast/fluttertoast/R$dimen.dex" />
+    <ignored path="build/app/intermediates/transforms/dexBuilder/debug/0/io/flutter/plugins/url_launcher_macos/R$dimen.dex" />
+    <ignored path="build/app/intermediates/transforms/dexBuilder/debug/0/io/flutter/plugins/urllauncher/R$dimen.dex" />
+    <ignored path="build/app/intermediates/transforms/dexBuilder/debug/0/io/flutter/url_launcher_web/R$dimen.dex" />
+    <ignored path="build/app/intermediates/javac/debug/classes/io/github/ponnamkarthik/toast/fluttertoast/R$drawable.class" />
+    <ignored path="build/app/intermediates/javac/debug/classes/io/flutter/plugins/url_launcher_macos/R$drawable.class" />
+    <ignored path="build/app/intermediates/javac/debug/classes/io/flutter/plugins/urllauncher/R$drawable.class" />
+    <ignored path="build/app/intermediates/javac/debug/classes/io/flutter/url_launcher_web/R$drawable.class" />
+    <ignored path="build/app/intermediates/transforms/dexBuilder/debug/0/io/github/ponnamkarthik/toast/fluttertoast/R$drawable.dex" />
+    <ignored path="build/app/intermediates/transforms/dexBuilder/debug/0/io/flutter/plugins/url_launcher_macos/R$drawable.dex" />
+    <ignored path="build/app/intermediates/transforms/dexBuilder/debug/0/io/flutter/plugins/urllauncher/R$drawable.dex" />
+    <ignored path="build/app/intermediates/transforms/dexBuilder/debug/0/io/flutter/url_launcher_web/R$drawable.dex" />
+    <ignored path="build/app/intermediates/javac/debug/classes/io/github/ponnamkarthik/toast/fluttertoast/R$id.class" />
+    <ignored path="build/app/intermediates/javac/debug/classes/io/flutter/plugins/url_launcher_macos/R$id.class" />
+    <ignored path="build/app/intermediates/javac/debug/classes/io/flutter/plugins/urllauncher/R$id.class" />
+    <ignored path="build/app/intermediates/javac/debug/classes/io/flutter/url_launcher_web/R$id.class" />
+    <ignored path="build/app/intermediates/transforms/dexBuilder/debug/0/io/github/ponnamkarthik/toast/fluttertoast/R$id.dex" />
+    <ignored path="build/app/intermediates/transforms/dexBuilder/debug/0/io/flutter/plugins/url_launcher_macos/R$id.dex" />
+    <ignored path="build/app/intermediates/transforms/dexBuilder/debug/0/io/flutter/plugins/urllauncher/R$id.dex" />
+    <ignored path="build/app/intermediates/transforms/dexBuilder/debug/0/io/flutter/url_launcher_web/R$id.dex" />
+    <ignored path="build/app/intermediates/javac/debug/classes/io/github/ponnamkarthik/toast/fluttertoast/R$integer.class" />
+    <ignored path="build/app/intermediates/javac/debug/classes/io/flutter/plugins/url_launcher_macos/R$integer.class" />
+    <ignored path="build/app/intermediates/javac/debug/classes/io/flutter/plugins/urllauncher/R$integer.class" />
+    <ignored path="build/app/intermediates/javac/debug/classes/io/flutter/url_launcher_web/R$integer.class" />
+    <ignored path="build/app/intermediates/transforms/dexBuilder/debug/0/io/github/ponnamkarthik/toast/fluttertoast/R$integer.dex" />
+    <ignored path="build/app/intermediates/transforms/dexBuilder/debug/0/io/flutter/plugins/url_launcher_macos/R$integer.dex" />
+    <ignored path="build/app/intermediates/transforms/dexBuilder/debug/0/io/flutter/plugins/urllauncher/R$integer.dex" />
+    <ignored path="build/app/intermediates/transforms/dexBuilder/debug/0/io/flutter/url_launcher_web/R$integer.dex" />
+    <ignored path="build/app/intermediates/javac/debug/classes/io/github/ponnamkarthik/toast/fluttertoast/R$layout.class" />
+    <ignored path="build/app/intermediates/javac/debug/classes/io/flutter/plugins/url_launcher_macos/R$layout.class" />
+    <ignored path="build/app/intermediates/javac/debug/classes/io/flutter/plugins/urllauncher/R$layout.class" />
+    <ignored path="build/app/intermediates/javac/debug/classes/io/flutter/url_launcher_web/R$layout.class" />
+    <ignored path="build/app/intermediates/transforms/dexBuilder/debug/0/io/github/ponnamkarthik/toast/fluttertoast/R$layout.dex" />
+    <ignored path="build/app/intermediates/transforms/dexBuilder/debug/0/io/flutter/plugins/url_launcher_macos/R$layout.dex" />
+    <ignored path="build/app/intermediates/transforms/dexBuilder/debug/0/io/flutter/plugins/urllauncher/R$layout.dex" />
+    <ignored path="build/app/intermediates/transforms/dexBuilder/debug/0/io/flutter/url_launcher_web/R$layout.dex" />
+    <ignored path="build/app/intermediates/javac/debug/classes/io/github/ponnamkarthik/toast/fluttertoast/R$string.class" />
+    <ignored path="build/app/intermediates/javac/debug/classes/io/flutter/plugins/url_launcher_macos/R$string.class" />
+    <ignored path="build/app/intermediates/javac/debug/classes/io/flutter/plugins/urllauncher/R$string.class" />
+    <ignored path="build/app/intermediates/javac/debug/classes/io/flutter/url_launcher_web/R$string.class" />
+    <ignored path="build/app/intermediates/transforms/dexBuilder/debug/0/io/github/ponnamkarthik/toast/fluttertoast/R$string.dex" />
+    <ignored path="build/app/intermediates/transforms/dexBuilder/debug/0/io/flutter/plugins/url_launcher_macos/R$string.dex" />
+    <ignored path="build/app/intermediates/transforms/dexBuilder/debug/0/io/flutter/plugins/urllauncher/R$string.dex" />
+    <ignored path="build/app/intermediates/transforms/dexBuilder/debug/0/io/flutter/url_launcher_web/R$string.dex" />
+    <ignored path="build/app/intermediates/javac/debug/classes/io/github/ponnamkarthik/toast/fluttertoast/R$style.class" />
+    <ignored path="build/app/intermediates/javac/debug/classes/io/flutter/plugins/url_launcher_macos/R$style.class" />
+    <ignored path="build/app/intermediates/javac/debug/classes/io/flutter/plugins/urllauncher/R$style.class" />
+    <ignored path="build/app/intermediates/javac/debug/classes/io/flutter/url_launcher_web/R$style.class" />
+    <ignored path="build/app/intermediates/transforms/dexBuilder/debug/0/io/github/ponnamkarthik/toast/fluttertoast/R$style.dex" />
+    <ignored path="build/app/intermediates/transforms/dexBuilder/debug/0/io/flutter/plugins/url_launcher_macos/R$style.dex" />
+    <ignored path="build/app/intermediates/transforms/dexBuilder/debug/0/io/flutter/plugins/urllauncher/R$style.dex" />
+    <ignored path="build/app/intermediates/transforms/dexBuilder/debug/0/io/flutter/url_launcher_web/R$style.dex" />
+    <ignored path="build/app/intermediates/javac/debug/classes/io/github/ponnamkarthik/toast/fluttertoast/R$styleable.class" />
+    <ignored path="build/app/intermediates/javac/debug/classes/io/flutter/plugins/url_launcher_macos/R$styleable.class" />
+    <ignored path="build/app/intermediates/javac/debug/classes/io/flutter/plugins/urllauncher/R$styleable.class" />
+    <ignored path="build/app/intermediates/javac/debug/classes/io/flutter/url_launcher_web/R$styleable.class" />
+    <ignored path="build/app/intermediates/transforms/dexBuilder/debug/0/io/github/ponnamkarthik/toast/fluttertoast/R$styleable.dex" />
+    <ignored path="build/app/intermediates/transforms/dexBuilder/debug/0/io/flutter/plugins/url_launcher_macos/R$styleable.dex" />
+    <ignored path="build/app/intermediates/transforms/dexBuilder/debug/0/io/flutter/plugins/urllauncher/R$styleable.dex" />
+    <ignored path="build/app/intermediates/transforms/dexBuilder/debug/0/io/flutter/url_launcher_web/R$styleable.dex" />
+    <ignored path="build/fluttertoast/intermediates/local_only_symbol_list/debug/parseDebugLibraryResources/R-def.txt" />
+    <ignored path="build/url_launcher/intermediates/local_only_symbol_list/debug/parseDebugLibraryResources/R-def.txt" />
+    <ignored path="build/url_launcher_macos/intermediates/local_only_symbol_list/debug/parseDebugLibraryResources/R-def.txt" />
+    <ignored path="build/url_launcher_web/intermediates/local_only_symbol_list/debug/parseDebugLibraryResources/R-def.txt" />
+    <ignored path="build/app/intermediates/javac/debug/classes/io/github/ponnamkarthik/toast/fluttertoast/R.class" />
+    <ignored path="build/app/intermediates/javac/debug/classes/io/flutter/plugins/url_launcher_macos/R.class" />
+    <ignored path="build/app/intermediates/javac/debug/classes/io/flutter/plugins/urllauncher/R.class" />
+    <ignored path="build/app/intermediates/javac/debug/classes/io/flutter/url_launcher_web/R.class" />
+    <ignored path="build/app/intermediates/transforms/dexBuilder/debug/0/io/github/ponnamkarthik/toast/fluttertoast/R.dex" />
+    <ignored path="build/app/intermediates/transforms/dexBuilder/debug/0/io/flutter/plugins/url_launcher_macos/R.dex" />
+    <ignored path="build/app/intermediates/transforms/dexBuilder/debug/0/io/flutter/plugins/urllauncher/R.dex" />
+    <ignored path="build/app/intermediates/transforms/dexBuilder/debug/0/io/flutter/url_launcher_web/R.dex" />
+    <ignored path="build/url_launcher/intermediates/compile_only_not_namespaced_r_class_jar/debug/R.jar" />
+    <ignored path="build/fluttertoast/intermediates/compile_only_not_namespaced_r_class_jar/debug/R.jar" />
+    <ignored path="build/url_launcher_macos/intermediates/compile_only_not_namespaced_r_class_jar/debug/R.jar" />
+    <ignored path="build/url_launcher_web/intermediates/compile_only_not_namespaced_r_class_jar/debug/R.jar" />
+    <ignored path="build/app/generated/not_namespaced_r_class_sources/debug/r/io/github/ponnamkarthik/toast/fluttertoast/R.java" />
+    <ignored path="build/app/generated/not_namespaced_r_class_sources/debug/r/io/flutter/url_launcher_web/R.java" />
+    <ignored path="build/app/generated/not_namespaced_r_class_sources/debug/r/io/flutter/plugins/urllauncher/R.java" />
+    <ignored path="build/app/generated/not_namespaced_r_class_sources/debug/r/io/flutter/plugins/url_launcher_macos/R.java" />
+    <ignored path="build/fluttertoast/intermediates/symbols/debug/R.txt" />
+    <ignored path="build/url_launcher/intermediates/symbols/debug/R.txt" />
+    <ignored path="build/url_launcher_macos/intermediates/symbols/debug/R.txt" />
+    <ignored path="build/url_launcher_web/intermediates/symbols/debug/R.txt" />
+    <ignored path="build/fluttertoast/intermediates/library_java_res/debug/res.jar" />
+    <ignored path="build/url_launcher/intermediates/library_java_res/debug/res.jar" />
+    <ignored path="build/url_launcher_macos/intermediates/library_java_res/debug/res.jar" />
+    <ignored path="build/url_launcher_web/intermediates/library_java_res/debug/res.jar" />
+    <ignored path="build/app/intermediates/incremental/processDebugResources/resources-list-for-resources-debug.ap_.txt" />
+    <ignored path="build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/rLLumwg6MZg8QE6_EWGdY2+Nznw=" />
+    <ignored path="build/app/intermediates/incremental/debug-mergeNativeLibs/zip-cache/rLLumwg6MZg8QE6_EWGdY2+Nznw=" />
+    <ignored path="build/ios/Debug-iphonesimulator/Runner.app/Runner" />
+    <ignored path="build/ios/iphonesimulator/Runner.app/Runner" />
+    <ignored path="build/ios/Debug-iphonesimulator/Runner.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/runtime.nib" />
+    <ignored path="build/ios/Debug-iphonesimulator/Runner.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/runtime.nib" />
+    <ignored path="build/ios/Debug-iphonesimulator/Runner.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/runtime.nib" />
+    <ignored path="build/ios/Debug-iphonesimulator/Runner.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/runtime.nib" />
+    <ignored path="build/ios/iphonesimulator/Runner.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/runtime.nib" />
+    <ignored path="build/ios/iphonesimulator/Runner.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/runtime.nib" />
+    <ignored path="build/ios/iphonesimulator/Runner.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/runtime.nib" />
+    <ignored path="build/ios/iphonesimulator/Runner.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/runtime.nib" />
+    <ignored path="build/snapshot_blob.bin.d" />
+    <ignored path="build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/soBWyK+9dACtmMO84Tu828xDDSc=" />
+    <ignored path="build/app/intermediates/incremental/debug-mergeNativeLibs/zip-cache/soBWyK+9dACtmMO84Tu828xDDSc=" />
+    <ignored path="build/fluttertoast/intermediates/packaged_res/debug/drawable/toast_bg.xml" />
+    <ignored path="build/fluttertoast/intermediates/packaged_res/debug/layout/toast_custom.xml" />
+    <ignored path="build/fluttertoast/intermediates/annotations_typedef_file/debug/extractDebugAnnotations/typedefs.txt" />
+    <ignored path="build/url_launcher_macos/intermediates/annotations_typedef_file/debug/extractDebugAnnotations/typedefs.txt" />
+    <ignored path="build/url_launcher_web/intermediates/annotations_typedef_file/debug/extractDebugAnnotations/typedefs.txt" />
+    <ignored path="build/url_launcher/intermediates/annotations_typedef_file/debug/extractDebugAnnotations/typedefs.txt" />
+    <ignored path="build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/UEx9n32Aw3XHkz0WdH3VMqzes4o=" />
+    <ignored path="build/app/intermediates/incremental/debug-mergeNativeLibs/zip-cache/UEx9n32Aw3XHkz0WdH3VMqzes4o=" />
+    <ignored path="build/ios/Debug-iphonesimulator/fluttertoast/fluttertoast.framework/Headers/UIView+Toast.h" />
+    <ignored path="build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/URhvgacZVJ4PX3e6CGPBkuLjuw0=" />
+    <ignored path="build/app/intermediates/incremental/debug-mergeNativeLibs/zip-cache/URhvgacZVJ4PX3e6CGPBkuLjuw0=" />
+    <ignored path="build/ios/Debug-iphonesimulator/Runner.app/Frameworks/url_launcher.framework/url_launcher" />
+    <ignored path="build/ios/Debug-iphonesimulator/url_launcher/url_launcher.framework/url_launcher" />
+    <ignored path="build/ios/iphonesimulator/Runner.app/Frameworks/url_launcher.framework/url_launcher" />
+    <ignored path="build/url_launcher/outputs/aar/url_launcher-debug.aar" />
+    <ignored path="build/ios/Debug-iphonesimulator/url_launcher/url_launcher.framework/Headers/url_launcher-umbrella.h" />
+    <ignored path="build/url_launcher_macos/outputs/aar/url_launcher_macos-debug.aar" />
+    <ignored path="build/url_launcher_web/outputs/aar/url_launcher_web-debug.aar" />
+    <ignored path="build/url_launcher/intermediates/javac/debug/classes/io/flutter/plugins/urllauncher/UrlLauncher$LaunchStatus.class" />
+    <ignored path="build/url_launcher/intermediates/javac/debug/classes/io/flutter/plugins/urllauncher/UrlLauncher.class" />
+    <ignored path="build/url_launcher_macos/intermediates/javac/debug/classes/io/flutter/plugins/url_launcher_macos/UrlLauncherMacosPlugin.class" />
+    <ignored path="build/url_launcher/intermediates/javac/debug/classes/io/flutter/plugins/urllauncher/UrlLauncherPlugin.class" />
+    <ignored path="build/url_launcher_web/intermediates/javac/debug/classes/io/flutter/url_launcher_web/UrlLauncherWebPlugin.class" />
+    <ignored path="build/url_launcher/intermediates/blame/res/debug/multi-v2/values-af.json" />
+    <ignored path="build/url_launcher/intermediates/incremental/mergeDebugResources/merged.dir/values-af/values-af.xml" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/values-af/values-af.xml" />
+    <ignored path="build/url_launcher/intermediates/blame/res/debug/multi-v2/values-am.json" />
+    <ignored path="build/url_launcher/intermediates/incremental/mergeDebugResources/merged.dir/values-am/values-am.xml" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/values-am/values-am.xml" />
+    <ignored path="build/url_launcher/intermediates/blame/res/debug/multi-v2/values-ar.json" />
+    <ignored path="build/url_launcher/intermediates/incremental/mergeDebugResources/merged.dir/values-ar/values-ar.xml" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/values-ar/values-ar.xml" />
+    <ignored path="build/url_launcher/intermediates/blame/res/debug/multi-v2/values-as.json" />
+    <ignored path="build/url_launcher/intermediates/incremental/mergeDebugResources/merged.dir/values-as/values-as.xml" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/values-as/values-as.xml" />
+    <ignored path="build/url_launcher/intermediates/blame/res/debug/multi-v2/values-az.json" />
+    <ignored path="build/url_launcher/intermediates/incremental/mergeDebugResources/merged.dir/values-az/values-az.xml" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/values-az/values-az.xml" />
+    <ignored path="build/url_launcher/intermediates/blame/res/debug/multi-v2/values-b+sr+Latn.json" />
+    <ignored path="build/url_launcher/intermediates/incremental/mergeDebugResources/merged.dir/values-b+sr+Latn/values-b+sr+Latn.xml" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/values-b+sr+Latn/values-b+sr+Latn.xml" />
+    <ignored path="build/url_launcher/intermediates/blame/res/debug/multi-v2/values-be.json" />
+    <ignored path="build/url_launcher/intermediates/incremental/mergeDebugResources/merged.dir/values-be/values-be.xml" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/values-be/values-be.xml" />
+    <ignored path="build/url_launcher/intermediates/blame/res/debug/multi-v2/values-bg.json" />
+    <ignored path="build/url_launcher/intermediates/incremental/mergeDebugResources/merged.dir/values-bg/values-bg.xml" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/values-bg/values-bg.xml" />
+    <ignored path="build/url_launcher/intermediates/blame/res/debug/multi-v2/values-bn.json" />
+    <ignored path="build/url_launcher/intermediates/incremental/mergeDebugResources/merged.dir/values-bn/values-bn.xml" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/values-bn/values-bn.xml" />
+    <ignored path="build/url_launcher/intermediates/blame/res/debug/multi-v2/values-bs.json" />
+    <ignored path="build/url_launcher/intermediates/incremental/mergeDebugResources/merged.dir/values-bs/values-bs.xml" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/values-bs/values-bs.xml" />
+    <ignored path="build/url_launcher/intermediates/blame/res/debug/multi-v2/values-ca.json" />
+    <ignored path="build/url_launcher/intermediates/incremental/mergeDebugResources/merged.dir/values-ca/values-ca.xml" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/values-ca/values-ca.xml" />
+    <ignored path="build/url_launcher/intermediates/blame/res/debug/multi-v2/values-cs.json" />
+    <ignored path="build/url_launcher/intermediates/incremental/mergeDebugResources/merged.dir/values-cs/values-cs.xml" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/values-cs/values-cs.xml" />
+    <ignored path="build/url_launcher/intermediates/blame/res/debug/multi-v2/values-da.json" />
+    <ignored path="build/url_launcher/intermediates/incremental/mergeDebugResources/merged.dir/values-da/values-da.xml" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/values-da/values-da.xml" />
+    <ignored path="build/url_launcher/intermediates/blame/res/debug/multi-v2/values-de.json" />
+    <ignored path="build/url_launcher/intermediates/incremental/mergeDebugResources/merged.dir/values-de/values-de.xml" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/values-de/values-de.xml" />
+    <ignored path="build/url_launcher/intermediates/blame/res/debug/multi-v2/values-el.json" />
+    <ignored path="build/url_launcher/intermediates/incremental/mergeDebugResources/merged.dir/values-el/values-el.xml" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/values-el/values-el.xml" />
+    <ignored path="build/url_launcher/intermediates/blame/res/debug/multi-v2/values-en-rAU.json" />
+    <ignored path="build/url_launcher/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rAU/values-en-rAU.xml" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/values-en-rAU/values-en-rAU.xml" />
+    <ignored path="build/url_launcher/intermediates/blame/res/debug/multi-v2/values-en-rCA.json" />
+    <ignored path="build/url_launcher/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rCA/values-en-rCA.xml" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/values-en-rCA/values-en-rCA.xml" />
+    <ignored path="build/url_launcher/intermediates/blame/res/debug/multi-v2/values-en-rGB.json" />
+    <ignored path="build/url_launcher/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rGB/values-en-rGB.xml" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/values-en-rGB/values-en-rGB.xml" />
+    <ignored path="build/url_launcher/intermediates/blame/res/debug/multi-v2/values-en-rIN.json" />
+    <ignored path="build/url_launcher/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rIN/values-en-rIN.xml" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/values-en-rIN/values-en-rIN.xml" />
+    <ignored path="build/url_launcher/intermediates/blame/res/debug/multi-v2/values-en-rXC.json" />
+    <ignored path="build/url_launcher/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rXC/values-en-rXC.xml" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/values-en-rXC/values-en-rXC.xml" />
+    <ignored path="build/url_launcher/intermediates/blame/res/debug/multi-v2/values-es-rUS.json" />
+    <ignored path="build/url_launcher/intermediates/incremental/mergeDebugResources/merged.dir/values-es-rUS/values-es-rUS.xml" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/values-es-rUS/values-es-rUS.xml" />
+    <ignored path="build/url_launcher/intermediates/blame/res/debug/multi-v2/values-es.json" />
+    <ignored path="build/url_launcher/intermediates/incremental/mergeDebugResources/merged.dir/values-es/values-es.xml" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/values-es/values-es.xml" />
+    <ignored path="build/url_launcher/intermediates/blame/res/debug/multi-v2/values-et.json" />
+    <ignored path="build/url_launcher/intermediates/incremental/mergeDebugResources/merged.dir/values-et/values-et.xml" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/values-et/values-et.xml" />
+    <ignored path="build/url_launcher/intermediates/blame/res/debug/multi-v2/values-eu.json" />
+    <ignored path="build/url_launcher/intermediates/incremental/mergeDebugResources/merged.dir/values-eu/values-eu.xml" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/values-eu/values-eu.xml" />
+    <ignored path="build/url_launcher/intermediates/blame/res/debug/multi-v2/values-fa.json" />
+    <ignored path="build/url_launcher/intermediates/incremental/mergeDebugResources/merged.dir/values-fa/values-fa.xml" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/values-fa/values-fa.xml" />
+    <ignored path="build/url_launcher/intermediates/blame/res/debug/multi-v2/values-fi.json" />
+    <ignored path="build/url_launcher/intermediates/incremental/mergeDebugResources/merged.dir/values-fi/values-fi.xml" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/values-fi/values-fi.xml" />
+    <ignored path="build/url_launcher/intermediates/blame/res/debug/multi-v2/values-fr-rCA.json" />
+    <ignored path="build/url_launcher/intermediates/incremental/mergeDebugResources/merged.dir/values-fr-rCA/values-fr-rCA.xml" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/values-fr-rCA/values-fr-rCA.xml" />
+    <ignored path="build/url_launcher/intermediates/blame/res/debug/multi-v2/values-fr.json" />
+    <ignored path="build/url_launcher/intermediates/incremental/mergeDebugResources/merged.dir/values-fr/values-fr.xml" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/values-fr/values-fr.xml" />
+    <ignored path="build/url_launcher/intermediates/blame/res/debug/multi-v2/values-gl.json" />
+    <ignored path="build/url_launcher/intermediates/incremental/mergeDebugResources/merged.dir/values-gl/values-gl.xml" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/values-gl/values-gl.xml" />
+    <ignored path="build/url_launcher/intermediates/blame/res/debug/multi-v2/values-gu.json" />
+    <ignored path="build/url_launcher/intermediates/incremental/mergeDebugResources/merged.dir/values-gu/values-gu.xml" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/values-gu/values-gu.xml" />
+    <ignored path="build/url_launcher/intermediates/blame/res/debug/multi-v2/values-hi.json" />
+    <ignored path="build/url_launcher/intermediates/incremental/mergeDebugResources/merged.dir/values-hi/values-hi.xml" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/values-hi/values-hi.xml" />
+    <ignored path="build/url_launcher/intermediates/blame/res/debug/multi-v2/values-hr.json" />
+    <ignored path="build/url_launcher/intermediates/incremental/mergeDebugResources/merged.dir/values-hr/values-hr.xml" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/values-hr/values-hr.xml" />
+    <ignored path="build/url_launcher/intermediates/blame/res/debug/multi-v2/values-hu.json" />
+    <ignored path="build/url_launcher/intermediates/incremental/mergeDebugResources/merged.dir/values-hu/values-hu.xml" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/values-hu/values-hu.xml" />
+    <ignored path="build/url_launcher/intermediates/blame/res/debug/multi-v2/values-hy.json" />
+    <ignored path="build/url_launcher/intermediates/incremental/mergeDebugResources/merged.dir/values-hy/values-hy.xml" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/values-hy/values-hy.xml" />
+    <ignored path="build/url_launcher/intermediates/blame/res/debug/multi-v2/values-in.json" />
+    <ignored path="build/url_launcher/intermediates/incremental/mergeDebugResources/merged.dir/values-in/values-in.xml" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/values-in/values-in.xml" />
+    <ignored path="build/url_launcher/intermediates/blame/res/debug/multi-v2/values-is.json" />
+    <ignored path="build/url_launcher/intermediates/incremental/mergeDebugResources/merged.dir/values-is/values-is.xml" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/values-is/values-is.xml" />
+    <ignored path="build/url_launcher/intermediates/blame/res/debug/multi-v2/values-it.json" />
+    <ignored path="build/url_launcher/intermediates/incremental/mergeDebugResources/merged.dir/values-it/values-it.xml" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/values-it/values-it.xml" />
+    <ignored path="build/url_launcher/intermediates/blame/res/debug/multi-v2/values-iw.json" />
+    <ignored path="build/url_launcher/intermediates/incremental/mergeDebugResources/merged.dir/values-iw/values-iw.xml" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/values-iw/values-iw.xml" />
+    <ignored path="build/url_launcher/intermediates/blame/res/debug/multi-v2/values-ja.json" />
+    <ignored path="build/url_launcher/intermediates/incremental/mergeDebugResources/merged.dir/values-ja/values-ja.xml" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/values-ja/values-ja.xml" />
+    <ignored path="build/url_launcher/intermediates/blame/res/debug/multi-v2/values-ka.json" />
+    <ignored path="build/url_launcher/intermediates/incremental/mergeDebugResources/merged.dir/values-ka/values-ka.xml" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/values-ka/values-ka.xml" />
+    <ignored path="build/url_launcher/intermediates/blame/res/debug/multi-v2/values-kk.json" />
+    <ignored path="build/url_launcher/intermediates/incremental/mergeDebugResources/merged.dir/values-kk/values-kk.xml" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/values-kk/values-kk.xml" />
+    <ignored path="build/url_launcher/intermediates/blame/res/debug/multi-v2/values-km.json" />
+    <ignored path="build/url_launcher/intermediates/incremental/mergeDebugResources/merged.dir/values-km/values-km.xml" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/values-km/values-km.xml" />
+    <ignored path="build/url_launcher/intermediates/blame/res/debug/multi-v2/values-kn.json" />
+    <ignored path="build/url_launcher/intermediates/incremental/mergeDebugResources/merged.dir/values-kn/values-kn.xml" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/values-kn/values-kn.xml" />
+    <ignored path="build/url_launcher/intermediates/blame/res/debug/multi-v2/values-ko.json" />
+    <ignored path="build/url_launcher/intermediates/incremental/mergeDebugResources/merged.dir/values-ko/values-ko.xml" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/values-ko/values-ko.xml" />
+    <ignored path="build/url_launcher/intermediates/blame/res/debug/multi-v2/values-ky.json" />
+    <ignored path="build/url_launcher/intermediates/incremental/mergeDebugResources/merged.dir/values-ky/values-ky.xml" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/values-ky/values-ky.xml" />
+    <ignored path="build/url_launcher/intermediates/blame/res/debug/multi-v2/values-lo.json" />
+    <ignored path="build/url_launcher/intermediates/incremental/mergeDebugResources/merged.dir/values-lo/values-lo.xml" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/values-lo/values-lo.xml" />
+    <ignored path="build/url_launcher/intermediates/blame/res/debug/multi-v2/values-lt.json" />
+    <ignored path="build/url_launcher/intermediates/incremental/mergeDebugResources/merged.dir/values-lt/values-lt.xml" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/values-lt/values-lt.xml" />
+    <ignored path="build/url_launcher/intermediates/blame/res/debug/multi-v2/values-lv.json" />
+    <ignored path="build/url_launcher/intermediates/incremental/mergeDebugResources/merged.dir/values-lv/values-lv.xml" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/values-lv/values-lv.xml" />
+    <ignored path="build/url_launcher/intermediates/blame/res/debug/multi-v2/values-mk.json" />
+    <ignored path="build/url_launcher/intermediates/incremental/mergeDebugResources/merged.dir/values-mk/values-mk.xml" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/values-mk/values-mk.xml" />
+    <ignored path="build/url_launcher/intermediates/blame/res/debug/multi-v2/values-ml.json" />
+    <ignored path="build/url_launcher/intermediates/incremental/mergeDebugResources/merged.dir/values-ml/values-ml.xml" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/values-ml/values-ml.xml" />
+    <ignored path="build/url_launcher/intermediates/blame/res/debug/multi-v2/values-mn.json" />
+    <ignored path="build/url_launcher/intermediates/incremental/mergeDebugResources/merged.dir/values-mn/values-mn.xml" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/values-mn/values-mn.xml" />
+    <ignored path="build/url_launcher/intermediates/blame/res/debug/multi-v2/values-mr.json" />
+    <ignored path="build/url_launcher/intermediates/incremental/mergeDebugResources/merged.dir/values-mr/values-mr.xml" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/values-mr/values-mr.xml" />
+    <ignored path="build/url_launcher/intermediates/blame/res/debug/multi-v2/values-ms.json" />
+    <ignored path="build/url_launcher/intermediates/incremental/mergeDebugResources/merged.dir/values-ms/values-ms.xml" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/values-ms/values-ms.xml" />
+    <ignored path="build/url_launcher/intermediates/blame/res/debug/multi-v2/values-my.json" />
+    <ignored path="build/url_launcher/intermediates/incremental/mergeDebugResources/merged.dir/values-my/values-my.xml" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/values-my/values-my.xml" />
+    <ignored path="build/url_launcher/intermediates/blame/res/debug/multi-v2/values-nb.json" />
+    <ignored path="build/url_launcher/intermediates/incremental/mergeDebugResources/merged.dir/values-nb/values-nb.xml" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/values-nb/values-nb.xml" />
+    <ignored path="build/url_launcher/intermediates/blame/res/debug/multi-v2/values-ne.json" />
+    <ignored path="build/url_launcher/intermediates/incremental/mergeDebugResources/merged.dir/values-ne/values-ne.xml" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/values-ne/values-ne.xml" />
+    <ignored path="build/url_launcher/intermediates/blame/res/debug/multi-v2/values-nl.json" />
+    <ignored path="build/url_launcher/intermediates/incremental/mergeDebugResources/merged.dir/values-nl/values-nl.xml" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/values-nl/values-nl.xml" />
+    <ignored path="build/url_launcher/intermediates/blame/res/debug/multi-v2/values-or.json" />
+    <ignored path="build/url_launcher/intermediates/incremental/mergeDebugResources/merged.dir/values-or/values-or.xml" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/values-or/values-or.xml" />
+    <ignored path="build/url_launcher/intermediates/blame/res/debug/multi-v2/values-pa.json" />
+    <ignored path="build/url_launcher/intermediates/incremental/mergeDebugResources/merged.dir/values-pa/values-pa.xml" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/values-pa/values-pa.xml" />
+    <ignored path="build/url_launcher/intermediates/blame/res/debug/multi-v2/values-pl.json" />
+    <ignored path="build/url_launcher/intermediates/incremental/mergeDebugResources/merged.dir/values-pl/values-pl.xml" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/values-pl/values-pl.xml" />
+    <ignored path="build/url_launcher/intermediates/blame/res/debug/multi-v2/values-pt-rBR.json" />
+    <ignored path="build/url_launcher/intermediates/incremental/mergeDebugResources/merged.dir/values-pt-rBR/values-pt-rBR.xml" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/values-pt-rBR/values-pt-rBR.xml" />
+    <ignored path="build/url_launcher/intermediates/blame/res/debug/multi-v2/values-pt-rPT.json" />
+    <ignored path="build/url_launcher/intermediates/incremental/mergeDebugResources/merged.dir/values-pt-rPT/values-pt-rPT.xml" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/values-pt-rPT/values-pt-rPT.xml" />
+    <ignored path="build/url_launcher/intermediates/blame/res/debug/multi-v2/values-pt.json" />
+    <ignored path="build/url_launcher/intermediates/incremental/mergeDebugResources/merged.dir/values-pt/values-pt.xml" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/values-pt/values-pt.xml" />
+    <ignored path="build/url_launcher/intermediates/blame/res/debug/multi-v2/values-ro.json" />
+    <ignored path="build/url_launcher/intermediates/incremental/mergeDebugResources/merged.dir/values-ro/values-ro.xml" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/values-ro/values-ro.xml" />
+    <ignored path="build/url_launcher/intermediates/blame/res/debug/multi-v2/values-ru.json" />
+    <ignored path="build/url_launcher/intermediates/incremental/mergeDebugResources/merged.dir/values-ru/values-ru.xml" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/values-ru/values-ru.xml" />
+    <ignored path="build/url_launcher/intermediates/blame/res/debug/multi-v2/values-si.json" />
+    <ignored path="build/url_launcher/intermediates/incremental/mergeDebugResources/merged.dir/values-si/values-si.xml" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/values-si/values-si.xml" />
+    <ignored path="build/url_launcher/intermediates/blame/res/debug/multi-v2/values-sk.json" />
+    <ignored path="build/url_launcher/intermediates/incremental/mergeDebugResources/merged.dir/values-sk/values-sk.xml" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/values-sk/values-sk.xml" />
+    <ignored path="build/url_launcher/intermediates/blame/res/debug/multi-v2/values-sl.json" />
+    <ignored path="build/url_launcher/intermediates/incremental/mergeDebugResources/merged.dir/values-sl/values-sl.xml" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/values-sl/values-sl.xml" />
+    <ignored path="build/url_launcher/intermediates/blame/res/debug/multi-v2/values-sq.json" />
+    <ignored path="build/url_launcher/intermediates/incremental/mergeDebugResources/merged.dir/values-sq/values-sq.xml" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/values-sq/values-sq.xml" />
+    <ignored path="build/url_launcher/intermediates/blame/res/debug/multi-v2/values-sr.json" />
+    <ignored path="build/url_launcher/intermediates/incremental/mergeDebugResources/merged.dir/values-sr/values-sr.xml" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/values-sr/values-sr.xml" />
+    <ignored path="build/url_launcher/intermediates/blame/res/debug/multi-v2/values-sv.json" />
+    <ignored path="build/url_launcher/intermediates/incremental/mergeDebugResources/merged.dir/values-sv/values-sv.xml" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/values-sv/values-sv.xml" />
+    <ignored path="build/url_launcher/intermediates/blame/res/debug/multi-v2/values-sw.json" />
+    <ignored path="build/url_launcher/intermediates/incremental/mergeDebugResources/merged.dir/values-sw/values-sw.xml" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/values-sw/values-sw.xml" />
+    <ignored path="build/url_launcher/intermediates/blame/res/debug/multi-v2/values-ta.json" />
+    <ignored path="build/url_launcher/intermediates/incremental/mergeDebugResources/merged.dir/values-ta/values-ta.xml" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/values-ta/values-ta.xml" />
+    <ignored path="build/url_launcher/intermediates/blame/res/debug/multi-v2/values-te.json" />
+    <ignored path="build/url_launcher/intermediates/incremental/mergeDebugResources/merged.dir/values-te/values-te.xml" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/values-te/values-te.xml" />
+    <ignored path="build/url_launcher/intermediates/blame/res/debug/multi-v2/values-th.json" />
+    <ignored path="build/url_launcher/intermediates/incremental/mergeDebugResources/merged.dir/values-th/values-th.xml" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/values-th/values-th.xml" />
+    <ignored path="build/url_launcher/intermediates/blame/res/debug/multi-v2/values-tl.json" />
+    <ignored path="build/url_launcher/intermediates/incremental/mergeDebugResources/merged.dir/values-tl/values-tl.xml" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/values-tl/values-tl.xml" />
+    <ignored path="build/url_launcher/intermediates/blame/res/debug/multi-v2/values-tr.json" />
+    <ignored path="build/url_launcher/intermediates/incremental/mergeDebugResources/merged.dir/values-tr/values-tr.xml" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/values-tr/values-tr.xml" />
+    <ignored path="build/url_launcher/intermediates/blame/res/debug/multi-v2/values-uk.json" />
+    <ignored path="build/url_launcher/intermediates/incremental/mergeDebugResources/merged.dir/values-uk/values-uk.xml" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/values-uk/values-uk.xml" />
+    <ignored path="build/url_launcher/intermediates/blame/res/debug/multi-v2/values-ur.json" />
+    <ignored path="build/url_launcher/intermediates/incremental/mergeDebugResources/merged.dir/values-ur/values-ur.xml" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/values-ur/values-ur.xml" />
+    <ignored path="build/url_launcher/intermediates/blame/res/debug/multi-v2/values-uz.json" />
+    <ignored path="build/url_launcher/intermediates/incremental/mergeDebugResources/merged.dir/values-uz/values-uz.xml" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/values-uz/values-uz.xml" />
+    <ignored path="build/url_launcher/intermediates/blame/res/debug/multi-v2/values-v16.json" />
+    <ignored path="build/url_launcher/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/values-v16/values-v16.xml" />
+    <ignored path="build/url_launcher/intermediates/blame/res/debug/multi-v2/values-v21.json" />
+    <ignored path="build/url_launcher/intermediates/incremental/mergeDebugResources/merged.dir/values-v21/values-v21.xml" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/values-v21/values-v21.xml" />
+    <ignored path="build/url_launcher/intermediates/blame/res/debug/multi-v2/values-vi.json" />
+    <ignored path="build/url_launcher/intermediates/incremental/mergeDebugResources/merged.dir/values-vi/values-vi.xml" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/values-vi/values-vi.xml" />
+    <ignored path="build/url_launcher/intermediates/blame/res/debug/multi-v2/values-zh-rCN.json" />
+    <ignored path="build/url_launcher/intermediates/incremental/mergeDebugResources/merged.dir/values-zh-rCN/values-zh-rCN.xml" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/values-zh-rCN/values-zh-rCN.xml" />
+    <ignored path="build/url_launcher/intermediates/blame/res/debug/multi-v2/values-zh-rHK.json" />
+    <ignored path="build/url_launcher/intermediates/incremental/mergeDebugResources/merged.dir/values-zh-rHK/values-zh-rHK.xml" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/values-zh-rHK/values-zh-rHK.xml" />
+    <ignored path="build/url_launcher/intermediates/blame/res/debug/multi-v2/values-zh-rTW.json" />
+    <ignored path="build/url_launcher/intermediates/incremental/mergeDebugResources/merged.dir/values-zh-rTW/values-zh-rTW.xml" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/values-zh-rTW/values-zh-rTW.xml" />
+    <ignored path="build/url_launcher/intermediates/blame/res/debug/multi-v2/values-zu.json" />
+    <ignored path="build/url_launcher/intermediates/incremental/mergeDebugResources/merged.dir/values-zu/values-zu.xml" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/values-zu/values-zu.xml" />
+    <ignored path="build/url_launcher/intermediates/blame/res/debug/multi-v2/values.json" />
+    <ignored path="build/url_launcher/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml" />
+    <ignored path="build/url_launcher/intermediates/res/merged/debug/values/values.xml" />
+    <ignored path="build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/vm_snapshot_data" />
+    <ignored path="build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/vm_snapshot_data" />
+    <ignored path="build/flutter_assets/vm_snapshot_data" />
+    <ignored path="build/url_launcher/intermediates/javac/debug/classes/io/flutter/plugins/urllauncher/WebViewActivity$1.class" />
+    <ignored path="build/url_launcher/intermediates/javac/debug/classes/io/flutter/plugins/urllauncher/WebViewActivity$2.class" />
+    <ignored path="build/url_launcher/intermediates/javac/debug/classes/io/flutter/plugins/urllauncher/WebViewActivity.class" />
+    <ignored path="build/ios/Debug-iphonesimulator/Runner.swiftmodule/x86_64-apple-ios-simulator.swiftdoc" />
+    <ignored path="build/ios/Debug-iphonesimulator/Runner.swiftmodule/x86_64-apple-ios-simulator.swiftmodule" />
+    <ignored path="build/ios/Debug-iphonesimulator/Runner.swiftmodule/x86_64.swiftdoc" />
+    <ignored path="build/ios/Debug-iphonesimulator/Runner.swiftmodule/x86_64.swiftmodule" />
+    <ignored path="build/app/intermediates/incremental/debug-mergeNativeLibs/zip-cache/XXuFyGBKh15_uj3iAUj81UZgbaw=" />
+    <ignored path="build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/XXuFyGBKh15_uj3iAUj81UZgbaw=" />
+    <ignored path="build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/YgMAiAEYMYiuWwNT1YDLNSDHwQ0=" />
+    <ignored path="build/app/intermediates/incremental/debug-mergeNativeLibs/zip-cache/YgMAiAEYMYiuWwNT1YDLNSDHwQ0=" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,8 +835,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/pages/home_page.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="39" column="31" lean-forward="true" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
+            <state relative-caret-position="493">
+              <caret line="116" column="41" selection-start-line="116" selection-start-column="41" selection-end-line="116" selection-end-column="41" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -83,14 +844,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/widget/recommend_goods.dart">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/pages/index_page.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="76" column="9" lean-forward="true" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="9" />
+            <state relative-caret-position="401">
+              <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -111,6 +881,8 @@
       <find>contentTypeHeader</find>
       <find>await</find>
       <find>EdgeInsets</find>
+      <find>即可数据---</find>
+      <find>Future</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -136,7 +908,6 @@
         <option value="$PROJECT_DIR$/lib/config/final.dart" />
         <option value="$PROJECT_DIR$/lib/widget/banner_three_lib.dart" />
         <option value="$PROJECT_DIR$/lib/config/device_util.dart" />
-        <option value="$PROJECT_DIR$/lib/pages/index_page.dart" />
         <option value="$PROJECT_DIR$/lib/widget/TopNavigator.dart" />
         <option value="$PROJECT_DIR$/lib/widget/AdBanner.dart" />
         <option value="$PROJECT_DIR$/lib/widget/ad_banner.dart" />
@@ -144,21 +915,22 @@
         <option value="$PROJECT_DIR$/lib/widget/top_navigator.dart" />
         <option value="$PROJECT_DIR$/pubspec.yaml" />
         <option value="$PROJECT_DIR$/lib/widget/LeaderPhone.dart" />
-        <option value="$PROJECT_DIR$/lib/pages/home_page.dart" />
         <option value="$PROJECT_DIR$/lib/widget/recommend_goods.dart" />
+        <option value="$PROJECT_DIR$/lib/pages/home_page.dart" />
+        <option value="$PROJECT_DIR$/lib/pages/index_page.dart" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1410" />
-    <option name="height" value="830" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -206,7 +978,6 @@
       </pane>
       <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -266,11 +1037,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1410" height="830" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.17397662" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.1702432" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Designer" order="4" />
@@ -278,16 +1048,16 @@
       <window_info id="Resources Explorer" order="6" />
       <window_info id="Capture Tool" order="7" />
       <window_info id="Favorites" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Dart Analysis" order="0" sideWeight="0.49928468" weight="0.32771084" />
-      <window_info active="true" anchor="bottom" id="Run" order="1" sideWeight="0.80472106" visible="true" weight="0.21273713" />
-      <window_info anchor="bottom" id="TODO" order="2" sideWeight="0.49928468" weight="0.32891566" />
+      <window_info anchor="bottom" id="Dart Analysis" order="0" sideWeight="0.49853802" weight="0.32655826" />
+      <window_info anchor="bottom" id="Run" order="1" sideWeight="0.80190057" weight="0.39701897" />
+      <window_info anchor="bottom" id="TODO" order="2" sideWeight="0.49853802" weight="0.32791328" />
       <window_info anchor="bottom" id="Android Profiler" order="3" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Logcat" order="4" sideWeight="0.4985694" weight="0.48433736" />
+      <window_info anchor="bottom" id="Logcat" order="4" sideWeight="0.49707603" weight="0.48373982" />
       <window_info anchor="bottom" id="Debug" order="5" />
-      <window_info anchor="bottom" id="Terminal" order="6" sideWeight="0.49928468" weight="0.32891566" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.19527897" side_tool="true" weight="0.38915664" />
+      <window_info anchor="bottom" id="Terminal" order="6" sideWeight="0.49853802" weight="0.32791328" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50214595" side_tool="true" visible="true" weight="0.26626506" />
       <window_info anchor="bottom" id="Flutter Performance" order="8" sideWeight="0.50214595" side_tool="true" weight="0.4417344" />
-      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49928468" weight="0.32891566" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="9" sideWeight="0.49785408" visible="true" weight="0.26626506" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49785408" weight="0.28674698" />
       <window_info anchor="bottom" id="Find" order="11" />
       <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" weight="0.3297568" />
@@ -332,23 +1102,6 @@
     </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="https://schemastore.azurewebsites.net/schemas/json/pubspec.json">
-      <provider selected="true" editor-type-id="httpFileEditor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/pages/member_page.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="9" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Applications/flutter/packages/flutter/lib/src/material/text_field.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-249">
-          <caret line="367" column="41" lean-forward="true" selection-start-line="367" selection-start-column="41" selection-end-line="367" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///Applications/flutter/packages/flutter/lib/src/widgets/editable_text.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="206">
@@ -430,20 +1183,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="47" lean-forward="true" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/main.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="32" selection-start-column="24" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///Applications/flutter/bin/cache/pkg/sky_engine/lib/_http/http.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
@@ -480,13 +1219,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///Applications/flutter/packages/flutter/lib/src/material/raised_button.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="107" column="8" selection-start-line="107" selection-start-column="8" selection-end-line="107" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/config/header_http.dart">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -494,16 +1226,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/service/service_method.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="27" lean-forward="true" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -528,24 +1250,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/pages/index_page.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///Applications/flutter/bin/cache/pkg/sky_engine/lib/ui/geometry.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="267">
           <caret line="379" column="25" selection-start-line="379" selection-start-column="22" selection-end-line="379" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/widget/ad_banner.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -587,47 +1295,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/widget/LeaderPhone.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="53" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/widget/top_navigator.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="51" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="51" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/config/finalData.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/pages/home_page.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="39" column="31" lean-forward="true" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Applications/flutter/packages/flutter/lib/src/widgets/basic.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="4314" column="2" selection-start-line="4314" selection-start-column="2" selection-end-line="4314" selection-end-column="2" />
         </state>
       </provider>
     </entry>
@@ -652,10 +1323,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file:///Applications/flutter/packages/flutter/lib/src/widgets/basic.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="3282" column="2" selection-start-line="3282" selection-start-column="2" selection-end-line="3282" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/widget/banner_three_lib.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="73">
+          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/widget/top_navigator.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-36">
+          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/widget/ad_banner.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/widget/LeaderPhone.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12">
+          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
@@ -664,11 +1369,86 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/widget/recommend_goods.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="76" column="9" lean-forward="true" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="9" />
+        <state relative-caret-position="105">
+          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/flutter/packages/flutter/lib/src/material/raised_button.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-588">
+          <caret line="107" column="8" selection-start-line="107" selection-start-column="8" selection-end-line="107" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/pages/category_page.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/pages/cart_page.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/pages/member_page.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/pages/home_page.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="116" column="41" selection-start-line="116" selection-start-column="41" selection-end-line="116" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/service/service_method.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="18" column="55" selection-start-line="18" selection-start-column="55" selection-end-line="18" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/main.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/pages/index_page.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
         </state>
       </provider>
     </entry>

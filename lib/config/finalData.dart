@@ -22,3 +22,8 @@ final List<dynamic> navigatorList =  [
 final String adPictureUrl = 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1585647665247&di=e963f5d52076ab618353ab0afabbe361&imgtype=0&src=http%3A%2F%2Fp3.ssl.cdn.btime.com%2Ft015eef661c64c27cf2.jpg%3Fsize%3D1354x569';
 final String leaderImage = 'https://dss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=2558796799,2425501255&fm=111&gp=0.jpg';
 final String leaderPhone = '13361665161';
+final Map mockData = {
+  'isForceUpdate': false, // 是否强制更新
+  'content': 'ios和安卓端暗黑主题模式添加',
+  'url': 'https://fsyuncai-file.oss-cn-beijing.aliyuncs.com/app/20190315135314833101.apk', // 安装包的链接
+};

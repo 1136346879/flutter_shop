@@ -1,7 +1,10 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_hexun/config/finalData.dart';
+import 'package:flutter_hexun/widget/UpgradeDialog.dart';
 import 'home_page.dart';
 import 'category_page.dart';
+import 'MyHomePage.dart';
 import 'cart_page.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'member_page.dart';
@@ -17,9 +20,10 @@ class _IndexPageState extends State<IndexPage> {
     BottomNavigationBarItem(icon: Icon(CupertinoIcons.search), title: Text("分类")),
     BottomNavigationBarItem(icon: Icon(CupertinoIcons.shopping_cart), title: Text("购物车")),
     BottomNavigationBarItem(icon: Icon(CupertinoIcons.book), title: Text("会员")),
+    BottomNavigationBarItem(icon: Icon(CupertinoIcons.bus), title: Text("主页")),
   ];
 
-  final List<Widget> pageList = [HomePage(), CategoryPage(), CartPage(), MemberPage()];
+  final List<Widget> pageList = [HomePage(), CategoryPage(), CartPage(), MemberPage(),MyHomePage()];
 
   int currentIndex = 0;
   var currentPage;
@@ -32,6 +36,7 @@ class _IndexPageState extends State<IndexPage> {
   void initState(){
     super.initState();
     this._pageController=new PageController(initialPage: this.currentIndex);
+    updateAlert(context, mockData);
   }
 
   @override

@@ -19,7 +19,7 @@ class MyHomePage extends StatelessWidget {
       child: new IconButton(
         icon: new Icon(Icons.more_horiz, color: Colors.black),
         onPressed: () {
-          // 使用路由跳转方式
+          // 使用路由跳转方式  事件给的是路由跳转，然后PopRoute是我们自定义的路由，它必须要继承PopupRoute类：
           Navigator.push(
             context,
             new PopRoute(
@@ -38,7 +38,9 @@ class MyHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return new Scaffold(
       appBar: new AppBar(title: new Text('Flutter高级进阶')),
-      body: new ListView.builder(itemBuilder: button),
+      body: new ListView.builder(
+         itemCount: 5,//首先我们使用ListView.builder来创建很多靠右的按钮，不写itemCount就是无限循环的， 然后这些按钮就是我们的点击事件按钮，负责弹出对话框的；
+          itemBuilder: button),
     );
   }
 }
@@ -71,7 +73,8 @@ class PopRoute extends PopupRoute {
   @override
   Duration get transitionDuration => _duration;
 }
-
+//然后push出来的内容就是Popup类，Popup类接收一个上下文context，用来获取点击的控件的位置， OnItem就是我们的自定义类型声明回调，
+// 传了个String类型的值回去给上级接收，这个String类型的值就是赞或评论：
 // 类型声明回调
 typedef OnItem = Function(String value);
 

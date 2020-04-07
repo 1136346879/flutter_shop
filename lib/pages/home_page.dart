@@ -9,6 +9,7 @@ import 'package:flutter_hexun/widget/top_navigator.dart';
 import 'package:flutter_hexun/widget/ad_banner.dart';
 import 'package:flutter_hexun/widget/LeaderPhone.dart';
 import 'package:flutter_hexun/widget/recommend_goods.dart';
+import 'common_widget_page.dart';
 
 class HomePage extends StatefulWidget {
   @override
@@ -18,14 +19,12 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage>
     with AutomaticKeepAliveClientMixin {
   String showText = '还没有返回数据';
-
-
   @override
   // ignore: must_call_super
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("请求远程数据"),
+        title: Text("二元店+"),
       ),
       body: FutureBuilder(
           future: getHttp(),
@@ -40,6 +39,16 @@ class _HomePageState extends State<HomePage>
                   BannerLibThree(bannerList: arr),
                   //三方库展示banner
                   TopNavigator(navigatorList: navigatorList),
+                  new Theme(
+                    // 通过new ThemeData()创建一个实例并将其传递给Theme Widget
+                      data: new ThemeData(
+                        buttonColor: Colors.yellow,
+                      ),
+                      child: RaisedButton(
+                        onPressed: _jike, //点击
+                        child: Text("请求数据--跳转至基础控件页面"),
+                      )
+                  ),
                   //gridView 展示 入口
                   AdBanner(adPictureUrls: adPictureUrl),
                   //广告banner
@@ -49,16 +58,7 @@ class _HomePageState extends State<HomePage>
                   //Spacer设置在未知宽高的Row或者Column会无效或者报错，如果有设宽高就可以无需设置mainAxisAlignment就能实现 我们想要的各种效果了，当然，在Row或者Column里使用Expanded包裹我们的组件也是上级的Row或者Column一定要有宽高， 否则会报错，可滑动组件内不能直接放Expanded，例如："ListView里放Expanded"，具体大家可以自己去尝试。
                   recommendGoods(recommendList: navigatorList),
                   //今日推荐
-                new Theme(
-                  // 通过new ThemeData()创建一个实例并将其传递给Theme Widget
-                  data: new ThemeData(
-                    buttonColor: Colors.yellow,
-                  ),
-                  child: RaisedButton(
-                      onPressed: _jike, //点击
-                      child: Text("请求数据"),
-                )
-                  ),
+
                   Text(snapshot.data['code'].toString()),
 //                  //接口返回数据 直接展示
 //                  Text("屏幕宽度--${winWidth(context)}"),
@@ -85,11 +85,26 @@ class _HomePageState extends State<HomePage>
         showText = val['code'].toString();
       });
     });
+
+    push();
 //    getHomePageContent();
   }
 
   @override
   bool get wantKeepAlive => true;
+
+  void push() {
+    /*
+   * 路由跳转方法
+   * */
+    //导航到新路由
+    Navigator.push(
+      context,
+      MaterialPageRoute(
+        // num传给下一级
+          builder: (context) => commonWidgetPage(num: 5)),
+    );
+  }
 }
 
 const httpHeaders = {

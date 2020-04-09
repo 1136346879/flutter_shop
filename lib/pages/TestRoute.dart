@@ -5,6 +5,10 @@ import 'package:flutter/material.dart';
  * 一个有状态类定义一个变量然后按钮的事件调用setState让这个变量进行刷新，
  */
 class TestRoute extends StatefulWidget {
+  // 接收的num参数
+  final int num;
+  // MyHomePage不写参数则默认为1
+  TestRoute({this.num = 1});
   @override
   _TestRouteState createState() => _TestRouteState();
 }
@@ -16,13 +20,22 @@ class _TestRouteState extends State<TestRoute> {
   Widget build(BuildContext context) {
     return new Scaffold(
         appBar: AppBar(title: Text("普通刷新")),
-    body:
-      new FlatButton(
-      onPressed: () {
-        setState(() => count++);
-      },
-      child: new Text('$count',style: TextStyle(color: Colors.white,fontSize: 25),),
+    body:new Column(
+      children: <Widget>[
+        new FlatButton(
+          color: Colors.amberAccent,
+          onPressed: () {
+            setState(() => count++);
+          },
+          child: new Text('${widget.num}',style: TextStyle(color: Colors.black,fontSize: 25),),
+        ),
+        new RaisedButton(
+          onPressed: () => Navigator.pop(context, "我是返回值--普通刷新"),
+          child: new Text("返回"),
+        ),
+      ],
     ),
+
     );
   }
 }

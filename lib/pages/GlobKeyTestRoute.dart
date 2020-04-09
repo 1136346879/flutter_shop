@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 /**
  * 使用GlobalKey局部刷新方式
     我们还是用上面的例子，只是通过GlobalKey的方式只刷新局部的Text，
@@ -10,6 +9,10 @@ import 'package:flutter/material.dart';
     所以这个Key可以通过currentState方法调用到类里面的onPressed方法， 而onPressed方法刚好有调用setState来刷新局部状态。
  */
 class GlobKeyTestRoute extends StatefulWidget {
+  // 接收的num参数
+  final int num;
+  // MyHomePage不写参数则默认为1
+  GlobKeyTestRoute({this.num = 1});
   @override
   _TestRouteState createState() => _TestRouteState();
 }
@@ -21,21 +24,50 @@ class _TestRouteState extends State<GlobKeyTestRoute> {
 
   @override
   Widget build(BuildContext context) {
-    return  new Scaffold(
-        appBar: AppBar(title: Text("局部刷新优化")),
+    return new WillPopScope(//导航返回拦截WillPopScope
+        child:new Scaffold(
+        appBar: AppBar(title: Text("局部刷新优化"),),
     body:new Column(
-      mainAxisAlignment: MainAxisAlignment.center,
+//      mainAxisAlignment: MainAxisAlignment.center,//居中
       children: <Widget>[
+//        new Spacer(flex: 1),//空白展示
         new TextWidget(textKey), //需要更新的Text
         new FlatButton(
+          color: Colors.amberAccent,
           onPressed: () {
             count++; // 这里我们只给他值变动，状态刷新交给下面的Key事件
             textKey.currentState.onPressed(count);
           },
-          child: new Text('按钮 $count'),
+          child: new Text('按钮 ${widget.num}' ,style: TextStyle(color: Colors.black,fontSize: 25,),),
+        ),
+        new RaisedButton(
+          onPressed: () => Navigator.pop(context, "我是返回值--局部优化刷新"),
+          child: new Text("返回"),
         ),
       ],
-    ),
+    )),
+      onWillPop: () {
+          _requestPop();
+          },);
+  }
+
+  Future<bool> _requestPop() {
+    _showDialog();
+    return new Future.value(false);
+  }
+
+  _showDialog() {
+    showDialog<Null>(
+      context: context,
+      child: new AlertDialog(content: new Text('退出当前界面'), actions: <Widget>[
+        new FlatButton(
+            onPressed: () {
+              Navigator.pop(context);
+              Navigator.of(context).pop();
+//              Navigator.pop(context, "我是返回值--局部优化刷新");
+            },
+            child: new Text('确定'))
+      ]),
     );
   }
 }
@@ -56,7 +88,8 @@ class TextWidgetState extends State<TextWidget> {
 
   @override
   Widget build(BuildContext context) {
-    return new Text(_text);
+    return new Text(_text,
+        style: TextStyle(color: Colors.black,fontSize: 25,),);
   }
 
   void onPressed(int count) {

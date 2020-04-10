@@ -36,7 +36,7 @@ class _IndexPageState extends State<IndexPage> {
   void initState(){
     super.initState();
     this._pageController=new PageController(initialPage: this.currentIndex);
-    updateAlert(context, mockData);
+//      updateAlert(context, mockData);//升级框
   }
 
   @override

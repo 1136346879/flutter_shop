@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_hexun/pages/GlobKeyTestRoute.dart';
 import '../pages/TestRoute.dart';
+import 'package:flutter_hexun/widget/UpgradeDialog.dart';
+import 'package:flutter_hexun/config/finalData.dart';
 
 /**
  *  基础控件列表页
@@ -17,6 +19,11 @@ class commonWidgetPage extends StatelessWidget {
         body: SingleChildScrollView(
           child:  Column(
             children: <Widget>[
+              RaisedButton(
+                color: Colors.pink,
+                onPressed: ()=>   updateAlert(context, mockData), //点击
+                child: Text("点击app升级逻辑（ios-Appstore android-下载安装）",style:TextStyle(color: Colors.white)),
+              ),
                RaisedButton(
                  color: Colors.pink,
                 onPressed: ()=> jumpToPush(context,TestRoute(num: 5)), //点击

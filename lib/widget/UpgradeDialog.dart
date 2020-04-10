@@ -8,7 +8,9 @@ import 'package:url_launcher/url_launcher.dart';
 import 'package:path_provider/path_provider.dart';
 
 const mainTextColor = Color.fromRGBO(115, 115, 115, 1.0);
-
+/**
+ * 升级逻辑添加
+ */
 Future<void> updateAlert(BuildContext context, Map data) async {
   bool isForceUpdate = data['isForceUpdate']; // 从数据拿到是否强制更新字段
 

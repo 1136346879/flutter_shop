@@ -6,11 +6,11 @@
 
 ![image](https://github.com/1136346879/Image_Assert/blob/master/Flutter%E7%A7%BB%E5%8A%A8%E7%94%B5%E5%95%86%E5%AE%9E%E6%88%98-%E7%9F%A5%E8%AF%86%E7%82%B9%E6%A2%B3%E7%90%86.png)
 
-1，Dio2.0:Dio是一个强大的Dart Http请求库，支持Restful API、FormData、拦截器、请求取消等操作。视频中将全面学习和使用Dio的操作。
+1，Dio2.0:Dio是一个强大的Dart Http请求库，支持Restful API、FormData、拦截器、请求取消等操作。项目中将全面学习和使用Dio的操作。
 
 2，Swiper：swiper滑动插件的使用，使用Swiper插件图片的切换效果。
 
-3，路由Fluro：Flutter的路由机制很繁琐，如果是小型应用还勉强，但是真实开发我们都会使用企业级的路由机制，让路由清晰可用。视频中也会使用Fluro进行路由配置.Fluro也是目前最好的企业级Flutter路由。
+3，路由Fluro：Flutter的路由机制很繁琐，如果是小型应用还勉强，但是真实开发我们都会使用企业级的路由机制，让路由清晰可用。项目中也会使用Fluro进行路由配置.Fluro也是目前最好的企业级Flutter路由。
 
 4，屏幕适配：手机屏幕大小不同，布局难免有所不同，代码中将重点讲述Flutter的开发适配，一次开发适配所有屏幕，学完后可以都各种屏幕做到完美适配。
 

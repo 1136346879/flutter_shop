@@ -22,6 +22,14 @@
 
 8，其他知识点：还会设计到很多其他知识点，基本的Widget操作就超过50个
        （1），WillPopScope  路由跳转传值及返回数据返回到页面 -- 导航和安卓物理 返回拦截
+       （2），GlobalKey 控件局部刷新
+       （3），PageView 来回切换tab，保留页面状态
+                   （4）， 路由页面跳转传参 并接受返回参数 Navigator.push( context,
+                                                         MaterialPageRoute( // num传给下一级
+                                                             builder: (context) => testRoute),  //普通刷新方式
+                                                       ).then((value){//上一页面点击返回  传递回来的数据
+                                                   //      if (value != null)
+                                                           print('接收到的参数：$value'); });
 
 ### 随时增加的知识技巧：
 

@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_hexun/pages/GlobKeyTestRoute.dart';
-import '../pages/TestRoute.dart';
+import 'package:flutter_hexun/pages/route/GlobKeyTestRoute.dart';
+import 'route/TestRoute.dart';
 import 'package:flutter_hexun/widget/UpgradeDialog.dart';
 import 'package:flutter_hexun/config/finalData.dart';
+import 'package:flutter_hexun/pages/route/FirstPage.dart';
 
 /**
  *  基础控件列表页
@@ -33,7 +34,12 @@ class commonWidgetPage extends StatelessWidget {
                 color: Colors.pink,
                 onPressed: ()=> jumpToPush(context,GlobKeyTestRoute(num: 6)), //点击
                 child: Text("局部刷新优化---$num",style:TextStyle(color: Colors.white),),
-              )
+              ),
+              RaisedButton(
+                color: Colors.pink,
+                onPressed: ()=> jumpToPush(context,FirstPage()), //点击
+                child: Text("路由跳转---$num",style:TextStyle(color: Colors.white),),
+              ),
             ],
           ),
         ),

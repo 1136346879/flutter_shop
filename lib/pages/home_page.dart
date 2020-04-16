@@ -10,6 +10,7 @@ import 'package:flutter_hexun/widget/ad_banner.dart';
 import 'package:flutter_hexun/widget/LeaderPhone.dart';
 import 'package:flutter_hexun/widget/recommend_goods.dart';
 import 'common_widget_page.dart';
+import './route/FadeRoute.dart';
 
 class HomePage extends StatefulWidget {
   @override
@@ -99,10 +100,11 @@ class _HomePageState extends State<HomePage>
     //导航到新路由
     Navigator.push(
       context,
-      MaterialPageRoute(
-        // num传给下一级
-          builder: (context) => commonWidgetPage(num: 5)),
-    );
+FadeRoute(page: commonWidgetPage(num: 5)));//页面跳转 渐变动画
+//      MaterialPageRoute(
+//        // num传给下一级
+//          builder: (context) => commonWidgetPage(num: 5)),
+//    );
   }
 }
 

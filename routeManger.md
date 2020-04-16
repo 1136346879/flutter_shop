@@ -61,6 +61,39 @@ push() {
 #### 路由记录
 我们每次跳转一个新路由然后想返回到之前跳转过的某个路由难道每个都要注册路由名吗？那样的话太麻烦了， 
 这节就教大家路由记录，只要我们跳转过某个路由就记录起来， 然后最后面的路由想返回到前面的三个中的某个都不需要配置名字了。
+#### 路由动画理论
+
+ 路由动画就是我们跳转到下一个路由栈的时候所产生的过度动画，官方提供了两个动画： MaterialPageRoute、CupertinoPageRoute；
+ 
+ MaterialPageRoute：存在于：import 'package:flutter/material.dart';包；
+ CupertinoPageRoute：存在于：import 'package:flutter/cupertino.dart';包；
+代码中用的渐变动画：/*
+                  * 渐变动画
+                  * */
+                  class FadeRoute extends PageRouteBuilder {
+                    // 传过来的页面page
+                    final Widget page;
+                    // 构造
+                    FadeRoute({this.page})
+                        : super(
+                      pageBuilder: (
+                          BuildContext context,
+                          Animation<double> animation,
+                          Animation<double> secondaryAnimation,
+                          ) =>
+                      page,
+                      transitionsBuilder: (
+                          BuildContext context,
+                          Animation<double> animation,
+                          Animation<double> secondaryAnimation,
+                          Widget child,
+                          ) =>
+                          FadeTransition(
+                            opacity: animation, // 透明度
+                            child: child, // 页面存放
+                          ),
+                    );
+                  }
 
 ### 随时增加的知识技巧：
 

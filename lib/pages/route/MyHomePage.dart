@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_hexun/pages/route/NewPage.dart';
+import './FadeRoute.dart';
 class MyHomePage extends StatefulWidget {
   // 接收的num参数
   final int num;
@@ -55,6 +56,7 @@ class _MyHomePageState extends State<MyHomePage> {
   pushSetName() {
     Navigator.push(
       context,
+//      FadeRoute(page: MyHomePage()),
       MaterialPageRoute(
         builder: (context) => NewPage(text:"------"),
         settings: new RouteSettings(

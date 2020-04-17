@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import './pages/index_page.dart';
+import './pages/BottomNavigationBarPage.dart';
 
 void main() {runApp(MyApp());}
 //void main() => runApp(MyApp());
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
           primaryColor: Colors.pink[200],//App主要部分的背景色（ToolBar,Tabbar等）。
           accentColor: Colors.amber[800], //前景色（文本、按钮等）    如下方五个tab按钮
         ),
-          home:IndexPage()
+          home:BottomNavigationBarPage()
       ),
     );
   }

@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_hexun/utils/ToastShow.dart' as ToastUtils;
 import '../pages/TabBarTest.dart';
-import '../pages/AppOne.dart';
+import '../pages/BottomTabBarViewPage.dart';
 
 class TopNavigator extends StatelessWidget {
   final List navigatorList;
@@ -55,7 +55,7 @@ class TopNavigator extends StatelessWidget {
         // MyHomePage不写参数则默认为1
 //          builder: (context) => MyHomePage()),
 //          builder: (context) => TabBarTest()),
-          builder: (context) => AppOne()),
+          builder: (context) => BottomTabBarViewPage()),
     );
   }
 }

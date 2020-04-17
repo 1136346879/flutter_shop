@@ -1,9 +1,20 @@
 import 'package:flutter/material.dart';
 import './pages/BottomNavigationBarPage.dart';
+import './pages/BottomTabBarViewPage.dart';
+import './pages/BottomAppBarPage.dart';
 
-void main() {runApp(MyApp());}
+void main() {
+  //  ColorFiltered(colorFilter: ColorFilter.mode(Colors.red, BlendMode.color),child:MyApp());
+  runApp(MyApp());
+}
 //void main() => runApp(MyApp());
 
+/**
+ * 实现底部导航栏并点击切换页面可简述为有三种方式
+    1,BottomNavigationBar + BottomNavigationBarItem(index_page页面)
+    2,自定义 BottomAppBar   使用 BottomAppBar 来实现
+    3,TabBar + TabBarView
+ */
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -17,7 +28,9 @@ class MyApp extends StatelessWidget {
           primaryColor: Colors.pink[200],//App主要部分的背景色（ToolBar,Tabbar等）。
           accentColor: Colors.amber[800], //前景色（文本、按钮等）    如下方五个tab按钮
         ),
-          home:BottomNavigationBarPage()
+          home:BottomNavigationBarPage()  //    BottomNavigationBar + BottomNavigationBarItem(index_page页面)  + pageview
+//          home:BotomeAppBarPage()  //BottomAppBar
+//          home:BottomTabBarViewPage()  //   TabBar + TabBarView
       ),
     );
   }

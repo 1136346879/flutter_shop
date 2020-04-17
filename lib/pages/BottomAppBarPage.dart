@@ -12,21 +12,21 @@ import '../utils/ToastShow.dart' as FlutterToast;
  * 有状态StatefulWidget
  *  继承于 StatefulWidget，通过 State 的 build 方法去构建控件
  */
-class BotomeMenumBarPage extends StatefulWidget {
+class BotomeAppBarPage extends StatefulWidget {
   ////通过构造方法传值
-  BotomeMenumBarPage();
+  BotomeAppBarPage();
 
   //主要是负责创建state
   @override
-  BotomeMenumBarPageState createState() => BotomeMenumBarPageState();
+  BotomeAppBarPageState createState() => BotomeAppBarPageState();
 }
 
 /**
  * 在 State 中,可以动态改变数据
  * 在 setState 之后，改变的数据会触发 Widget 重新构建刷新
  */
-class BotomeMenumBarPageState extends State<BotomeMenumBarPage> {
-  BotomeMenumBarPageState();
+class BotomeAppBarPageState extends State<BotomeAppBarPage> {
+  BotomeAppBarPageState();
 
   @override
   void initState() {

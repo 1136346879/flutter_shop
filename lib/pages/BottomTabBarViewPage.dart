@@ -1,17 +1,12 @@
 import 'package:flutter/material.dart';
 import 'cart_page.dart';
 import 'category_page.dart';
-class AppOne extends StatelessWidget {
+class BottomTabBarViewPage extends StatefulWidget {
   @override
-  Widget build(BuildContext context) => new MaterialApp(home: MyHomePage());
+  State<StatefulWidget> createState() => new BottomTabBarViewPageState();
 }
 
-class MyHomePage extends StatefulWidget {
-  @override
-  State<StatefulWidget> createState() => new MyHomePageState();
-}
-
-class MyHomePageState extends State<MyHomePage>
+class BottomTabBarViewPageState extends State<BottomTabBarViewPage>
     with SingleTickerProviderStateMixin {
   TabController controller;
 

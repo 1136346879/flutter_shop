@@ -4,7 +4,7 @@ import 'package:flutter_swiper/flutter_swiper.dart';
 import '../utils/ToastShow.dart' as ToastUtil;
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import '../pages/route/MyHomePage.dart';
-import '../pages/BotomeMenumBarPage.dart';
+import '../pages/BottomAppBarPage.dart';
 
 /**
  * banner 模块添加
@@ -41,7 +41,7 @@ class BannerLibThree extends StatelessWidget {
       MaterialPageRoute(
         // MyHomePage不写参数则默认为1
 //          builder: (context) => MyHomePage()),
-          builder: (context) => BotomeMenumBarPage()),
+          builder: (context) => BotomeAppBarPage()),
     );
   }
 

@@ -5,6 +5,20 @@
 在详细说明之前，把所有你能学到的知识点作了一张梳理图，可以帮助小伙伴更好的了解课程概况。
 
 ![image](https://github.com/1136346879/Image_Assert/blob/master/Flutter%E7%A7%BB%E5%8A%A8%E7%94%B5%E5%95%86%E5%AE%9E%E6%88%98-%E7%9F%A5%E8%AF%86%E7%82%B9%E6%A2%B3%E7%90%86.png)
+/**
+ * 实现底部导航栏并点击切换页面可简述为有三种方式
+    1,BottomNavigationBar + BottomNavigationBarItem(index_page页面)
+    ![image](https://img-blog.csdnimg.cn/20200417160142240.gif)
+    2,自定义 BottomAppBar   使用 BottomAppBar 来实现
+    ![image](https://img-blog.csdnimg.cn/20200417155542593.gif#pic_center)
+    3,TabBar + TabBarView
+    ![image](https://img-blog.csdnimg.cn/20200417155632800.gif#pic_center)
+    本demo三个示例都已写  在main.dart中可以随意替换
+    
+              home:BottomNavigationBarPage()  //    BottomNavigationBar + BottomNavigationBarItem(index_page页面)  + pageview
+              home:BotomeAppBarPage()  //BottomAppBar
+             home:BottomTabBarViewPage()  //   TabBar + TabBarView
+ */
 
 1，Dio2.0:Dio是一个强大的Dart Http请求库，支持Restful API、FormData、拦截器、请求取消等操作。项目中将全面学习和使用Dio的操作。
 

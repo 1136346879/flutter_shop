@@ -99,6 +99,7 @@ push() {
         首先定义一个NavigatorKey，也就是GlobalKey全局Key，然后范型是NavigatorState：
         
         final navGK = new GlobalKey<NavigatorState>();
+        
 ### 随时增加的知识技巧：
 
 

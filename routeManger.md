@@ -67,8 +67,7 @@ push() {
  
  MaterialPageRoute：存在于：import 'package:flutter/material.dart';包；
  CupertinoPageRoute：存在于：import 'package:flutter/cupertino.dart';包；
-代码中用的渐变动画：/*
-                  * 渐变动画
+代码中用的渐变动画：/*渐变动画
                   * */
                   class FadeRoute extends PageRouteBuilder {
                     // 传过来的页面page

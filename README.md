@@ -1,4 +1,4 @@
-# flutter_shop ---- flutter做的一个商场项目
+# flutter_shop ---- flutter做的一个商场项目   b9014b98399159d4139647528596d78d5c3c82f5
 
 你能学到的知识点  
 

@@ -9,6 +9,9 @@ import 'cart_page.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'member_page.dart';
 
+/**
+ * 首页BottomNavigationBar  页面来回切换
+ */
 class BottomNavigationBarPage extends StatefulWidget {//动态切换页面 用 StatefulWidget
   @override
   _IndexPageState createState() => _IndexPageState();

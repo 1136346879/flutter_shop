@@ -65,3 +65,20 @@
 9，调试与上线：项目后台接口的调试技巧，真机如何测试，打包上线，后续学习指南。
 
 10，接口文档：接口文档根据官方文档按时更新，让你做出一个拿的出去手的项目。
+
+
+# flutter_demo_gank
+
+[Flutter笔记(一)：BottomNavigationBar常见问题](https://www.jianshu.com/p/7274bad9f7ec)
+
+[Flutter笔记(二)：Icon，ImageIcon,以及在Flutter中使用IconFont](https://www.jianshu.com/p/4ddcda91fa7d)
+
+[Flutter笔记(三)：设置白色状态栏](https://www.jianshu.com/p/5cde325e6e05)
+
+[Flutter笔记(四)：PageView-Flutter中的ViewPager](https://www.jianshu.com/p/4a52fb9957a8)
+
+[Flutter笔记(五)：TabBar、TabBarView(TabLayout+ViewPager)](https://www.jianshu.com/p/8e28aa3ea9d4)
+
+[Flutter笔记(六)：StaggeredGridView瀑布流+下拉刷新和加载更多](https://www.jianshu.com/p/4da555e7e4c3)
+
+[Flutter笔记(七)：Dio网络请求、Json数据解析以及泛型问题](https://www.jianshu.com/p/3c50812865d1)

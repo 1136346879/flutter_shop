@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_hexun/config/finalData.dart';
+import 'package:flutter_hexun/pages/home_two.dart';
 import 'package:flutter_hexun/widget/UpgradeDialog.dart';
 import 'home_page.dart';
 import 'category_page.dart';
@@ -8,6 +9,10 @@ import 'MyHomePage.dart';
 import 'cart_page.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_hexun/pages/meizi.dart';
+import 'package:flutter_hexun/pages/account.dart';
+import 'package:flutter_hexun/pages/category.dart';
+import 'package:flutter_hexun/pages/home_two.dart';
+
 import 'member_page.dart';
 
 
@@ -29,7 +34,7 @@ class _IndexPageState extends State<BottomNavigationBarPage> {
   ];
 
 //  final List<Widget> pageList = [HomePage(), CategoryPage(), CartPage(), MemberPage(),MyHomePage()];
-  final List<Widget> pageList = [HomePage(), CategoryPage(),MeiZiPage (), MemberPage(),MyHomePage()];
+  final List<Widget> pageList = [HomePage(), Category(),MeiZiPage (), HomeTwoPage(),AccountPage()];
 
   int currentIndex = 0;
   var currentPage;

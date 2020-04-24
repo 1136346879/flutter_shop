@@ -7,7 +7,9 @@ import 'category_page.dart';
 import 'MyHomePage.dart';
 import 'cart_page.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:flutter_hexun/pages/meizi.dart';
 import 'member_page.dart';
+
 
 /**
  * 首页BottomNavigationBar  页面来回切换
@@ -26,7 +28,8 @@ class _IndexPageState extends State<BottomNavigationBarPage> {
     BottomNavigationBarItem(icon: Icon(CupertinoIcons.bus), title: Text("主页")),
   ];
 
-  final List<Widget> pageList = [HomePage(), CategoryPage(), CartPage(), MemberPage(),MyHomePage()];
+//  final List<Widget> pageList = [HomePage(), CategoryPage(), CartPage(), MemberPage(),MyHomePage()];
+  final List<Widget> pageList = [HomePage(), CategoryPage(),MeiZiPage (), MemberPage(),MyHomePage()];
 
   int currentIndex = 0;
   var currentPage;

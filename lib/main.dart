@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import './pages/BottomNavigationBarPage.dart';
 import './pages/BottomTabBarViewPage.dart';
 import './pages/BottomAppBarPage.dart';
+import './pages/BottomNavigationBarPagetwo.dart';
 
 void main() {
   //  ColorFiltered(colorFilter: ColorFilter.mode(Colors.red, BlendMode.color),child:MyApp());
@@ -29,6 +30,7 @@ class MyApp extends StatelessWidget {
           accentColor: Colors.amber[800], //前景色（文本、按钮等）    如下方五个tab按钮
         ),
           home:BottomNavigationBarPage()  //    BottomNavigationBar + BottomNavigationBarItem(index_page页面)  + pageview
+//          home:BottomNavigationBarTwoPage()  // //    BottomNavigationBar + BottomNavigationBarItem(index_page页面)  + pageview
 //          home:BotomeAppBarPage()  //BottomAppBar
 //          home:BottomTabBarViewPage()  //   TabBar + TabBarView
       ),

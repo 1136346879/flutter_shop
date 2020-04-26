@@ -54,6 +54,9 @@ class BotomeAppBarPageState extends State<BotomeAppBarPage> {
     return SizedBox(
         height: 100,
         child: Scaffold(
+          appBar: AppBar(
+            title: Text("BotomeAppBarPage+"),
+          ),
           //对应的页面
           body: pages[currentIndex],
           //appBar: AppBar(title: const Text('Bottom App Bar')),

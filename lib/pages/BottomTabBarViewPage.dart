@@ -25,16 +25,17 @@ class BottomTabBarViewPageState extends State<BottomTabBarViewPage>
   /// 相当于TabLayout 和 ViewPage
   @override
   Widget build(BuildContext context) {
-    return new Scaffold(
+    return  Scaffold(
       body: new TabBarView(controller: controller, children: <Widget>[
         new CartPage(),
         new CategoryPage(),
         new CartPage(),
-//        new MyHomePage()
       ]),
-      bottomNavigationBar: new Material(
-        color: Colors.blue,
-        child: new TabBar(
+      bottomNavigationBar:
+//      new Material(
+//        color: Colors.blue,
+//        child:
+        new TabBar(
           controller: controller,
           tabs: <Tab>[
             new Tab(text: "首页", icon: new Icon(Icons.home)),
@@ -42,7 +43,7 @@ class BottomTabBarViewPageState extends State<BottomTabBarViewPage>
             new Tab(text: "信息", icon: new Icon(Icons.message)),
           ],
           indicatorWeight: 0.1,
-        ),
+//        ),
       ),
     );
   }

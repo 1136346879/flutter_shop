@@ -3,6 +3,7 @@ import './pages/BottomNavigationBarPage.dart';
 import './pages/BottomTabBarViewPage.dart';
 import './pages/BottomAppBarPage.dart';
 import './pages/BottomNavigationBarPagetwo.dart';
+import './pages/UIFrameworkEntrance.dart';
 
 void main() {
   //  ColorFiltered(colorFilter: ColorFilter.mode(Colors.red, BlendMode.color),child:MyApp());
@@ -29,7 +30,8 @@ class MyApp extends StatelessWidget {
           primaryColor: Colors.pink[200],//App主要部分的背景色（ToolBar,Tabbar等）。
           accentColor: Colors.amber[800], //前景色（文本、按钮等）    如下方五个tab按钮
         ),
-          home:BottomNavigationBarPage()  //    BottomNavigationBar + BottomNavigationBarItem(index_page页面)  + pageview
+          home:UIFrameWorkEntrancePage()  //    BottomNavigationBar + BottomNavigationBarItem(index_page页面)  + pageview
+//          home:BottomNavigationBarPage()  //    BottomNavigationBar + BottomNavigationBarItem(index_page页面)  + pageview
 //          home:BottomNavigationBarTwoPage()  // //    BottomNavigationBar + BottomNavigationBarItem(index_page页面)  + pageview
 //          home:BotomeAppBarPage()  //BottomAppBar
 //          home:BottomTabBarViewPage()  //   TabBar + TabBarView

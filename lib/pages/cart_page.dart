@@ -1,10 +1,26 @@
 import 'package:flutter/material.dart';
+class CartPage extends StatefulWidget {
+  @override
+  _CartPageState createState() => _CartPageState();
+}
 
-class CartPage extends StatelessWidget {
+class _CartPageState extends State<CartPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        title: Text("购物车--"),
+      ),
       body: Center(child:Text("购物车")),
     );
   }
 }
+
+//class CartPage extends StatelessWidget {
+//  @override
+//  Widget build(BuildContext context) {
+//    return Scaffold(
+//      body: Center(child:Text("购物车")),
+//    );
+//  }
+//}

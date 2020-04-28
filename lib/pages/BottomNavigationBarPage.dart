@@ -12,6 +12,8 @@ import 'package:flutter_hexun/pages/meizi.dart';
 import 'package:flutter_hexun/pages/account.dart';
 import 'package:flutter_hexun/pages/category.dart';
 import 'package:flutter_hexun/pages/home_two.dart';
+import 'SecondScreen.dart';
+import 'OverLayScreen.dart';
 
 import 'member_page.dart';
 
@@ -33,7 +35,8 @@ class _IndexPageState extends State<BottomNavigationBarPage> {
     BottomNavigationBarItem(icon: Icon(CupertinoIcons.bus), title: Text("主页")),
   ];
 
-  final List<Widget> pageList = [HomePage(), CategoryPage(), CartPage(), MemberPage(),MyHomePage()];
+//  final List<Widget> pageList = [HomePage(), CategoryPage(), CartPage(), MemberPage(),MyHomePage()];
+  final List<Widget> pageList = [HomePage(), SecondScreen(), OverLayScreen(), MemberPage(),MyHomePage()];
 //  final List<Widget> pageList = [HomePage(), Category(),MeiZiPage (), HomeTwoPage(),AccountPage()];
 
   int currentIndex = 0;

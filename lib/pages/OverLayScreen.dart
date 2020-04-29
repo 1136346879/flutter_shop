@@ -88,7 +88,7 @@ class _OverLayScreenState extends State<OverLayScreen> {
             new FlatButton(
                 onPressed: () {
                   setState(() {
-                    toastShow = "111";
+                    toastShow = "toastShow";
                     if (overlayEntry != null) {
                       overlayEntry.markNeedsBuild();
                     }

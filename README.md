@@ -43,7 +43,7 @@
                                                        ).then((value){//上一页面点击返回  传递回来的数据
                                                    //      if (value != null)
                                                            print('接收到的参数：$value'); });
-
+#####  真机运行问题解决 Unsuported Android Plugin version: 3.5.3
 ### 随时增加的知识技巧：
 
 1，组件化开发，完美复原APP核心页面

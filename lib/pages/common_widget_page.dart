@@ -4,6 +4,7 @@ import 'route/TestRoute.dart';
 import 'package:flutter_hexun/widget/UpgradeDialog.dart';
 import 'package:flutter_hexun/config/finalData.dart';
 import 'package:flutter_hexun/pages/route/FirstPage.dart';
+import './update/app_update_page.dart';
 
 /**
  *  基础控件列表页
@@ -39,6 +40,11 @@ class commonWidgetPage extends StatelessWidget {
                 color: Colors.pink,
                 onPressed: ()=> jumpToPush(context,FirstPage()), //点击
                 child: Text("路由跳转---$num",style:TextStyle(color: Colors.white),),
+              ),
+              RaisedButton(
+                color: Colors.pink,
+                onPressed: ()=> jumpToPush(context,app_update_page()), //点击
+                child: Text("app 升级2--$num",style:TextStyle(color: Colors.white),),
               ),
             ],
           ),

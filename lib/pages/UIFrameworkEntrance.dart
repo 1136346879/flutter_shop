@@ -21,7 +21,7 @@ class _UIFrameWorkEntrancePageState extends State<UIFrameWorkEntrancePage> {
 
     super.initState();
 //    初始化
-    recordPlugin.init();
+//    recordPlugin.init();
   }
   @override
   Widget build(BuildContext context) {

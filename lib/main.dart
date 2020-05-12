@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
     return Container(
       child: MaterialApp(
         title: "二元店+",
-        debugShowCheckedModeBanner: false,
+//        debugShowCheckedModeBanner: false,
         theme:ThemeData(//全局主题
 //          primaryColor:Color(0xffffa200)
           brightness: Brightness.light,//应用程序整体主题的亮度。 由按钮等Widget使用，以确定在不使用主色或强调色时要选择的颜色。

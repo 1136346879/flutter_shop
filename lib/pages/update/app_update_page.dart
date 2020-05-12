@@ -73,7 +73,8 @@ class _HomeState extends State<Home> {
         '4、修复一些软件在使用时自动退出bug',
         '5、新增加了分类查看功能'
       ],
-      force: true,
+      apkDownloadUrl: 'https://fsyuncai-file.oss-cn-beijing.aliyuncs.com/app/20190315135314833101.apk',
+      force: false,
     ));
   }
 

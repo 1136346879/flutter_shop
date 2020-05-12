@@ -20,7 +20,7 @@ class _UIFrameWorkEntrancePageState extends State<UIFrameWorkEntrancePage> {
   void initState() {
 
     super.initState();
-//    初始化
+//    初始化  录音
 //    recordPlugin.init();
   }
   @override

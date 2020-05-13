@@ -59,7 +59,7 @@ class _HomeState extends State<Home> {
         cancelText: '以后再说',
         okText: '马上升级',
         iosAppId: 'id88888888',
-        appMarketInfo: AppMarket.huaWei);
+        appMarketInfo: AppMarket.vivo);
   }
 
   Future<AppUpgradeInfo> _checkAppInfo() {

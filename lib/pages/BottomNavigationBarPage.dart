@@ -15,6 +15,7 @@ import 'package:flutter_hexun/pages/home_two.dart';
 import 'SecondScreen.dart';
 import 'OverLayScreen.dart';
 import 'barrage/barrage_main_page.dart';
+import 'subtitle/subtitle_page_main.dart';
 
 import 'member_page.dart';
 
@@ -37,7 +38,8 @@ class _IndexPageState extends State<BottomNavigationBarPage> {
   ];
 
 //  final List<Widget> pageList = [HomePage(), CategoryPage(), CartPage(), MemberPage(),MyHomePage()];
-  final List<Widget> pageList = [HomePage(), CategoryPage(), CartPage(), MemberPage(),barrage_main_page()];
+//  final List<Widget> pageList = [HomePage(), CategoryPage(), CartPage(), MemberPage(),barrage_main_page()];
+  final List<Widget> pageList = [HomePage(), CategoryPage(), CartPage(), MemberPage(),subtitle_page_main()];
 //  final List<Widget> pageList = [HomePage(), SecondScreen(), OverLayScreen(), MemberPage(),MyHomePage()];
 //  final List<Widget> pageList = [HomePage(), Category(),MeiZiPage (), HomeTwoPage(),AccountPage()];
 

@@ -4,6 +4,7 @@ import './BottomTabBarViewPage.dart';
 import './BottomAppBarPage.dart';
 import './BottomNavigationBarPagetwo.dart';
 import './route/FadeRoute.dart';
+import 'fly/fly_home_page.dart';
 import 'package:flutter_plugin_record/flutter_plugin_record.dart';
 
 class UIFrameWorkEntrancePage extends StatefulWidget {
@@ -44,6 +45,10 @@ class _UIFrameWorkEntrancePageState extends State<UIFrameWorkEntrancePage> {
             new RaisedButton(
               onPressed: () => push( BottomTabBarViewPage()),
               child: new Text("BottomTabBarViewPage"),
+            ),
+            new RaisedButton(
+              onPressed: () => push(FlyHomePage()),
+              child: new Text("FlyHomePage"),
             ),
             new RaisedButton(
               onPressed: () => startRecode(),

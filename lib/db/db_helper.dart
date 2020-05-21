@@ -13,7 +13,7 @@ import 'package:synchronized/synchronized.dart';
 class DbHelper {
   DbHelper();
 
-  final String _dbName = 'flutter_do.db';
+  final String _dbName = 'flutter_do.db';//数据库文件名
   Database _db;
 
   final _lock = Lock();

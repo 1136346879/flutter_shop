@@ -4,6 +4,7 @@ import './BottomTabBarViewPage.dart';
 import './BottomAppBarPage.dart';
 import './BottomNavigationBarPagetwo.dart';
 import './route/FadeRoute.dart';
+import '../pages/image_picker_page.dart';
 import 'fly/fly_home_page.dart';
 import 'package:flutter_plugin_record/flutter_plugin_record.dart';
 
@@ -35,7 +36,7 @@ class _UIFrameWorkEntrancePageState extends State<UIFrameWorkEntrancePage> {
               child: new Text("BottomNavigationBarPage"),
             ),
             new RaisedButton(
-              onPressed: () => push( MyHomePage()),
+              onPressed: () => push(MyHomePage()),
               child: new Text("BottomNavigationBarTwoPage"),
             ),
             new RaisedButton(
@@ -49,6 +50,10 @@ class _UIFrameWorkEntrancePageState extends State<UIFrameWorkEntrancePage> {
             new RaisedButton(
               onPressed: () => push(FlyHomePage()),
               child: new Text("FlyHomePage"),
+            ),
+            new RaisedButton(
+              onPressed: () => push(imagePickerPage()),
+              child: new Text("image_picker"),
             ),
             new RaisedButton(
               onPressed: () => startRecode(),

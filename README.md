@@ -2,6 +2,24 @@
 
 你能学到的知识点  
 
+如何调用硬件与第三方服务
+在flutter中调用硬件与第三方服务都可以通过集成对应的插件来完成:
+
+用于访问位置信息GPS的插件:geolocator; （本文已经引入）
+
+用于访问相册与相机的插件:image_picker;  （本文已经引入）
+
+本地存储:用于Ios的UserDefaultes与安卓的sharedPreferences插件:shared_preferences
+
+用于方位数据库的插件:SQFlite 
+
+用于唤起第三方登录Facebook的插件:flutter_facebook_login
+
+用于推送通知的插件:firebase_messaging
+
+用于使用Firebase的插件:firebase
+
+
 在详细说明之前，把所有你能学到的知识点作了一张梳理图，可以帮助小伙伴更好的了解课程概况。
 
 ![image](https://github.com/1136346879/Image_Assert/blob/master/Flutter%E7%A7%BB%E5%8A%A8%E7%94%B5%E5%95%86%E5%AE%9E%E6%88%98-%E7%9F%A5%E8%AF%86%E7%82%B9%E6%A2%B3%E7%90%86.png)

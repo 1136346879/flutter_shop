@@ -12,6 +12,8 @@ import 'package:flutter/src/widgets/basic.dart';
 import 'package:flutter/src/widgets/container.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:video_player/video_player.dart';
+import 'package:geolocator/geolocator.dart';
+import 'package:flutter_hexun/utils/ToastShow.dart' as ToastUtils;
 
 class imagePickerPage extends StatelessWidget {
   @override
@@ -56,6 +58,12 @@ class _MyHomePageState extends State<imagePickerPagehome> {
   }
 
   void _onImageButtonPressed(ImageSource source, {BuildContext context}) async {
+    Position position = await Geolocator()
+        .getCurrentPosition(desiredAccuracy: LocationAccuracy.high);
+    List<Placemark> placemark = await Geolocator()
+        .placemarkFromCoordinates(position.latitude, position.longitude);
+    ToastUtils.ToastShow().showLongToast(
+        placemark[0].administrativeArea + "----" + placemark[0].country);
     if (_controller != null) {
       await _controller.setVolume(0.0);
     }

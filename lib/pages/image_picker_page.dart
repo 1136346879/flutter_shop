@@ -58,12 +58,15 @@ class _MyHomePageState extends State<imagePickerPagehome> {
   }
 
   void _onImageButtonPressed(ImageSource source, {BuildContext context}) async {
+    //获取定位信息
     Position position = await Geolocator()
         .getCurrentPosition(desiredAccuracy: LocationAccuracy.high);
+    //根据经纬度获取城市信息
     List<Placemark> placemark = await Geolocator()
         .placemarkFromCoordinates(position.latitude, position.longitude);
     ToastUtils.ToastShow().showLongToast(
         placemark[0].administrativeArea + "----" + placemark[0].country);
+
     if (_controller != null) {
       await _controller.setVolume(0.0);
     }

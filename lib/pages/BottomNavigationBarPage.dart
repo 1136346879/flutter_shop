@@ -12,8 +12,8 @@ import 'package:flutter_hexun/pages/meizi.dart';
 import 'package:flutter_hexun/pages/account.dart';
 import 'package:flutter_hexun/pages/category.dart';
 import 'package:flutter_hexun/pages/home_two.dart';
-import 'SecondScreen.dart';
-import 'OverLayScreen.dart';
+import 'record/SecondScreen.dart';
+import 'record/OverLayScreen.dart';
 import 'barrage/barrage_main_page.dart';
 import 'subtitle/subtitle_page_main.dart';
 

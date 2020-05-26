@@ -6,8 +6,11 @@ import './BottomNavigationBarPagetwo.dart';
 import './route/FadeRoute.dart';
 import '../pages/image_picker_page.dart';
 import 'fly/fly_home_page.dart';
-import 'package:flutter_plugin_record/flutter_plugin_record.dart';
-
+import 'record/SecondScreen.dart';
+import 'record/OverLayScreen.dart';
+/**
+ * 首页--各个模块入口
+ */
 class UIFrameWorkEntrancePage extends StatefulWidget {
   @override
   _UIFrameWorkEntrancePageState createState() =>
@@ -16,14 +19,9 @@ class UIFrameWorkEntrancePage extends StatefulWidget {
 
 
 class _UIFrameWorkEntrancePageState extends State<UIFrameWorkEntrancePage> {
-  //实例化对象
-  FlutterPluginRecord   recordPlugin = new FlutterPluginRecord();
   @override
   void initState() {
-
     super.initState();
-//    初始化  录音
-//    recordPlugin.init();
   }
   @override
   Widget build(BuildContext context) {
@@ -53,19 +51,14 @@ class _UIFrameWorkEntrancePageState extends State<UIFrameWorkEntrancePage> {
             ),
             new RaisedButton(
               onPressed: () => push(imagePickerPage()),
-              child: new Text("image_picker"),
+              child: new Text("image_picker_location"),
             ),
             new RaisedButton(
-              onPressed: () => startRecode(),
-              child: new Text("startRecode"),
-            ),
-            new RaisedButton(
-              onPressed: () => stopRecode(),
-              child: new Text("stopRecode"),
-            ),
-            new RaisedButton(
-              onPressed: () => playRecode(),
-              child: new Text("playRecode"),
+              onPressed: () => push(SecondScreen()),
+              child: new Text("record——page"),
+            ),  new RaisedButton(
+              onPressed: () => push(OverLayScreen()),
+              child: new Text("OverLay_record——page"),
             ),
           ],
         ));
@@ -83,17 +76,5 @@ class _UIFrameWorkEntrancePageState extends State<UIFrameWorkEntrancePage> {
 //      MaterialPageRoute(// num传给下一级
 //          builder: (context) => commonWidgetPage(num: 5)),
 //    );
-  }
-
-  void startRecode() {
-    recordPlugin.start();
-  }
-
-  void stopRecode() {
-    recordPlugin.stop();
-  }
-
-  void playRecode() {
-    recordPlugin.play();
   }
 }

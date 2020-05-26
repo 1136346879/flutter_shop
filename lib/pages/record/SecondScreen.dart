@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_plugin_record/flutter_plugin_record.dart';
 
+/**
+ * 录音播放页面
+ */
 class SecondScreen extends StatefulWidget {
   @override
   _SecondScreenState createState() => _SecondScreenState();
@@ -14,8 +17,8 @@ class _SecondScreenState extends State<SecondScreen> {
   @override
   void initState() {
     super.initState();
-
-
+//    初始化  录音
+    recordPlugin.init();
     ///初始化方法的监听
     recordPlugin.responseFromInit.listen((data) {
       if (data) {
@@ -92,9 +95,22 @@ class _SecondScreenState extends State<SecondScreen> {
               onPressed: () {
                 playByPath(filePath);
               },
+
             ),
+      new RaisedButton(
+        onPressed: () => startRecode(),
+        child: new Text("startRecode"),
+      ),
+      new RaisedButton(
+        onPressed: () => stopRecode(),
+        child: new Text("stopRecode"),
+      ),
+      new RaisedButton(
+        onPressed: () => playRecode(),
+        child: new Text("playRecode"),
+      ),
           ],
-        ),
+    ),
       ),
     );
   }
@@ -123,6 +139,17 @@ class _SecondScreenState extends State<SecondScreen> {
     recordPlugin.playByPath(path);
   }
 
+  void startRecode() {
+    recordPlugin.start();
+  }
+
+  void stopRecode() {
+    recordPlugin.stop();
+  }
+
+  void playRecode() {
+    recordPlugin.play();
+  }
 
   @override
   void dispose() {

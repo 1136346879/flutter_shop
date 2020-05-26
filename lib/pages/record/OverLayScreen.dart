@@ -16,13 +16,12 @@ class _OverLayScreenState extends State<OverLayScreen> {
         return Positioned(
 //          top: MediaQuery.of(context).size.height * 0.5-80,
 //          left: MediaQuery.of(context).size.width * 0.5-80,
-          child: Material(
             child: Center(
               child: Opacity(
                 opacity: 0.5,
                 child: Container(
-//                  width: 100,
-//                  height: 100,
+                  width: 100,
+                  height: 100,
                   decoration: BoxDecoration(
                     color: Color(0xff77797A),
                     borderRadius: BorderRadius.all(Radius.circular(20.0)),
@@ -45,7 +44,6 @@ class _OverLayScreenState extends State<OverLayScreen> {
                 ),
               ),
             ),
-          ),
         );
       });
       Overlay.of(context).insert(overlayEntry);

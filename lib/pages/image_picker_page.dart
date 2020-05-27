@@ -15,6 +15,9 @@ import 'package:video_player/video_player.dart';
 import 'package:geolocator/geolocator.dart';
 import 'package:flutter_hexun/utils/ToastShow.dart' as ToastUtils;
 
+/**
+ * 图片，相机，拍照，录视频，视频播放
+ */
 class imagePickerPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {

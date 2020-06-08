@@ -17,6 +17,8 @@ import 'package:flutter_hexun/utils/ToastShow.dart' as ToastUtils;
 
 /**
  * 图片，相机，拍照，录视频，视频播放
+ *   //获取定位信息
+    //根据经纬度获取城市信息
  */
 class imagePickerPage extends StatelessWidget {
   @override

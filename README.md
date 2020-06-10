@@ -11,7 +11,7 @@
 
 本地存储:用于Ios的UserDefaultes与安卓的sharedPreferences插件:shared_preferences
 
-用于方位数据库的插件:SQFlite 
+用于方位数据库的插件:SQFlite     数据存储，增删改查
 
 用于唤起第三方登录Facebook的插件:flutter_facebook_login
 

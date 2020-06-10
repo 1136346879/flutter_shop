@@ -13,7 +13,8 @@ class BottomTabBarViewPageState extends State<BottomTabBarViewPage>
   @override
   void initState() {
     super.initState();
-    controller = new TabController(length: 3, vsync: this);
+//    controller = new TabController(length: 3, vsync: this);
+    controller = new TabController(initialIndex: 0,length: 3,vsync: this);
   }
 
   @override
@@ -36,7 +37,10 @@ class BottomTabBarViewPageState extends State<BottomTabBarViewPage>
 //        color: Colors.blue,
 //        child:
         new TabBar(
+//          indicatorColor: Colors.black,
+          labelColor: Colors.red,
           controller: controller,
+          unselectedLabelColor: Color(0xFF4CAF50),
           tabs: <Tab>[
             new Tab(text: "首页", icon: new Icon(Icons.home)),
             new Tab(text: "列表", icon: new Icon(Icons.list)),

@@ -19,11 +19,11 @@ import 'subtitle/subtitle_page_main.dart';
 
 import 'member_page.dart';
 
-
 /**
  * 首页BottomNavigationBar  页面来回切换
  */
-class BottomNavigationBarPage extends StatefulWidget {//动态切换页面 用 StatefulWidget
+class BottomNavigationBarPage extends StatefulWidget {
+  //动态切换页面 用 StatefulWidget
   @override
   _IndexPageState createState() => _IndexPageState();
 }
@@ -31,29 +31,40 @@ class BottomNavigationBarPage extends StatefulWidget {//动态切换页面 用 S
 class _IndexPageState extends State<BottomNavigationBarPage> {
   final List<BottomNavigationBarItem> bottomTabs = [
     BottomNavigationBarItem(icon: Icon(CupertinoIcons.home), title: Text("首页")),
-    BottomNavigationBarItem(icon: Icon(CupertinoIcons.search), title: Text("分类")),
-    BottomNavigationBarItem(icon: Icon(CupertinoIcons.shopping_cart), title: Text("购物车")),
+    BottomNavigationBarItem(
+        icon: Icon(CupertinoIcons.search), title: Text("分类")),
+    BottomNavigationBarItem(
+        icon: Icon(CupertinoIcons.shopping_cart), title: Text("购物车")),
     BottomNavigationBarItem(icon: Icon(CupertinoIcons.book), title: Text("会员")),
     BottomNavigationBarItem(icon: Icon(CupertinoIcons.bus), title: Text("主页")),
   ];
 
 //  final List<Widget> pageList = [HomePage(), CategoryPage(), CartPage(), MemberPage(),MyHomePage()];
 //  final List<Widget> pageList = [HomePage(), CategoryPage(), CartPage(), MemberPage(),barrage_main_page()];
-  final List<Widget> pageList = [HomePage(), CategoryPage(), CartPage(), MemberPage(),subtitle_page_main()];
+  final List<Widget> pageList = [
+    HomePage(),
+    CategoryPage(),
+    CartPage(),
+    MemberPage(),
+    subtitle_page_main()
+  ];
+
 //  final List<Widget> pageList = [HomePage(), SecondScreen(), OverLayScreen(), MemberPage(),MyHomePage()];
 //  final List<Widget> pageList = [HomePage(), Category(),MeiZiPage (), HomeTwoPage(),AccountPage()];
 
   int currentIndex = 0;
   var currentPage;
+
 //  @override
 //  void initState() {
 //    currentPage = pageList[currentIndex];
 //    super.initState();
 //  }
   PageController _pageController;
-  void initState(){
+
+  void initState() {
     super.initState();
-    this._pageController=new PageController(initialPage: this.currentIndex);
+    this._pageController = new PageController(initialPage: this.currentIndex);
 //      updateAlert(context, mockData);//升级框
   }
 
@@ -64,13 +75,14 @@ class _IndexPageState extends State<BottomNavigationBarPage> {
 //      backgroundColor: Color.fromRGBO(245, 245, 245, 1.0),//北京
       backgroundColor: Color(0xffffa200),
       bottomNavigationBar: BottomNavigationBar(
-        type: BottomNavigationBarType.fixed,//类型
-        items: bottomTabs,//底部tab
-        currentIndex: currentIndex,//当前 index
-        onTap: (index) {//点击后调用 setState 方法  然后会重新绘制页面
+        type: BottomNavigationBarType.fixed, //类型
+        items: bottomTabs, //底部tab
+        currentIndex: currentIndex, //当前 index
+        onTap: (index) {
+          //点击后调用 setState 方法  然后会重新绘制页面
           setState(() {
-            currentIndex = index;//点击的tab
-            currentPage = pageList[currentIndex];//当前页面
+            currentIndex = index; //点击的tab
+            currentPage = pageList[currentIndex]; //当前页面
             this._pageController.jumpToPage(this.currentIndex);
           });
         },
@@ -81,7 +93,7 @@ class _IndexPageState extends State<BottomNavigationBarPage> {
 //        children: pageList,
 //      )
 
-  //第二种 Offstage的作用十分简单，通过一个参数来控制child是否显示，所以我们同样可以组合使用Offstage来实现该需求，其实现原理与IndexedStack类似
+      //第二种 Offstage的作用十分简单，通过一个参数来控制child是否显示，所以我们同样可以组合使用Offstage来实现该需求，其实现原理与IndexedStack类似
 //      body: Stack(
 //        children: [
 //          Offstage(
@@ -106,10 +118,16 @@ class _IndexPageState extends State<BottomNavigationBarPage> {
        */
       //第三种 PageView  前面在底部导航介绍了使用IndexedStack和Offstage两种方式实现保持页面状态，但它们的缺点在于第一次加载时便实例化了所有的子页面State。为了进一步优化
       // ，应用第一次加载时不会输出second initState，仅当第一次点击底部导航切换至该页时，该子页的State被实例化。
-      body:PageView(  //修改的部分：
-      controller: this._pageController,
-      children:this.pageList,
-    ),
+      body: PageView(
+        //修改的部分：
+        controller: this._pageController,
+        children: this.pageList,
+        onPageChanged: (index) {
+          setState(() {
+            currentIndex = index; //点击的tab
+          });
+        },
+      ),
 //      body: currentPage,//主体显示的是当前的页面
     );
   }

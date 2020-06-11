@@ -120,8 +120,8 @@ class _MyHomePageState extends State<MyHomePage> {
           BottomNavigationBarItem(
               icon: new Icon(IconFont.iconaccount), title: new Text("我的")),
         ],
-        selectedItemColor: Color(0xFF4CAF50),
-        unselectedItemColor: Color(0xff666666),
+        selectedItemColor: Color(0xFF4CAF50),//选中
+        unselectedItemColor: Color(0xff666666),//未选中
         type: BottomNavigationBarType.fixed,
         showUnselectedLabels: true,
         onTap: _onItemTapped,

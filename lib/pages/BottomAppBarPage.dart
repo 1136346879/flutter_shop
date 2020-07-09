@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import '../utils/ToastShow.dart' as FlutterToast;
-
+import 'provinces_picker.dart';
 /**
  *
  * 实现底部导航栏并点击切换页面可简述为有三种方式
@@ -69,6 +69,7 @@ class BotomeAppBarPageState extends State<BotomeAppBarPage> {
             onPressed: () {
 //              print("add press ");
               FlutterToast.ToastShow().showBottomToast('点击悬浮窗按钮--拍照喽');
+
             },
           ),
           //其他菜单栏
@@ -173,7 +174,8 @@ class _ChildItemViewState extends State<ChildItemView> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      child: Center(child: Text(widget._title)),
+      child: Center(child: Text(widget._title)
+      ),
     );
   }
 }

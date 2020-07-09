@@ -65,6 +65,7 @@ flutter:
   assets:
     - assets/subtitle.txt
     - assets/images/
+    - data/province.json
   #  - images/a_dot_ham.jpeg
     - assets/json/
 

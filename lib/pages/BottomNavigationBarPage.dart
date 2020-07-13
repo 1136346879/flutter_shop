@@ -23,9 +23,9 @@ import 'member_page.dart';
  * 首页BottomNavigationBar  页面来回切换
  */
 class BottomNavigationBarPage extends StatefulWidget {
-  //动态切换页面 用 StatefulWidget
-  @override
-  _IndexPageState createState() => _IndexPageState();
+//动态切换页面 用 StatefulWidget
+@override
+_IndexPageState createState() => _IndexPageState();
 }
 
 class _IndexPageState extends State<BottomNavigationBarPage> {
@@ -70,7 +70,7 @@ class _IndexPageState extends State<BottomNavigationBarPage> {
 
   @override
   Widget build(BuildContext context) {
-    ScreenUtil.init(context, width: 750, height: 1334);
+    ScreenUtil.init( width: 750, height: 1334);
     return Scaffold(
 //      backgroundColor: Color.fromRGBO(245, 245, 245, 1.0),//北京
       backgroundColor: Color(0xffffa200),

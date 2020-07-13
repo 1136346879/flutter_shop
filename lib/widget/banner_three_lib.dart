@@ -14,7 +14,7 @@ class BannerLibThree extends StatelessWidget {
   BannerLibThree({Key key,this.bannerList}):super(key: key);
   @override
   Widget build(BuildContext context) {
-    ScreenUtil.init(context, width: 750, height: 1334);
+    ScreenUtil.init( width: 750, height: 1334);
     return  Container(
 //      height: 333,
           height: ScreenUtil().setHeight(333),  //px

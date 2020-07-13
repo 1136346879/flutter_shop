@@ -6,19 +6,34 @@ import '../utils/ToastShow.dart' as ToastUtils;
 class CategoryPage extends StatefulWidget {
   @override
   _CategoryPageState createState() => _CategoryPageState();
-
 }
-String name ="";
-class
-//CategoryPage extends StatelessWidget {
-_CategoryPageState extends State<CategoryPage>{
+
+String name = "";
+
+class //CategoryPage extends StatelessWidget {
+    _CategoryPageState extends State<CategoryPage> {
+
+  //组件内部数据传递  状态管理
+  ValueNotifier<String> _valueNotifier = new ValueNotifier("请点击上方选择城市区域");//
+
   @override
   void initState() {
     super.initState();
-   name = "上海市";
+    name = "上海市";
+    _valueNotifier.addListener(update);
   }
+
   final navKey = GlobalKey<NavigatorState>();
 
+  void update() {
+    setState(() {});
+  }
+
+  @override
+  void dispose() {
+    super.dispose();
+    _valueNotifier.removeListener(update);
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -37,7 +52,7 @@ _CategoryPageState extends State<CategoryPage>{
                   child: new Text("省市区三级联动"),
                   onPressed: () => showCityPick(context),
                 ),
-                Text(name)
+                Text(_valueNotifier.value.toString())
               ]),
             )));
   }
@@ -50,38 +65,36 @@ _CategoryPageState extends State<CategoryPage>{
           // MyHomePage不写参数则默认为1
           builder: (context) => MyHomePage()),
     );
-
-
   }
+
   showCityPick(BuildContext context) {
     String nameString = "";
     ProvincesPicker.showCityPicker(
       context,
-      false,//点击弹框外部阴影是否消失
+      false, //点击弹框外部阴影是否消失
       selectProvince: (province) {
         print(province);
-        nameString =  nameString+province["name"];
-        ToastUtils.ToastShow().showBottomToast(name);
+        nameString = nameString + province["name"];
+//        ToastUtils.ToastShow().showBottomToast(name);
       },
       selectCity: (city) {
         print(city);
-        nameString = nameString+city["name"];
-        ToastUtils.ToastShow().showBottomToast(name);
+        nameString = nameString + city["name"];
+//        ToastUtils.ToastShow().showBottomToast(name);
       },
       selectArea: (area) {
         print(area);
-        nameString = nameString+area["name"];
-        ToastUtils.ToastShow().showBottomToast(name);
-        changeUI(nameString);
+        nameString = nameString + area["name"];
+        ToastUtils.ToastShow().showBottomToast(nameString);
+        _valueNotifier.value = nameString;
+//        changeUI(nameString);
       },
     );
   }
-  changeUI(String nameString) async{
+
+  changeUI(String nameString) async {
     setState(() {
-name  = nameString;
+      name = nameString;
     });
-        }
-
+  }
 }
-
-

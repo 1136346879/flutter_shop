@@ -7,6 +7,9 @@ class MemberPage extends StatefulWidget {
 
 class _MemberPageState extends State<MemberPage> {
   List<String> _list = ["C罗","梅西","内马尔","萨拉赫"];
+  String  _action = "nothing";
+  List<String> _select = [];
+  String _choice = "萨拉赫";
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -71,6 +74,82 @@ class _MemberPageState extends State<MemberPage> {
                             );
                           }).toList()
                       ),
+                      Divider(
+                        color: Colors.grey,
+                        height: 2,
+                        indent: 28,
+                        endIndent: 28,
+                      ),
+                      Container(
+                        width: double.infinity,
+                        child: Text("点击的：$_action"),
+                      ),
+                      Wrap(
+                          spacing: 20,
+                          children: _list.map((it){
+                            return  ActionChip(
+                              label: Text(it),
+                              onPressed: (){
+                                setState((){
+                                  _action = it;
+                                });
+                              },
+                            );
+                          }).toList()
+                      ),
+                      Divider(
+                        color: Colors.grey,
+                        height: 2,
+                        indent: 28,
+                        endIndent: 28,
+                      ),
+                      Container(
+                        width: double.infinity,
+                        child: Text("FilterChip：$_select"),
+                      ),
+                      Wrap(
+                          spacing: 20,
+                          children: _list.map((it){
+                            return  FilterChip(
+                              label: Text(it),
+                              selected: _select.contains(it),
+                              onSelected: (value){
+                                setState((){
+                                 if(_select.contains(it)){
+                                   _select.remove(it);
+                                 }else{
+                                   _select.add(it);
+                                 }
+                                });
+                              },
+                            );
+                          }).toList()
+                      ),
+                      Divider(
+                        color: Colors.grey,
+                        height: 2,
+                        indent: 28,
+                        endIndent: 28,
+                      ),
+                      Container(
+                        width: double.infinity,
+                        child: Text("ChoiceChip：$_choice"),
+                      ),
+                      Wrap(
+                          spacing: 20,
+                          children: _list.map((it){
+                            return  ChoiceChip(
+                              label: Text(it),
+                              selectedColor: Colors.pink,
+                              selected: _choice == it,
+                              onSelected: (value){
+                                setState((){
+                                  _choice = it;
+                                });
+                              },
+                            );
+                          }).toList()
+                      ),
                     ]
                 ),
               ]
@@ -82,6 +161,8 @@ class _MemberPageState extends State<MemberPage> {
         onPressed: (){
           setState(() {
             _list =["朱穆之","赵志伟","康凡","77"];
+            _select=[];
+            _choice= "萨拉赫";
           });
         },
       ),

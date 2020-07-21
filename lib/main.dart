@@ -5,10 +5,13 @@ import './pages/BottomAppBarPage.dart';
 import './pages/BottomNavigationBarPagetwo.dart';
 import './pages/UIFrameworkEntrance.dart';
 import './pages/fly/Routes.dart';
+import 'package:leancloud_storage/leancloud.dart';
+
 
 void main() {
   //  ColorFiltered(colorFilter: ColorFilter.mode(Colors.red, BlendMode.color),child:MyApp());
   runApp(MyApp());
+
 }
 //void main() => runApp(MyApp());
 
@@ -19,8 +22,12 @@ void main() {
     3,TabBar + TabBarView
  */
 class MyApp extends StatelessWidget {
+
   @override
   Widget build(BuildContext context) {
+    LeanCloud.initialize('i1fg7nB7HgnUo4OBTRdyH9N4-gzGzoHsz', 'ad1JbwGahamdN8WkRBUURls4',
+        server: 'https://i1fg7nb7.lc-cn-n1-shared.com',
+        queryCache: new LCQueryCache());
     return Container(
       child: MaterialApp(
         title: "二元店+",

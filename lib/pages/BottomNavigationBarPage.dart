@@ -24,6 +24,7 @@ import 'member_page.dart';
  */
 class BottomNavigationBarPage extends StatefulWidget {
 //动态切换页面 用 StatefulWidget
+
 @override
 _IndexPageState createState() => _IndexPageState();
 }

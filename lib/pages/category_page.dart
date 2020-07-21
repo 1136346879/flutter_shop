@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import '../pages/route/MyHomePage.dart';
 import 'provinces_picker.dart';
 import '../utils/ToastShow.dart' as ToastUtils;
+import 'package:leancloud_storage/leancloud.dart';
 
 class CategoryPage extends StatefulWidget {
   @override
@@ -59,12 +60,23 @@ class //CategoryPage extends StatelessWidget {
 
   pushNoContext() {
     ToastUtils.ToastShow().showBottomToast("点击商品分类");
-    //导航到新路由
-    navKey.currentState.push(
-      MaterialPageRoute(
-          // MyHomePage不写参数则默认为1
-          builder: (context) => MyHomePage()),
-    );
+//    //导航到新路由
+//    navKey.currentState.push(
+//      MaterialPageRoute(
+//          // MyHomePage不写参数则默认为1
+//          builder: (context) => MyHomePage()),
+//    );
+  _saveData();
+  }
+  var todo =new LCObject("Todo");
+
+  _saveData() async{
+    // 构建对象
+// 为属性赋值
+    todo["title"] = "工程师周会";
+    todo["content"] = "周二两点，全体成员";
+// 将对象保存到云端
+    await todo.save();
   }
 
   showCityPick(BuildContext context) {

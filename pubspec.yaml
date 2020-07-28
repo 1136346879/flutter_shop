@@ -42,7 +42,7 @@ dependencies:
   video_player:    ^0.10.11+2
   # 地理定位器 
   geolocator: ^5.3.2+2
-  # leancloud  数据存储
+  # leancloud  数据存储 已经包含shared_preferences #简单数据存储
   leancloud_storage: ^0.2.9
 
 dev_dependencies:

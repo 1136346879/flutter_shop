@@ -113,7 +113,7 @@ class _HomeState extends State<HomeTwoPage> with WidgetsBindingObserver {
                       Row(
                         children: <Widget>[
                           Icon(
-                            IconFont.iconzuozhe,
+                            Icons.verified_user,
                             color: Colors.green,
                             size: 20,
                           ),
@@ -122,7 +122,7 @@ class _HomeState extends State<HomeTwoPage> with WidgetsBindingObserver {
                             width: 10,
                           ),
                           Icon(
-                            IconFont.iconshijian,
+                            Icons.timer,
                             color: Colors.green,
                             size: 20,
                           ),

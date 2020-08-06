@@ -70,7 +70,7 @@ class _AccountPageState extends State<AccountPage> {
                                     ),
                                   ),
                                   Icon(
-                                    IconFont.iconright,
+                                    Icons.arrow_forward_ios,
                                     color: Color(0xff666666),
                                     size: 15,
                                   ),
@@ -102,7 +102,7 @@ class _AccountPageState extends State<AccountPage> {
                 Container(
                   padding: EdgeInsets.fromLTRB(15, 20, 10, 20),
                   child: Icon(
-                    IconFont.iconsearch,
+                    Icons.search,
                     color: Colors.green,
                     size: 30,
                   ),
@@ -117,7 +117,7 @@ class _AccountPageState extends State<AccountPage> {
                   ),
                 ),
                 Icon(
-                  IconFont.iconright,
+                    Icons.arrow_forward_ios,
                   color: Color(0xff666666),
                   size: 18,
                 ),
@@ -137,7 +137,7 @@ class _AccountPageState extends State<AccountPage> {
                 Container(
                   padding: EdgeInsets.fromLTRB(15, 20, 10, 20),
                   child: Icon(
-                    IconFont.iconhistory,
+                    Icons.history,
                     color: Colors.green,
                     size: 30,
                   ),
@@ -152,7 +152,7 @@ class _AccountPageState extends State<AccountPage> {
                   ),
                 ),
                 Icon(
-                  IconFont.iconright,
+    Icons.arrow_forward_ios,
                   color: Color(0xff666666),
                   size: 18,
                 ),
@@ -182,7 +182,7 @@ class _AccountPageState extends State<AccountPage> {
                   Container(
                     padding: EdgeInsets.fromLTRB(15, 20, 10, 20),
                     child: Icon(
-                      IconFont.icongithub,
+                      Icons.vignette,
                       color: Colors.green,
                       size: 30,
                     ),
@@ -197,7 +197,7 @@ class _AccountPageState extends State<AccountPage> {
                     ),
                   ),
                   Icon(
-                    IconFont.iconright,
+                      Icons.arrow_forward_ios,
                     color: Color(0xff666666),
                     size: 18,
                   ),
@@ -218,7 +218,7 @@ class _AccountPageState extends State<AccountPage> {
                 Container(
                   padding: EdgeInsets.fromLTRB(15, 20, 10, 20),
                   child: Icon(
-                    IconFont.iconlike,
+                    Icons.favorite_border,
                     color: Colors.green,
                     size: 30,
                   ),
@@ -233,7 +233,7 @@ class _AccountPageState extends State<AccountPage> {
                   ),
                 ),
                 Icon(
-                  IconFont.iconright,
+                  Icons.arrow_forward_ios,
                   color: Color(0xff666666),
                   size: 18,
                 ),
@@ -261,7 +261,7 @@ class _AccountPageState extends State<AccountPage> {
                   Container(
                     padding: EdgeInsets.fromLTRB(15, 20, 10, 20),
                     child: Icon(
-                      IconFont.iconabout,
+                      Icons.settings,
                       color: Colors.green,
                       size: 30,
                     ),
@@ -276,7 +276,7 @@ class _AccountPageState extends State<AccountPage> {
                     ),
                   ),
                   Icon(
-                    IconFont.iconright,
+                      Icons.arrow_forward_ios,
                     color: Color(0xff666666),
                     size: 18,
                   ),

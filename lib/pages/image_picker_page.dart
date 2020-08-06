@@ -23,9 +23,9 @@ import 'package:flutter_hexun/utils/ToastShow.dart' as ToastUtils;
 class imagePickerPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Image Picker Demo',
-      home: imagePickerPagehome(title: 'Image Picker Example'),
+    return Scaffold(
+//      title: 'Image Picker Demo',
+      body: imagePickerPagehome(title: 'Image Picker Example'),
     );
   }
 }

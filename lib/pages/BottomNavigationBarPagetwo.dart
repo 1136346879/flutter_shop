@@ -112,13 +112,13 @@ class _MyHomePageState extends State<MyHomePage> {
       bottomNavigationBar: new BottomNavigationBar(
         items: [
           BottomNavigationBarItem(
-              icon: new Icon(IconFont.iconhome), title: new Text("首页")),
+              icon: new Icon(Icons.home), title: new Text("首页")),
           BottomNavigationBarItem(
-              icon: new Icon(IconFont.iconcategory), title: new Text("分类")),
+              icon: new Icon(Icons.category), title: new Text("分类")),
           BottomNavigationBarItem(
-              icon: new Icon(IconFont.iconpic), title: new Text("妹子")),
+              icon: new Icon(Icons.pregnant_woman), title: new Text("妹子")),
           BottomNavigationBarItem(
-              icon: new Icon(IconFont.iconaccount), title: new Text("我的")),
+              icon: new Icon(Icons.assignment_ind), title: new Text("我的")),
         ],
         selectedItemColor: Color(0xFF4CAF50),//选中
         unselectedItemColor: Color(0xff666666),//未选中

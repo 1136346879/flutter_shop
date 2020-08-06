@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_hexun/config/app_config.dart';
 import 'package:flutter_hexun/pages/user/register.dart';
 import 'package:flutter_hexun/pages/user/login.dart';
 import 'package:flutter_hexun/utils/ToastShow.dart';
+import 'package:flutter_hexun/utils/Usertools.dart';
 
 class CartPage extends StatefulWidget {
   @override
@@ -9,31 +11,57 @@ class CartPage extends StatefulWidget {
 }
 
 class _CartPageState extends State<CartPage> {
+   String  name = "";
+   @override
+  void initState() {
+    super.initState();
+    name = "购物车--";
+  }
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("购物车--"),
+        title: Text(name),
       ),
       body: Center(
         child: Column(
           children: <Widget>[
-            Text("购物车--"),
+            Text(name),
             FloatingActionButton(
+              heroTag: 'image0',
               child: const Icon(Icons.add_shopping_cart),
               onPressed: () {
-                Navigator.push(
-                    context,
-                MaterialPageRoute(
-                  // num传给下一级
-                  builder: (context) => Register(),
-                ));
+                _jumpLogin();
               },
-            )
+            ),
+            FloatingActionButton(
+              heroTag: 'image1',
+              child: const Icon(Icons.verified_user),
+              onPressed: () {
+               _showUserInfo();
+              },
+            ),
           ],
         ),
       ),
     );
+  }
+
+  _showUserInfo() {
+    AppConfig.userTools.getUserData();
+  }
+
+  void _jumpLogin() async{
+    var userName= await Navigator.push(
+        context,
+        MaterialPageRoute(
+          // num传给下一级
+          builder: (context) => Login(usernameLogin:"",passwordLogin:""),
+        ));
+    print("用户名：  $userName");
+    setState(() {
+      name = userName as String;
+    });
   }
 }
 

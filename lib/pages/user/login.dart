@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_hexun/config/app_config.dart';
+import 'package:flutter_hexun/utils/Usertools.dart';
 import 'package:leancloud_storage/leancloud.dart';
 import 'package:flutter_hexun/utils/ToastShow.dart';
 
@@ -12,6 +14,7 @@ class Login extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    AppConfig.init();
     return Scaffold(
       appBar: AppBar(
         title: Text('登录页面'),
@@ -55,7 +58,13 @@ class LoginState extends State<LoginForm> {
       var userInfoLogin = _login();
       userInfoLogin.then((it){
         if(it != null)
-        ToastShow().showShortToast('${it.username}--登录： sucess');
+        ToastShow().showTopToast('${it.username}--登录： sucess');
+        Map<String, dynamic> map =  <String,dynamic>{"username":username,"password":password};
+        AppConfig.userTools.setUserData(map)
+            .then((bool){
+          ToastShow().showShortToast("用户信息存储 $bool");
+          Navigator.pop(context,it.username);
+        });
       });
       Scaffold.of(context).showSnackBar(SnackBar(
         content: Text('Logining...'),

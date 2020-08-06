@@ -40,7 +40,7 @@ class _ArticleItemState extends State<ArticleItem> {
                     Row(
                       children: <Widget>[
                         Icon(
-                          IconFont.iconzuozhe,
+                          Icons.perm_identity,
                           color: Colors.green,
                           size: 20,
                         ),
@@ -49,7 +49,7 @@ class _ArticleItemState extends State<ArticleItem> {
                           width: 10,
                         ),
                         Icon(
-                          IconFont.iconshijian,
+                          Icons.timer,
                           color: Colors.green,
                           size: 20,
                         ),

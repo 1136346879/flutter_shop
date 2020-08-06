@@ -16,6 +16,8 @@ class HttpUtils {
           connectTimeout: CONNECT_TIMEOUT,
           receiveTimeout: RECEIVE_TIMEOUT);
       dio = new Dio(options);
+//      ..options
+//      ..interceptors.add(HeaderInterceptor extends Interceptor());
     }
     return dio;
   }
@@ -57,4 +59,12 @@ class HttpUtils {
   /// post
   static Future<Map> post(url, data) =>
       request(url, data: data, method: "post");
+}
+
+class HeaderInterceptor extends Interceptor {
+  @override
+  Future onRequest(RequestOptions options) {
+    return super.onRequest(options);
+  }
+
 }

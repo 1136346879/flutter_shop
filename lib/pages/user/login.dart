@@ -48,9 +48,12 @@ class LoginForm extends StatefulWidget {
 
 class LoginState extends State<LoginForm> {
   final registerFormKey = GlobalKey<FormState>();
+  final userNameCtrl = TextEditingController(text:'');
+  final userPadCtrl = TextEditingController(text:'');
   var username ,password ;
   bool autovalidate = false;
   void submitRegisterForm() {
+    FocusScope.of(context).requestFocus(FocusNode());//关闭键盘
     if (registerFormKey.currentState.validate()) {
       registerFormKey.currentState.save();
       debugPrint('username: $username');
@@ -97,6 +100,7 @@ class LoginState extends State<LoginForm> {
       child: Column(
         children: <Widget>[
           TextFormField(
+            controller: userNameCtrl,
             decoration: InputDecoration(
               labelText: 'Username',
               helperText: '请输入用户名',
@@ -109,6 +113,7 @@ class LoginState extends State<LoginForm> {
             autovalidate: autovalidate,
           ),
           TextFormField(
+            controller: userPadCtrl,
             obscureText: true,
             //隐藏文字
             decoration: InputDecoration(
@@ -143,7 +148,8 @@ class LoginState extends State<LoginForm> {
   Future<LCUser> _login() async{
     try {
       // 登录成功
-      LCUser user = await LCUser.login('$username', '$password');
+//      LCUser user = await LCUser.login('$username', '$password');
+      LCUser user = await LCUser.login('${userNameCtrl.text.trim()}.', '${userPadCtrl.text.trim()}');
       return user;
     } on LCException catch (e) {
       // 登录失败（可能是密码错误）

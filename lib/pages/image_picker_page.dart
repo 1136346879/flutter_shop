@@ -53,24 +53,18 @@ class _MyHomePageState extends State<imagePickerPagehome> {
   Future<void> _playVideo(File file) async {
     if (file != null && mounted) {
       await _disposeVideoController();
-      _controller = VideoPlayerController.file(file);
-      await _controller.setVolume(1.0);
-      await _controller.initialize();
-      await _controller.setLooping(true);
+      _controller = VideoPlayerController.file(file)..setVolume(1.0)
+        ..setLooping(true)
+        ..initialize();
+      // await _controller.setVolume(1.0);
+      // await _controller.initialize();
+      // await _controller.setLooping(true);
       await _controller.play();
       setState(() {});
     }
   }
 
   void _onImageButtonPressed(ImageSource source, {BuildContext context}) async {
-    //获取定位信息
-    Position position = await Geolocator()
-        .getCurrentPosition(desiredAccuracy: LocationAccuracy.high);
-    //根据经纬度获取城市信息
-    List<Placemark> placemark = await Geolocator()
-        .placemarkFromCoordinates(position.latitude, position.longitude);
-    ToastUtils.ToastShow().showLongToast(
-        placemark[0].administrativeArea + "----" + placemark[0].country);
 
     if (_controller != null) {
       await _controller.setVolume(0.0);
@@ -238,6 +232,16 @@ class _MyHomePageState extends State<imagePickerPagehome> {
               tooltip: 'Take a Photo',
               child: const Icon(Icons.camera_alt),
             ),
+          ),   Padding(
+            padding: const EdgeInsets.only(top: 16.0),
+            child: FloatingActionButton(
+              onPressed: () {
+                  location();
+              },
+              heroTag: '定位城市',
+              tooltip: '定位城市',
+              child: const Icon(Icons.location_on,color: Colors.black,),
+            ),
           ),
           Padding(
             padding: const EdgeInsets.only(top: 16.0),
@@ -333,6 +337,17 @@ class _MyHomePageState extends State<imagePickerPagehome> {
             ],
           );
         });
+  }
+
+  void location ()async{
+    //获取定位信息
+    Position position = await Geolocator()
+        .getCurrentPosition(desiredAccuracy: LocationAccuracy.high);
+    //根据经纬度获取城市信息
+    List<Placemark> placemark = await Geolocator()
+        .placemarkFromCoordinates(position.latitude, position.longitude);
+    ToastUtils.ToastShow().showLongToast(
+        placemark[0].administrativeArea + "----" + placemark[0].country);
   }
 }
 

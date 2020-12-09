@@ -61,7 +61,7 @@ class _MyHomePageState extends State<MyHomePage> {
         builder: (context) => NewPage(text:"------"),
         settings: new RouteSettings(
           name: NewPage(text:"------").toStringShort(), // 设置的路由名
-          isInitialRoute: false, // 是否初始路由
+          // isInitialRoute: false, // 是否初始路由
         ),
       ),
     );
